@@ -1,0 +1,110 @@
+To refresh this file, delete it and run /reload command again! Last updated: Sep 20, 2021 2:03:19 PM
+
+#forge:slimes
+- minecraft:slime
+- tconstruct:earth_slime
+- tconstruct:sky_slime
+- tconstruct:ender_slime
+- tconstruct:terracube
+
+#dungeons_mobs:converts_in_water
+- minecraft:skeleton
+- minecraft:stray
+- dungeons_mobs:skeleton_horseman
+- dungeons_mobs:skeleton_vanguard
+- dungeons_mobs:mossy_skeleton
+- dungeons_mobs:armored_skeleton
+
+#tconstruct:bouncy
+- tconstruct:sky_slime
+
+#tconstruct:rare_mobs
+- minecraft:wither_skeleton
+- minecraft:ender_dragon
+- minecraft:elder_guardian
+- minecraft:evoker
+
+#minecraft:impact_projectiles
+- #minecraft:arrows
+- minecraft:snowball
+- minecraft:fireball
+- minecraft:small_fireball
+- minecraft:egg
+- minecraft:trident
+- minecraft:dragon_fireball
+- minecraft:wither_skull
+- dungeons_mobs:slimeball
+- dungeons_mobs:wraith_fireball
+- dungeons_mobs:cobweb_projectile
+- dungeons_mobs:laser_orb
+- dungeons_mobs:trident_fume
+
+#minecraft:beehive_inhabitors
+- minecraft:bee
+
+#forge:creepers
+- minecraft:creeper
+
+#minecraft:skeletons
+- minecraft:skeleton
+- minecraft:stray
+- minecraft:wither_skeleton
+- dungeons_mobs:mossy_skeleton
+- dungeons_mobs:armored_skeleton
+- dungeons_mobs:necromancer
+- dungeons_mobs:skeleton_horseman
+- dungeons_mobs:skeleton_vanguard
+- dungeons_mobs:sunken_skeleton
+- dungeons_mobs:armored_sunken_skeleton
+
+#minecolonies:hostile
+- minecraft:slime
+
+#forbidden_arcanus:quantum_catcher_blacklisted
+- minecraft:wither
+- minecraft:elder_guardian
+- minecraft:ender_dragon
+
+#tconstruct:melting/show_in_default
+- minecraft:iron_golem
+- minecraft:snow_golem
+- minecraft:villager
+- minecraft:player
+
+#minecraft:arrows
+- minecraft:arrow
+- minecraft:spectral_arrow
+
+#tconstruct:bacon_producer
+- minecraft:pig
+- minecraft:piglin
+- minecraft:hoglin
+
+#tconstruct:piggybackpack_blacklist
+
+#dungeons_mobs:dont_shield_against
+- minecraft:villager
+- minecraft:wandering_trader
+
+#minecraft:raiders
+- minecraft:evoker
+- minecraft:pillager
+- minecraft:ravager
+- minecraft:vindicator
+- minecraft:illusioner
+- minecraft:witch
+- dungeons_mobs:geomancer
+- dungeons_mobs:armored_pillager
+- dungeons_mobs:redstone_golem
+- dungeons_mobs:armored_vindicator
+- dungeons_mobs:mountaineer
+- dungeons_mobs:armored_mountaineer
+- dungeons_mobs:royal_guard
+- dungeons_mobs:vindicator_chef
+- dungeons_mobs:iceologer
+- dungeons_mobs:windcaller
+- dungeons_mobs:illusioner_clone
+- dungeons_mobs:squall_golem
+
+#tconstruct:melting/hide_in_default
+- minecraft:giant

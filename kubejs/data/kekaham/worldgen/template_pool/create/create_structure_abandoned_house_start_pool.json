@@ -1,0 +1,15 @@
+   
+{
+  "name": "kekaham:create/create_structure_abandoned_house_start_pool",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1000000,
+      "element": {
+        "location": "kekaham:create/create_structure_abandoned_house",
+        "projection": "rigid",
+        "element_type": "minecraft:legacy_single_pool_element"
+      }
+    }
+  ]
+}

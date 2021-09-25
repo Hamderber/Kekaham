@@ -1,0 +1,117 @@
+{
+    "pools": [
+      {
+        "rolls": {
+          "min": 1,
+          "max": 1
+        },
+          "name":"kekaham:god",	  
+        "entries": [
+          {
+            "type": "item",
+            "name": "sophisticatedbackpacks:netherite_backpack",
+            "entryName": "kekaham:god_netherite_backpack",
+            "weight": 10
+          },
+          {
+            "type": "item",
+            "name": "tconstruct:creative_slot",
+            "entryName": "kekaham:god_creative_slot",
+            "weight": 1,
+            "functions": [
+                {
+            "function": "set_nbt",
+            "tag": "{slot:\"abilities\"}"
+                }
+            ]
+          },
+          {
+            "type": "item",
+            "name": "tconstruct:creative_slot",
+            "entryName": "kekaham:god_creative_slot",
+            "weight": 1,
+            "functions": [
+                {
+            "function": "set_nbt",
+            "tag": "{slot:\"upgrades\"}"
+                }
+            ]
+          },
+          {
+            "type": "item",
+            "name": "minecraft:experience_bottle",
+            "entryName": "kekaham:god_experience_bottle",
+            "weight": 300,
+            "functions": [
+                {
+                "function": "minecraft:set_count",
+                          "count": 
+                {
+                        "min": 1.0,
+                        "max": 15.0,
+                        "type": "minecraft:uniform"
+                                  }
+                            }
+                ]
+          },
+          {
+            "type": "item",
+            "name": "minecraft:enchanted_golden_apple",
+            "entryName": "kekaham:god_enchanted_golden_apple",
+            "weight": 10,
+            "functions": [
+                {
+                "function": "minecraft:set_count",
+                          "count": 
+                {
+                        "min": 1.0,
+                        "max": 3.0,
+                        "type": "minecraft:uniform"
+                                  }
+                            }
+                ]
+          },
+          {
+            "type": "item",
+            "name": "forbidden_arcanus:eternal_stella",
+            "entryName": "kekaham:god_eternal_stella",
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "name": "minecraft:netherite_ingot",
+            "entryName": "kekaham:god_netherite_ingot",
+            "weight": 20,
+            "functions": [
+                {
+                "function": "minecraft:set_count",
+                          "count": 
+                {
+                        "min": 1.0,
+                        "max": 5.0,
+                        "type": "minecraft:uniform"
+                                  }
+                            }
+                ]
+          },
+          {
+            "type": "item",
+            "name": "minecraft:nether_star",
+            "entryName": "kekaham:god_nether_star",
+            "weight": 15,
+            "functions": [
+                {
+                "function": "minecraft:set_count",
+                          "count": 
+                {
+                        "min": 1.0,
+                        "max": 2.0,
+                        "type": "minecraft:uniform"
+                                  }
+                            }
+                ]
+          }
+              ]
+          }
+      ]
+  }

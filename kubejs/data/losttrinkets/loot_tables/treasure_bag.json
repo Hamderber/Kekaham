@@ -1,0 +1,159 @@
+{
+  "type": "minecraft:gift",
+  "pools": [
+	{
+	  "rolls": {
+		"min": 1.0,
+		"max": 2.0,
+		"type": "minecraft:uniform"
+	  },
+	  "entries": [
+		{
+		  "type": "minecraft:item",
+		  "weight": 250,
+		  "functions": [
+			{
+			  "function": "minecraft:set_count",
+			  "count": {
+				"min": 4.0,
+				"max": 20.0,
+				"type": "minecraft:uniform"
+			  }
+			}
+		  ],
+		  "name": "minecraft:gold_nugget"
+		},
+		{
+		  "type": "minecraft:item",
+		  "weight": 100,
+		  "name": "minecraft:golden_carrot"
+		},
+		{
+		  "type": "minecraft:item",
+		  "weight": 40,
+		  "name": "minecraft:golden_apple"
+		},
+		{
+		  "type": "minecraft:item",
+		  "weight": 10,
+		  "name": "minecraft:enchanted_golden_apple"
+		},
+		{
+		  "type": "minecraft:item",
+		  "weight": 100,
+		  "functions": [
+			{
+			  "function": "minecraft:set_count",
+			  "count": {
+				"min": 1.0,
+				"max": 7.0,
+				"type": "minecraft:uniform"
+			  }
+			}
+		  ],
+		  "name": "minecraft:gold_ingot"
+		},
+		{
+		  "type": "minecraft:item",
+		  "weight": 10,
+		  "name": "minecraft:golden_sword"
+		},
+		{
+		  "type": "minecraft:item",
+		  "weight": 10,
+		  "name": "minecraft:golden_chestplate"
+		},
+		{
+		  "type": "minecraft:item",
+		  "weight": 10,
+		  "name": "minecraft:golden_boots"
+		},
+		{
+		  "type": "minecraft:item",
+		  "weight": 10,
+		  "name": "minecraft:golden_helmet"
+		},
+		{
+		  "type": "minecraft:item",
+		  "weight": 10,
+		  "name": "minecraft:golden_leggings"
+		},
+		{
+		  "type": "minecraft:item",
+		  "weight": 10,
+		  "name": "minecraft:golden_shovel"
+		},
+		{
+		  "type": "minecraft:item",
+		  "weight": 10,
+		  "name": "minecraft:golden_pickaxe"
+		},
+		{
+		  "type": "minecraft:item",
+		  "weight": 10,
+		  "name": "minecraft:golden_horse_armor"
+		},
+		{
+		  "type": "minecraft:item",
+		  "weight": 10,
+		  "name": "minecraft:golden_axe"
+		},
+		{
+		  "type": "minecraft:item",
+		  "weight": 10,
+		  "name": "minecraft:golden_hoe"
+		},
+		{
+		  "type": "minecraft:item",
+		  "weight": 100,
+		  "functions": [
+			{
+			  "function": "minecraft:enchant_randomly"
+			}
+		  ],
+		  "name": "minecraft:book"
+		},
+        {
+            "type": "loot_table",
+            "name": "dimdungeons:chests/kit_food",
+            "weight": 100
+          },
+          {
+            "type": "loot_table",
+            "name": "dimdungeons:chests/kit_concrete",
+            "weight": 10
+          },
+          {
+            "type": "loot_table",
+            "name": "dimdungeons:chests/kit_glass",
+            "weight": 10
+          },
+          {
+            "type": "loot_table",
+            "name": "dimdungeons:chests/kit_redstone",
+            "weight": 10
+          },
+          {
+            "type": "loot_table",
+            "name": "dimdungeons:chests/kit_wool",
+            "weight": 10
+          },
+          {
+            "type": "loot_table",
+            "name": "kekaham:chests/create_chest_1",
+            "weight": 70
+          },
+          {
+            "type": "loot_table",
+            "name": "kekaham:chests/mcd_artifacts",
+            "weight": 100
+          },
+          {
+            "type": "loot_table",
+            "name": "kekaham:chests/god",
+            "weight": 1
+          }
+	  ]
+	}
+  ]
+}

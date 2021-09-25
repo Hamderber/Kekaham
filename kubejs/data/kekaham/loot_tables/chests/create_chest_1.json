@@ -1,0 +1,350 @@
+{
+  "pools": [
+    {
+      "rolls": {
+        "min": 3,
+        "max": 7
+      },
+  	  "name":"kekaham:create_chest_1",	  
+      "entries": [
+        {
+		  "type": "item",
+		  "name": "create:copper_valve_handle",
+		  "entryName": "kekaham:create_loot_copper_valve_handle",
+		  "weight": 1, 
+		  "functions": [
+			{
+			"function": "minecraft:set_count",
+              		"count": 
+			{
+                	"min": 1.0,
+                	"max": 2.0,
+                	"type": "minecraft:uniform"
+              				}
+            			}
+			]
+		},
+	{
+		  "type": "item",
+		  "name": "create:fluid_pipe",
+		  "entryName": "kekaham:create_loot_fluid_pipe",
+		  "weight": 2,
+         	 "functions": [
+			{
+              		"function": "minecraft:set_count",
+              		"count": 
+			{
+                	"min": 1.0,
+                	"max": 17.0,
+                	"type": "minecraft:uniform"
+              				}
+            			}
+			]
+		},
+	{
+		  "type": "item",
+		  "name": "create:mechanical_pump",
+		  "entryName": "kekaham:create_mechanical_pump",
+		  "weight": 1,
+         	 "functions": [
+			{
+              		"function": "minecraft:set_count",
+              		"count": 
+			{
+                	"min": 1.0,
+                	"max": 4.0,
+                	"type": "minecraft:uniform"
+              				}
+            			}
+			]
+		},
+	{
+		  "type": "item",
+		  "name": "create:chute",
+		  "entryName": "kekaham:create_loot_chute",
+		  "weight": 2,
+         	 "functions": [
+			{
+              		"function": "minecraft:set_count",
+              		"count": 
+			{
+                	"min": 1.0,
+                	"max": 3.0,
+                	"type": "minecraft:uniform"
+              				}
+            			}
+			]
+		},
+	{
+		  "type": "item",
+		  "name": "create:copper_ingot",
+		  "entryName": "kekaham:create_loot_copper_ingot",
+		  "weight": 4,
+         	 "functions": [
+			{
+              		"function": "minecraft:set_count",
+              		"count": 
+			{
+                	"min": 1.0,
+                	"max": 7.0,
+                	"type": "minecraft:uniform"
+              				}
+            			}
+			]
+		},
+
+	{
+		  "type": "item",
+		  "name": "create:shaft",
+		  "entryName": "kekaham:create_loot_shaft",
+		  "weight": 5,
+         	 "functions": [
+			{
+              		"function": "minecraft:set_count",
+              		"count": 
+			{
+                	"min": 1.0,
+                	"max": 24.0,
+                	"type": "minecraft:uniform"
+              				}
+            			}
+			]
+		},
+	{
+		  "type": "item",
+		  "name": "create:white_sail",
+		  "entryName": "kekaham:create_loot_white_sail",
+		  "weight": 1,
+         	 "functions": [
+			{
+              		"function": "minecraft:set_count",
+              		"count": 
+			{
+                	"min": 1.0,
+                	"max": 12.0,
+                	"type": "minecraft:uniform"
+              				}
+            			}
+			]
+		},
+	{
+		  "type": "item",
+		  "name": "create:large_cogwheel",
+		  "entryName": "kekaham:create_loot_large_cogwheel",
+		  "weight": 10,
+         	 "functions": [
+			{
+              		"function": "minecraft:set_count",
+              		"count": 
+			{
+                	"min": 1.0,
+                	"max": 10.0,
+                	"type": "minecraft:uniform"
+              				}
+            			}
+			]
+		},
+	{
+		  "type": "item",
+		  "name": "create:wrench",
+		  "entryName": "kekaham:create_loot_wrench",
+		  "weight": 1
+		},
+	{
+		  "type": "item",
+		  "name": "create:brass_tunnel",
+		  "entryName": "kekaham:create_loot_brass_tunnel",
+		  "weight": 1,
+         	 "functions": [
+			{
+              		"function": "minecraft:set_count",
+              		"count": 
+			{
+                	"min": 1.0,
+                	"max": 2.0,
+                	"type": "minecraft:uniform"
+              				}
+            			}
+			]
+		},
+
+	{
+		  "type": "item",
+		  "name": "create:chocolate_glazed_berries",
+		  "entryName": "kekaham:create_loot_chocolate_glazed_berries",
+		  "weight": 10,
+         	 "functions": [
+			{
+              		"function": "minecraft:set_count",
+              		"count": 
+			{
+                	"min": 1.0,
+                	"max": 18.0,
+                	"type": "minecraft:uniform"
+              				}
+            			}
+			]
+		},
+	{
+		  "type": "item",
+		  "name": "create:brass_casing",
+		  "entryName": "kekaham:create_loot_brass_casing",
+		  "weight": 2,
+         	 "functions": [
+			{
+              		"function": "minecraft:set_count",
+              		"count": 
+			{
+                	"min": 1.0,
+                	"max": 4.0,
+                	"type": "minecraft:uniform"
+              				}
+            			}
+			]
+		},
+	{
+		  "type": "item",
+		  "name": "create:iron_sheet",
+		  "entryName": "kekaham:create_loot_iron_sheet",
+		  "weight": 6,
+         	 "functions": [
+			{
+              		"function": "minecraft:set_count",
+              		"count": 
+			{
+                	"min": 1.0,
+                	"max": 12.0,
+                	"type": "minecraft:uniform"
+              				}
+            			}
+			]
+		},
+	{
+		  "type": "item",
+		  "name": "create:cogwheel",
+		  "entryName": "kekaham:create_loot_cogwheel",
+		  "weight": 12,
+         	 "functions": [
+			{
+              		"function": "minecraft:set_count",
+              		"count": 
+			{
+                	"min": 1.0,
+                	"max": 12.0,
+                	"type": "minecraft:uniform"
+              				}
+            			}
+			]
+		},
+	{
+		  "type": "item",
+		  "name": "create:andesite_casing",
+		  "entryName": "kekaham:create_loot_andesite_casing",
+		  "weight": 5,
+         	 "functions": [
+			{
+              		"function": "minecraft:set_count",
+              		"count": 
+			{
+                	"min": 1.0,
+                	"max": 12.0,
+                	"type": "minecraft:uniform"
+              				}
+            			}
+			]
+		},
+	{
+		  "type": "item",
+		  "name": "create:andesite_alloy",
+		  "entryName": "kekaham:create_loot_andesite_alloy",
+		  "weight": 9,
+         	 "functions": [
+			{
+              		"function": "minecraft:set_count",
+              		"count": 
+			{
+                	"min": 1.0,
+                	"max": 9.0,
+                	"type": "minecraft:uniform"
+              				}
+            			}
+			]
+		},
+	{
+		  "type": "item",
+		  "name": "create:sweet_roll",
+		  "entryName": "kekaham:create_loot_sweet_roll",
+		  "weight": 12,
+         	 "functions": [
+			{
+              		"function": "minecraft:set_count",
+              		"count": 
+			{
+                	"min": 1.0,
+                	"max": 12.0,
+                	"type": "minecraft:uniform"
+              				}
+            			}
+			]
+		},
+	{
+		  "type": "item",
+		  "name": "create:rose_quartz",
+		  "entryName": "kekaham:create_loot_rose_quartz",
+		  "weight": 4,
+         	 "functions": [
+			{
+              		"function": "minecraft:set_count",
+              		"count": 
+			{
+                	"min": 1.0,
+                	"max": 4.0,
+                	"type": "minecraft:uniform"
+              				}
+            			}
+			]
+		},
+	{
+		  "type": "item",
+		  "name": "create:basin",
+		  "entryName": "kekaham:create_loot_basin",
+		  "weight": 2,
+         	 "functions": [
+			{
+              		"function": "minecraft:set_count",
+              		"count": 
+			{
+                	"min": 1.0,
+                	"max": 2.0,
+                	"type": "minecraft:uniform"
+              				}
+            			}
+			]
+		},
+	{
+		  "type": "item",
+		  "name": "create:brass_ingot",
+		  "entryName": "kekaham:create_loot_brass_ingot",
+		  "weight": 5,
+         	 "functions": [
+			{
+              		"function": "minecraft:set_count",
+              		"count": 
+			{
+                	"min": 1.0,
+                	"max": 5.0,
+                	"type": "minecraft:uniform"
+              				}
+            			}
+			]
+		},
+	{
+		  "type": "item",
+		  "name": "create:goggles",
+		  "entryName": "kekaham:create_loot_goggles",
+		  "weight": 1
+		}
+            ]
+        }
+    ]
+}

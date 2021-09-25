@@ -1,0 +1,337 @@
+{
+    "pools": [
+      {
+        "rolls": {
+          "min": 1,
+          "max": 3
+        },
+          "name":"kekaham:mcd_artifacts",	  
+        "entries": [
+          {
+            "type": "item",
+            "name": "dungeons_gear:iron_hide_amulet",
+            "entryName": "kekaham:mcd_artifacts_iron_hide_amulet",
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "name": "dungeons_gear:lightning_rod",
+            "entryName": "kekaham:mcd_artifacts_lightning_rod",
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "name": "dungeons_gear:gong_of_weakening",
+            "entryName": "kekaham:mcd_artifacts_gong_of_weakening",
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "name": "dungeons_gear:wonderful_wheat",
+            "entryName": "kekaham:mcd_artifacts_wonderful_wheat",
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "name": "dungeons_gear:tasty_bone",
+            "entryName": "kekaham:mcd_artifacts_tasty_bone",
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "name": "dungeons_gear:golem_kit",
+            "entryName": "kekaham:mcd_artifacts_golem_kit",
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "name": "dungeons_gear:death_cap_mushroom",
+            "entryName": "kekaham:mcd_artifacts_death_cap_mushroom",
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "name": "dungeons_gear:boots_of_swiftness",
+            "entryName": "kekaham:mcd_artifacts_boots_of_swiftness",
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "name": "dungeons_gear:ghost_cloak",
+            "entryName": "kekaham:mcd_artifacts_ghost_cloak",
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "name": "dungeons_gear:harvester",
+            "entryName": "kekaham:mcd_artifacts_harvester",
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "name": "dungeons_gear:shock_powder",
+            "entryName": "kekaham:mcd_artifacts_shock_powder",
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "name": "dungeons_gear:corrupted_seeds",
+            "entryName": "kekaham:mcd_artifacts_corrupted_seeds",
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "name": "dungeons_gear:ice_wand",
+            "entryName": "kekaham:mcd_artifacts_ice_wand",
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "name": "dungeons_gear:wind_horn",
+            "entryName": "kekaham:mcd_artifacts_wind_horn",
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "name": "dungeons_gear:soul_healer",
+            "entryName": "kekaham:mcd_artifacts_soul_healer",
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "name": "dungeons_gear:light_feather",
+            "entryName": "kekaham:mcd_artifacts_light_feather",
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "name": "dungeons_gear:flaming_quiver",
+            "entryName": "kekaham:mcd_artifacts_flaming_quiver",
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "name": "dungeons_gear:torment_quiver",
+            "entryName": "kekaham:mcd_artifacts_torment_quiver",
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "name": "dungeons_gear:totem_of_regeneration",
+            "entryName": "kekaham:mcd_artifacts_totem_of_regeneration",
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "name": "dungeons_gear:totem_of_shielding",
+            "entryName": "kekaham:mcd_artifacts_totem_of_shielding",
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "name": "dungeons_gear:totem_of_soul_protection",
+            "entryName": "kekaham:mcd_artifacts_totem_of_soul_protection",
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "name": "dungeons_gear:corrupted_beacon",
+            "entryName": "kekaham:mcd_artifacts_corrupted_beacon",
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "name": "dungeons_gear:buzzy_nest",
+            "entryName": "kekaham:mcd_artifacts_buzzy_nest",
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "name": "dungeons_gear:enchanted_grass",
+            "entryName": "kekaham:mcd_artifacts_enchanted_grass",
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "name": "dungeons_gear:corrupted_pumpkin",
+            "entryName": "kekaham:mcd_artifacts_corrupted_pumpkin",
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "name": "dungeons_gear:thundering_quiver",
+            "entryName": "kekaham:mcd_artifacts_thundering_quiver",
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "name": "dungeons_gear:harpoon_quiver",
+            "entryName": "kekaham:mcd_artifacts_harpoon_quiver",
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "name": "dungeons_gear:satchel_of_elixirs",
+            "entryName": "kekaham:mcd_artifacts_satchel_of_elixirs",
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "name": "dungeons_gear:satchel_of_snacks",
+            "entryName": "kekaham:mcd_artifacts_satchel_of_snacks",
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "name": "dungeons_gear:satchel_of_elements",
+            "entryName": "kekaham:mcd_artifacts_satchel_of_elements",
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "name": "dungeons_gear:powershaker",
+            "entryName": "kekaham:mcd_artifacts_powershaker",
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "name": "dungeons_gear:updraft_tome",
+            "entryName": "kekaham:mcd_artifacts_updraft_tome",
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "name": "dungeons_gear:eye_of_the_guardian",
+            "entryName": "kekaham:mcd_artifacts_eye_of_the_guardian",
+            "weight": 1
+          },
+          {
+            "type": "item",
+            "name": "dungeons_gear:love_medallion",
+            "entryName": "kekaham:mcd_artifacts_love_medallion",
+            "weight": 1
+          },
+          {
+          "type": "item",
+          "name": "minecraft:cobweb",
+          "entryName": "kekaham:mcd_artifacts_cobweb",
+          "weight": 5,
+         	 "functions": [
+			    {
+            "function": "minecraft:set_count",
+            "count": 
+			      {
+              "min": 1.0,
+              "max": 12.0,
+              "type": "minecraft:uniform"
+                 }
+              }
+			      ]
+		      },
+          {
+          "type": "item",
+          "name": "minecraft:cobblestone",
+          "entryName": "kekaham:mcd_artifacts_cobblestone",
+          "weight": 5,
+         	 "functions": [
+			    {
+            "function": "minecraft:set_count",
+            "count": 
+			      {
+              "min": 1.0,
+              "max": 24.0,
+              "type": "minecraft:uniform"
+                 }
+              }
+			      ]
+		      },
+          {
+          "type": "item",
+          "name": "minecraft:dirt",
+          "entryName": "kekaham:mcd_artifacts_dirt",
+          "weight": 5,
+         	 "functions": [
+			    {
+            "function": "minecraft:set_count",
+            "count": 
+			      {
+              "min": 1.0,
+              "max": 48.0,
+              "type": "minecraft:uniform"
+                 }
+              }
+			      ]
+		      },
+          {
+          "type": "item",
+          "name": "minecraft:coarse_dirt",
+          "entryName": "kekaham:mcd_artifacts_coarse_dirt",
+          "weight": 5,
+         	 "functions": [
+			    {
+            "function": "minecraft:set_count",
+            "count": 
+			      {
+              "min": 1.0,
+              "max": 32.0,
+              "type": "minecraft:uniform"
+                 }
+              }
+			      ]
+		      },
+          {
+          "type": "item",
+          "name": "minecraft:gravel",
+          "entryName": "kekaham:mcd_artifacts_gravel",
+          "weight": 5,
+         	 "functions": [
+			    {
+            "function": "minecraft:set_count",
+            "count": 
+			      {
+              "min": 1.0,
+              "max": 48.0,
+              "type": "minecraft:uniform"
+                 }
+              }
+			      ]
+		      },
+          {
+          "type": "item",
+          "name": "minecraft:sand",
+          "entryName": "kekaham:mcd_artifacts_sand",
+          "weight": 5,
+         	 "functions": [
+			    {
+            "function": "minecraft:set_count",
+            "count": 
+			      {
+              "min": 1.0,
+              "max": 48.0,
+              "type": "minecraft:uniform"
+                 }
+              }
+			      ]
+		      },
+          {
+          "type": "item",
+          "name": "minecraft:clay_ball",
+          "entryName": "kekaham:mcd_artifacts_clay_ball",
+          "weight": 5,
+         	 "functions": [
+			    {
+            "function": "minecraft:set_count",
+            "count": 
+			      {
+              "min": 1.0,
+              "max": 12.0,
+              "type": "minecraft:uniform"
+                 }
+              }
+			      ]
+		      }
+          
+              ]
+          }
+      ]
+  }
