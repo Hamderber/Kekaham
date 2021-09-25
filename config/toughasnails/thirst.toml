@@ -1,0 +1,159 @@
+
+#Please be advised that certain thirst-related options are world-specific and are located in <Path to your world folder>/serverconfig/toughasnails-server.toml.
+[general]
+	#The threshold at which exhaustion causes a reduction in hydration and the thirst bar.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	exhaustion_threshold = 8.0
+
+[drink_options]
+	#Hydration restored from drinking with hands.
+	#Range: 0.0 ~ 1.7976931348623157E308
+	hand_drinking_hydration = 0.1
+	#Thirst restored from drinking with hands.
+	#Range: 0 ~ 20
+	hand_drinking_thirst = 1
+
+	#Effects of drinks from Vanilla, Tough As Nails and other mods.
+	[[drink_options.drink_entries]]
+		poison_chance = 0.0
+		thirst = 2
+		hydration = 0.2
+		location = "minecraft:potion"
+
+	[[drink_options.drink_entries]]
+		poison_chance = 0.75
+		thirst = 1
+		hydration = 0.1
+		location = "toughasnails:dirty_water_bottle"
+
+	[[drink_options.drink_entries]]
+		poison_chance = 0.75
+		thirst = 1
+		hydration = 0.1
+		location = "toughasnails:dirty_water_canteen"
+
+	[[drink_options.drink_entries]]
+		poison_chance = 0.0
+		thirst = 3
+		hydration = 0.4
+		location = "toughasnails:purified_water_bottle"
+
+	[[drink_options.drink_entries]]
+		poison_chance = 0.0
+		thirst = 3
+		hydration = 0.4
+		location = "toughasnails:purified_water_canteen"
+
+	[[drink_options.drink_entries]]
+		poison_chance = 0.0
+		thirst = 2
+		hydration = 0.2
+		location = "toughasnails:water_canteen"
+
+[biome_options]
+
+	#The types of water found in biomes from Vanilla and other mods.
+	[[biome_options.biome_water_entries]]
+		location = "minecraft:swamp"
+		type = "DIRTY"
+
+	[[biome_options.biome_water_entries]]
+		location = "minecraft:swamp_hills"
+		type = "DIRTY"
+
+	[[biome_options.biome_water_entries]]
+		location = "minecraft:mushroom_fields"
+		type = "DIRTY"
+
+	[[biome_options.biome_water_entries]]
+		location = "byg:polluted_lake"
+		type = "DIRTY"
+
+	[[biome_options.biome_water_entries]]
+		location = "minecraft:mushroom_field_shore"
+		type = "DIRTY"
+
+	[[biome_options.biome_water_entries]]
+		location = "byg:glowshroom_bayou"
+		type = "DIRTY"
+
+	[[biome_options.biome_water_entries]]
+		location = "byg:mangrove_marshes"
+		type = "DIRTY"
+
+	[[biome_options.biome_water_entries]]
+		location = "byg:vibrant_swamplands"
+		type = "DIRTY"
+
+	[[biome_options.biome_water_entries]]
+		location = "byg:bayou"
+		type = "DIRTY"
+
+	[[biome_options.biome_water_entries]]
+		location = "byg:cypress_swamplands"
+		type = "DIRTY"
+
+	[[biome_options.biome_water_entries]]
+		location = "byg:cold_swamplands"
+		type = "DIRTY"
+
+	[[biome_options.biome_water_entries]]
+		location = "byg:bluff_steeps"
+		type = "DIRTY"
+
+	[[biome_options.biome_water_entries]]
+		location = "byg:alpine_foothills"
+		type = "DIRTY"
+
+	[[biome_options.biome_water_entries]]
+		location = "byg:dover_mountains"
+		type = "DIRTY"
+
+	[[biome_options.biome_water_entries]]
+		location = "byg:guiana_clearing"
+		type = "DIRTY"
+
+	[[biome_options.biome_water_entries]]
+		location = "byg:canyons"
+		type = "DIRTY"
+
+	[[biome_options.biome_water_entries]]
+		location = "byg:red_rock_mountains"
+		type = "DIRTY"
+
+	[[biome_options.biome_water_entries]]
+		location = "byg:dead_sea"
+		type = "DIRTY"
+
+	[[biome_options.biome_water_entries]]
+		location = "byg:twilight_valley"
+		type = "DIRTY"
+
+	[[biome_options.biome_water_entries]]
+		location = "byg:oasis"
+		type = "PURIFIED"
+
+	[[biome_options.biome_water_entries]]
+		location = "byg:allium_fields"
+		type = "PURIFIED"
+
+	[[biome_options.biome_water_entries]]
+		location = "byg:fresh_water_lake"
+		type = "PURIFIED"
+
+	[[biome_options.biome_water_entries]]
+		location = "byg:amaranth_fields"
+		type = "PURIFIED"
+
+	[[biome_options.biome_water_entries]]
+		location = "byg:lush_tundra"
+		type = "PURIFIED"
+
+	[[biome_options.biome_water_entries]]
+		location = "byg:rose_fields"
+		type = "PURIFIED"
+
+	[[biome_options.biome_water_entries]]
+		location = "byg:orchard"
+		type = "PURIFIED"
+
