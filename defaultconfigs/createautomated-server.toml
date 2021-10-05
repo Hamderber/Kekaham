@@ -1,0 +1,159 @@
+
+# 
+[machines]
+
+	# 
+	[machines.picker]
+		# 
+		#[in ticks]
+		#How long it takes to pick
+		#Range: > 0
+		useTime = 16
+		# 
+		#How many items you can pick before the picker breaks
+		#Range: > 0
+		durability = 64
+
+	# 
+	[machines.extractor]
+		# 
+		#How ore pieces can be extracted
+		#Hoppers and arms allows mechanical arms and any block of the hopper sort (funnel, chute, etc), hoppers only allows only blocks of the hopper sort, none allows none
+		#Allowed Values: HOPPERS_AND_ARMS, HOPPERS_ONLY, NONE
+		extractionAbility = "HOPPERS_AND_ARMS"
+		# 
+		#How drills can be inserted
+		#Hoppers and arms allows mechanical arms and any block of the hopper sort (funnel, chute, etc), hoppers only allows only blocks of the hopper sort, none allows none
+		#Deployers will always be able to insert drills no matter what :)
+		#Allowed Values: HOPPERS_AND_ARMS, HOPPERS_ONLY, NONE
+		insertionAbility = "HOPPERS_AND_ARMS"
+		# 
+		#Whether or not the extractor can be toggled with redstone
+		allowTogglingWithRedstone = true
+		# 
+		#Makes drill heads not loose durability
+		#(why would you use this??)
+		unbreakableDrills = false
+		# 
+		#The durability of the default drill head
+		#Range: > 0
+		drillDurability = 300
+		# 
+		#The speed requirement for the extractor. The exact number has to be configured in Create's config
+		#Allowed Values: NONE, MEDIUM, FAST
+		requiredSpeed = "FAST"
+		# 
+		#What types of blocks the extractor can mine. NONE if you want it to only be able to break blocks, ORES for ores only, and ANY for any block
+		#Allowed Values: NONE, ORES, ANY
+		miningAbility = "NONE"
+		# 
+		#Configure how node blocks can be moved by contraptions
+		#Allowed Values: MOVABLE, NO_PICKUP, UNMOVABLE
+		nodeMovement = "MOVABLE"
+		# 
+		#If enabled, nodes drop themselves, otherwise they drop nothing
+		nodesDrop = true
+
+		# 
+		[machines.extractor.nodes]
+
+			# 
+			[machines.extractor.nodes.lapisNode]
+				#Which block a node is replaced by once it is drained, set to `minecraft:air` to remove the block instead
+				blockReplace = "minecraft:dirt"
+				# 
+				#Whether or not this node is infinite
+				#[@cui:RequiresReload:server]
+				isInfinite = true
+				# 
+				#How many ore pieces can be extracted. Ignored if is infinite
+				#Range: > 1
+				count = 5
+				# 
+				#Whether or not to randomize the amount of ore to remove each time it is extracted
+				randomizeDamage = false
+
+			[machines.extractor.nodes.ironNode]
+				#Which block a node is replaced by once it is drained, set to `minecraft:air` to remove the block instead
+				blockReplace = "minecraft:dirt"
+				# 
+				#Whether or not this node is infinite
+				#[@cui:RequiresReload:server]
+				isInfinite = true
+				# 
+				#How many ore pieces can be extracted. Ignored if is infinite
+				#Range: > 1
+				count = 4
+				# 
+				#Whether or not to randomize the amount of ore to remove each time it is extracted
+				randomizeDamage = false
+
+			[machines.extractor.nodes.zincNode]
+				#Which block a node is replaced by once it is drained, set to `minecraft:air` to remove the block instead
+				blockReplace = "minecraft:dirt"
+				# 
+				#Whether or not this node is infinite
+				#[@cui:RequiresReload:server]
+				isInfinite = true
+				# 
+				#How many ore pieces can be extracted. Ignored if is infinite
+				#Range: > 1
+				count = 3
+				# 
+				#Whether or not to randomize the amount of ore to remove each time it is extracted
+				randomizeDamage = false
+
+			[machines.extractor.nodes.goldNode]
+				#Which block a node is replaced by once it is drained, set to `minecraft:air` to remove the block instead
+				blockReplace = "minecraft:dirt"
+				# 
+				#Whether or not this node is infinite
+				#[@cui:RequiresReload:server]
+				isInfinite = true
+				# 
+				#How many ore pieces can be extracted. Ignored if is infinite
+				#Range: > 1
+				count = 2
+				# 
+				#Whether or not to randomize the amount of ore to remove each time it is extracted
+				randomizeDamage = false
+
+			[machines.extractor.nodes.copperNode]
+				#Which block a node is replaced by once it is drained, set to `minecraft:air` to remove the block instead
+				blockReplace = "minecraft:dirt"
+				# 
+				#Whether or not this node is infinite
+				#[@cui:RequiresReload:server]
+				isInfinite = true
+				# 
+				#How many ore pieces can be extracted. Ignored if is infinite
+				#Range: > 1
+				count = 1
+				# 
+				#Whether or not to randomize the amount of ore to remove each time it is extracted
+				randomizeDamage = false
+
+			[machines.extractor.nodes.cinderFlourNode]
+				#Which block a node is replaced by once it is drained, set to `minecraft:air` to remove the block instead
+				blockReplace = "minecraft:dirt"
+				# 
+				#Whether or not this node is infinite
+				#[@cui:RequiresReload:server]
+				isInfinite = true
+				# 
+				#How many ore pieces can be extracted. Ignored if is infinite
+				#Range: > 1
+				count = 6
+				# 
+				#Whether or not to randomize the amount of ore to remove each time it is extracted
+				randomizeDamage = false
+
+	# 
+	[machines.stress]
+
+		#
+		# [in Stress Units]
+		#Configure the individual stress impact of mechanical blocks. Note that this cost is doubled for every speed increase it receives
+		[machines.stress.impact]
+			ore_extractor = 128.0
+

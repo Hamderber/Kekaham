@@ -1,0 +1,28 @@
+
+#General Config Section
+[general]
+	#The Client ID of the Discord App to use
+	clientID = 762726289341677668
+	#Enable/Disable the mod
+	enabled = true
+	#Internal Version Number. NO TOUCHY!
+	version = 10
+
+#Fallback event for disabled events
+[generic]
+	#The first line of text under the app name
+	description = "Playing *Kekaham*"
+	#The second line of text under the app name
+	state = "(Minecraft Forge 1.16.5)"
+	#The Asset ID of the image to display as the small image
+	smallImageKey = "packicon"
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "*Kekaham* (Minecraft Forge 1.16.5) %mods% mods"
+	#The buttons to display on Discord
+
+	# section will be either init, main_menu, etc
+	[[section.buttons]]
+	label = "Kekaham Discord"
+	url = "https://discord.gg/9ATeUhAGa9"
+	
+

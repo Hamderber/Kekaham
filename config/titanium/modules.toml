@@ -1,0 +1,15 @@
+
+[modules]
+
+	#Test module for titanium features
+	[modules.test_module]
+		enabled = false
+
+	#Creative features
+	[modules.creative]
+		enabled = true
+
+		#Adds creative machine features
+		[modules.creative.blocks]
+			enabled = true
+

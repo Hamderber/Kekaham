@@ -1,0 +1,48 @@
+{
+	"examplemod:exampleitem": {
+		"summative": false,
+		"values": [
+			{
+				"type": "id",
+				"keys": ["nbt_key"],
+				"predicates": [
+					{
+						"operator": "EQUALS", 
+						"comparator": 0,
+						"value": { "mining": 10, "smithing": 5 }
+					}
+				]				
+			},
+			{
+				"type": "compound",
+				"keys": ["compound_key"],
+				"sub_references": [{
+					"type": "id",
+					"key": "nbt_key",
+					"predicates": [
+						{
+							"operator": "GREATER_THAN", 
+							"comparator": 9,
+							"value": { "mining": 10, "smithing": 5 }
+						}
+					]
+				}]
+			},
+			{
+				"type": "list",
+				"keys": ["list_key"],
+				"index": 0,
+				"sub_references": [{
+					"type": "id",
+					"key": "subobject_key_or_item_value",
+					"predicates": [
+						{
+							"operator": "EXISTS",
+							"value": { "mining": 10, "smithing": 5 }
+						}
+					]
+				}]
+			}	
+		]
+	}
+}

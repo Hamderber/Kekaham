@@ -1,0 +1,14 @@
+{
+
+	"global":{"paths":{},"constants":{}},
+	"examplemod:exampleitem": {
+		"item": {
+			"summative": false,
+			"values": []
+		},
+		"tile": {
+			"summative": false,
+			"values": []
+		}
+	}
+}

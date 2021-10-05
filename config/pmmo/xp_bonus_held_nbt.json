@@ -1,0 +1,17 @@
+{
+	"global":{"paths":{},"constants":{}},
+	"minecraft:name_tag":{
+		"logic": [
+			{"behavior_to_previous": "ADD_TO", "should_cases_add": false,
+			 "cases":[
+				{"paths":["display{}.Name"],
+				 "criteria":[
+				 	{"operator":"EQUALS","comparators":["{\"text\":\"Agile\"}"],"value":{"agility":5}},
+				 	{"operator":"EQUALS","comparators":["{\"text\":\"Warrior\"}"],"value":{"agility":5}},
+				 	{"operator":"EQUALS","comparators":["{\"text\":\"Strong\"}"],"value":{"agility":5}},
+				 	{"operator":"EQUALS","comparators":["{\"text\":\"Treasure Seeker\"}"],"value":{"agility":5}}
+				]}
+			]}
+		]
+	}
+}

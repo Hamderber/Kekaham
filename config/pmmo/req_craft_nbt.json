@@ -1,0 +1,20 @@
+{
+	"global": {
+		"paths": {
+			"dmg": "Damage"
+		},
+		"constants": {}
+	},
+	"minecraft:wooden_pickaxe": {
+		"logic": [
+			{"behavior_to_previous":"ADD_TO", "should_cases_add": false,
+			 "cases": [
+				 {"paths":["#dmg"],
+				  "criteria":[
+					  {"operator":"GREATER_THAN", "comparators": [0], "value":{"crafting": 5}}
+				  ]}
+			 ]
+			}
+		]
+	}
+}
