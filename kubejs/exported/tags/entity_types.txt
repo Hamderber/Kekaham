@@ -1,4 +1,4 @@
-To refresh this file, delete it and run /reload command again! Last updated: Sep 20, 2021 2:03:19 PM
+To refresh this file, delete it and run /reload command again! Last updated: Oct 14, 2021 9:35:53 PM
 
 #forge:slimes
 - minecraft:slime
@@ -6,14 +6,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - tconstruct:sky_slime
 - tconstruct:ender_slime
 - tconstruct:terracube
-
-#dungeons_mobs:converts_in_water
-- minecraft:skeleton
-- minecraft:stray
-- dungeons_mobs:skeleton_horseman
-- dungeons_mobs:skeleton_vanguard
-- dungeons_mobs:mossy_skeleton
-- dungeons_mobs:armored_skeleton
 
 #tconstruct:bouncy
 - tconstruct:sky_slime
@@ -33,11 +25,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - minecraft:trident
 - minecraft:dragon_fireball
 - minecraft:wither_skull
-- dungeons_mobs:slimeball
-- dungeons_mobs:wraith_fireball
-- dungeons_mobs:cobweb_projectile
-- dungeons_mobs:laser_orb
-- dungeons_mobs:trident_fume
 
 #minecraft:beehive_inhabitors
 - minecraft:bee
@@ -49,21 +36,6 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - minecraft:skeleton
 - minecraft:stray
 - minecraft:wither_skeleton
-- dungeons_mobs:mossy_skeleton
-- dungeons_mobs:armored_skeleton
-- dungeons_mobs:necromancer
-- dungeons_mobs:skeleton_horseman
-- dungeons_mobs:skeleton_vanguard
-- dungeons_mobs:sunken_skeleton
-- dungeons_mobs:armored_sunken_skeleton
-
-#minecolonies:hostile
-- minecraft:slime
-
-#forbidden_arcanus:quantum_catcher_blacklisted
-- minecraft:wither
-- minecraft:elder_guardian
-- minecraft:ender_dragon
 
 #tconstruct:melting/show_in_default
 - minecraft:iron_golem
@@ -82,9 +54,13 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 
 #tconstruct:piggybackpack_blacklist
 
-#dungeons_mobs:dont_shield_against
-- minecraft:villager
-- minecraft:wandering_trader
+#farmersdelight:horse_feed_users
+- minecraft:horse
+- minecraft:skeleton_horse
+- minecraft:zombie_horse
+- minecraft:donkey
+- minecraft:mule
+- minecraft:llama
 
 #minecraft:raiders
 - minecraft:evoker
@@ -93,18 +69,9 @@ To refresh this file, delete it and run /reload command again! Last updated: Sep
 - minecraft:vindicator
 - minecraft:illusioner
 - minecraft:witch
-- dungeons_mobs:geomancer
-- dungeons_mobs:armored_pillager
-- dungeons_mobs:redstone_golem
-- dungeons_mobs:armored_vindicator
-- dungeons_mobs:mountaineer
-- dungeons_mobs:armored_mountaineer
-- dungeons_mobs:royal_guard
-- dungeons_mobs:vindicator_chef
-- dungeons_mobs:iceologer
-- dungeons_mobs:windcaller
-- dungeons_mobs:illusioner_clone
-- dungeons_mobs:squall_golem
 
 #tconstruct:melting/hide_in_default
 - minecraft:giant
+
+#farmersdelight:dog_food_users
+- minecraft:wolf

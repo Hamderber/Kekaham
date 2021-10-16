@@ -1,0 +1,145 @@
+{
+	id: "642B99373FDB8C16"
+	group: ""
+	order_index: 0
+	filename: "start"
+	title: "Modpack information"
+	icon: "minecraft:grass_block"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			icon: "minecraft:grass_block"
+			x: 0.0d
+			y: 0.0d
+			description: ["This is obviously a WIP: Destroy your island to get the materials you need to progress into create. Using the mixer, press, fan, as well as some water and cobble/gravel/sand and some trees you should be able to get everything in a normal skyblock. Just use JEI to check the recipes!"]
+			id: "05D6857F88A215EB"
+			tasks: [{
+				id: "12FD32781CBEE9B4"
+				type: "checkmark"
+				title: "Welcome"
+			}]
+			rewards: [{
+				id: "105C4C2A0B86E5A6"
+				type: "item"
+				item: {
+					id: "minecraft:chest"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							LootTable: "minecraft:chests/village/village_taiga_house"
+							id: "minecraft:chest"
+						}
+						display: {
+							Lore: ["\"(village)\""]
+						}
+					}
+				}
+			}]
+		}
+		{
+			icon: "losttrinkets:warm_void"
+			x: 1.0d
+			y: -1.0d
+			description: ["Forgiving Void is a mod that teleports the player into the sky once they fall into the void. Making a landing pad of water on your island is quite useful!"]
+			dependencies: ["05D6857F88A215EB"]
+			id: "33FDF7BBCF5AD8CC"
+			tasks: [{
+				id: "52AD2A9D49F2871F"
+				type: "checkmark"
+				title: "Forgiving Void"
+			}]
+			rewards: [{
+				id: "470B166DE8748BC9"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			icon: "create:wrench"
+			x: -1.0d
+			y: -1.0d
+			description: ["The entire progression sequence of this skyblock is focused around Create. There are many good tutorials on how this mod works online, but do please keep in mind that some item recipes have changed to more fit the skyblock enviroment."]
+			dependencies: ["05D6857F88A215EB"]
+			id: "66FE2AD0FA0E40B9"
+			tasks: [{
+				id: "182AAE07BE52F7B9"
+				type: "checkmark"
+				title: "Create"
+			}]
+			rewards: [{
+				id: "212B4FEA91DD9226"
+				type: "item"
+				item: "create:iron_sheet"
+				count: 3
+			}]
+		}
+		{
+			title: "TwerkItMeal"
+			icon: "minecraft:jukebox"
+			x: -1.0d
+			y: 1.0d
+			subtitle: "Twerk To Grow All The Things"
+			description: ["TwerkItMeal is a mod that lets you spam the sneak key, as well as jump and sprint, to provide a bonemeal effect to the surrounding area's crops and saplings. Shake that booty!"]
+			dependencies: ["05D6857F88A215EB"]
+			id: "6E302F2CAF820C50"
+			tasks: [{
+				id: "1C7DB23F452AE4F6"
+				type: "checkmark"
+				title: "TWERK"
+			}]
+			rewards: [
+				{
+					id: "668796E5FE4E08D2"
+					type: "item"
+					item: "minecraft:jukebox"
+				}
+				{
+					id: "29323CDE3843210E"
+					type: "choice"
+					title: "Music disc"
+					icon: "minecraft:music_disc_13"
+					table_id: 1084914187181638421L
+				}
+			]
+		}
+		{
+			icon: {
+				id: "minecraft:iron_pickaxe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -1.5d
+			y: 0.0d
+			description: ["(Default key `) FTB Ultimine is a staple of modded minecraft. Hold down the key and see what stuff you can break at the same time! The maximum blocks to be broken here is 256. (It's mainly this high for leaves, honestly!)"]
+			dependencies: ["05D6857F88A215EB"]
+			id: "0EB2CE8DC245C50C"
+			tasks: [{
+				id: "30A971EB134A06BE"
+				type: "checkmark"
+				title: "FTB Ultimine"
+			}]
+			rewards: [{
+				id: "7E9614815264945B"
+				type: "item"
+				item: "farmersdelight:steak_and_potatoes"
+				count: 3
+			}]
+		}
+		{
+			icon: "gravestone:gravestone"
+			x: 0.0d
+			y: -1.5d
+			subtitle: "The Gravestone Mod is simply a mod that spawns a grave with the inventory of the player where they die. Break the grave to get your stuff back!"
+			dependencies: ["05D6857F88A215EB"]
+			id: "303350AC8DEB0E6A"
+			tasks: [{
+				id: "22EE8B4B8A6A9183"
+				type: "checkmark"
+				title: "Gravestone Mod"
+			}]
+		}
+	]
+}

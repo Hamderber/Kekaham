@@ -1,0 +1,20 @@
+{
+  "items": [
+    {
+      "item": "ftbquests:book"
+    },
+    {
+      "item": "artifacts:universal_attractor"
+    },
+    {
+      "item": "create:wrench"
+    },
+    {
+      "item": "create:goggles"
+    },
+    {
+      "item": "farmersdelight:hamburger",
+      "count": 16
+    }
+  ]
+}

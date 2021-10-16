@@ -95,7 +95,7 @@
 	[client.window]
 		# Enables custom Minecraft window titles.
 		# Default: true
-		custom_title = false
+		custom_title = true
 		# The simple Minecraft window title.
 		# The current activity, the number of mods loaded and mod versions are not available.
 		# Variables:
@@ -126,7 +126,7 @@
 		title_with_activity = "Minecraft ${mcversion} - ${activity}"
 		# Enables custom Minecraft window icons.
 		# Default: true
-		custom_icon = false
+		custom_icon = true
 		# The path to the 16x16 Minecraft window icon relative to the Minecraft instance directory.
 		# Forward slashes should be used even on Windows to preserve compatibility with other platforms.
 		# Backward slashes will automatically be replaced.

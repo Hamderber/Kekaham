@@ -7,9 +7,5 @@
 
 	#Creative features
 	[modules.creative]
-		enabled = true
-
-		#Adds creative machine features
-		[modules.creative.blocks]
-			enabled = true
+		enabled = false
 

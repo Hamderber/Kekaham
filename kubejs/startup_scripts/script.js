@@ -11,3 +11,9 @@ onEvent('block.registry', event => {
 	// Register new blocks here
 	// event.create('example_block').material('wood').hardness(1.0).displayName('Example Block')
 })
+
+onEvent('fluid.registry', event => {
+
+event.create('liquid_fortune').textureThick(0xFBF3AB).displayName('Liquid Fortune').bucketColor(0xFBF3AB)
+
+})

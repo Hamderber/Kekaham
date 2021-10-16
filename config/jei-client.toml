@@ -1,20 +1,20 @@
 
 [advanced]
-	#How items should be handed to you
-	#Allowed Values: INVENTORY, MOUSE_PICKUP
-	GiveMode = "MOUSE_PICKUP"
 	#Debug mode enabled
 	DebugMode = false
 	#Display search bar in the center
 	CenterSearch = false
-	#Max. recipe gui height
-	#Range: > 175
-	RecipeGuiHeight = 350
 	#Set low-memory mode (makes search very slow, but uses less RAM)
 	LowMemorySlowSearchEnabled = false
+	#How items should be handed to you
+	#Allowed Values: INVENTORY, MOUSE_PICKUP
+	GiveMode = "MOUSE_PICKUP"
 	#Max number of columns shown
 	#Range: 4 ~ 100
 	MaxColumns = 9
+	#Max. recipe gui height
+	#Range: > 175
+	RecipeGuiHeight = 350
 
 [colors]
 	#Color values to search for
@@ -27,24 +27,24 @@
 [search]
 	#Search mode for Mod Names (prefix: @)
 	#Allowed Values: ENABLED, REQUIRE_PREFIX, DISABLED
-	ModNameSearchMode = "REQUIRE_PREFIX"
+	ModNameSearchMode = "ENABLED"
+	#Search mode for Tooltips (prefix: #)
+	#Allowed Values: ENABLED, REQUIRE_PREFIX, DISABLED
+	TooltipSearchMode = "ENABLED"
 	#Search mode for Tag Names (prefix: $)
 	#Allowed Values: ENABLED, REQUIRE_PREFIX, DISABLED
 	TagSearchMode = "REQUIRE_PREFIX"
 	#Search mode for Creative Tab Names (prefix: %)
 	#Allowed Values: ENABLED, REQUIRE_PREFIX, DISABLED
-	CreativeTabSearchMode = "DISABLED"
+	CreativeTabSearchMode = "ENABLED"
 	#Search mode for Colors (prefix: ^)
 	#Allowed Values: ENABLED, REQUIRE_PREFIX, DISABLED
 	ColorSearchMode = "DISABLED"
 	#Search mode for resources IDs (prefix: &)
 	#Allowed Values: ENABLED, REQUIRE_PREFIX, DISABLED
-	ResourceIdSearchMode = "DISABLED"
-	#Search mode for Tooltips (prefix: #)
-	#Allowed Values: ENABLED, REQUIRE_PREFIX, DISABLED
-	TooltipSearchMode = "ENABLED"
+	ResourceIdSearchMode = "ENABLED"
 	#Search advanced tooltips (visible with F3+H)
-	SearchAdvancedTooltips = false
+	SearchAdvancedTooltips = true
 
 [modname]
 	#Formatting for mod name tooltip

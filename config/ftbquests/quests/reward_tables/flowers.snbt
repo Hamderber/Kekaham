@@ -1,0 +1,25 @@
+{
+	id: "6C85B5FBBF29C04C"
+	order_index: 3
+	title: "Flowers"
+	icon: "minecraft:peony"
+	loot_size: 1
+	rewards: [
+		{ item: "minecraft:dandelion" }
+		{ item: "minecraft:poppy" }
+		{ item: "minecraft:blue_orchid" }
+		{ item: "minecraft:allium" }
+		{ item: "minecraft:azure_bluet" }
+		{ item: "minecraft:red_tulip" }
+		{ item: "minecraft:orange_tulip" }
+		{ item: "minecraft:white_tulip" }
+		{ item: "minecraft:pink_tulip" }
+		{ item: "minecraft:oxeye_daisy" }
+		{ item: "minecraft:cornflower" }
+		{ item: "minecraft:lily_of_the_valley" }
+		{ item: "minecraft:sunflower" }
+		{ item: "minecraft:lilac" }
+		{ item: "minecraft:rose_bush" }
+		{ item: "minecraft:peony" }
+	]
+}

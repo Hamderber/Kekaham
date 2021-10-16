@@ -1,0 +1,1037 @@
+{
+	id: "59323A222CFF6D31"
+	group: "3D3B37914924472F"
+	order_index: 0
+	filename: "introduction"
+	title: "Introduction"
+	icon: "minecraft:book"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Hamderber's Grave"
+			icon: {
+				id: "minecraft:player_head"
+				Count: 1b
+				tag: {
+					SkullOwner: {
+						Id: [I;
+							-1228524077
+							388579461
+							-2118031444
+							-1762489990
+						]
+						Properties: {
+							textures: [{
+								Value: "ewogICJ0aW1lc3RhbXAiIDogMTYzNDM0NDIxNzUxMSwKICAicHJvZmlsZUlkIiA6ICJiNmM2MzVkMzE3Mjk0MDg1ODFjMTY3YWM5NmYyODk3YSIsCiAgInByb2ZpbGVOYW1lIiA6ICJIYW1kZXJiZXIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGU3ZmE2MDRiOTZhNTdkYTRlYWI1NWFlZTdjNjM5MTEwYjRhN2VmYjhkYWNiZWNhYjM4NGRhNzYxNjQ5Zjk3MyIKICAgIH0sCiAgICAiQ0FQRSIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjM0MGMwZTAzZGQyNGExMWIxNWE4YjMzYzJhN2U5ZTMyYWJiMjA1MWIyNDgxZDBiYTdkZWZkNjM1Y2E3YTkzMyIKICAgIH0KICB9Cn0="
+								Signature: "gQfDFN+wl4ybccbCRsk2HW5gyj9iteoYn8JC/J6uHHdGeBhA4E17Zt70jGeHKFdwh2MdxSvvx44VNIpRsTAUTUIaN0pPC2RSw0R12TtitcOT60ehybt4LAxzmtK8ApsKmLr9Lo7PjRXW4OLLNs033Kmgav81Tiv8TQJZbSkblb1HtUasmoonEQL4zKpbBb9EB+WyTPMV64jbN83WzvYc5j2GOzJG8QbtmuosaNGJFJhZ9Vf7lZo36G5aFPG3dd6XtYXunh1I2e/3PiuRhC2KAebbn6p5PTKrzaN75laRTQkGt5y/rUld9KF9k6SlaT8rUlBUzzL+MeZw+aAIPqX75q1DEPQkEXZ9Wr6qfeXkMo2YoSl4CmEd18857HgrlI3HtNJyh+YTedfttuUURkcAUfeeo0YUTsHlVKoC6cYm2HcimCeZHzWivOGUAh0p+5CA751kwAcYSwO2Bcmg6n1INhFHKT8Zo8yoL1IyZv/AKXDzdAHd39JRydsYWEChxNO2hRH7SLl6eRmC5Nj+YYz2EbE2Fx+Voi0wIptksEo/fBElhGnycMJn7ig/PLfZX1ZhH02IZ3pR2ldc2/crMR9Z4xu8N2z7o9tJm1F5YQpP1S4Kw4LjGx9343hHXCAkU2Pjtw0XV5pCm8Gw8RePEmC8fyNbROfMg3hUNBKFduI/Lkk="
+							}]
+						}
+						Name: "Hamderber"
+					}
+				}
+			}
+			x: 0.0d
+			y: 0.0d
+			subtitle: "You found my grave! Don't worry, I won't be needing it anymore. Feel free to keep my items. Sorry about the obsidian, I failed my first cobblestone generator! Oh, and my head makes a good decoration or addition to your favorite Tinkers' Construct tool."
+			description: [""]
+			id: "2BB4F850D7EFFC49"
+			tasks: [{
+				id: "50DA5A49C9221511"
+				type: "item"
+				item: "minecraft:bucket"
+				count: 2L
+			}]
+			rewards: [
+				{
+					id: "2540CCE9E3CC8430"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "6907762AC59714CD"
+					type: "item"
+					item: {
+						id: "minecraft:player_head"
+						Count: 1b
+						tag: {
+							SkullOwner: {
+								Id: [I;
+									-1228524077
+									388579461
+									-2118031444
+									-1762489990
+								]
+								Properties: {
+									textures: [{
+										Value: "ewogICJ0aW1lc3RhbXAiIDogMTYzNDM0NDIxNzUxMSwKICAicHJvZmlsZUlkIiA6ICJiNmM2MzVkMzE3Mjk0MDg1ODFjMTY3YWM5NmYyODk3YSIsCiAgInByb2ZpbGVOYW1lIiA6ICJIYW1kZXJiZXIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGU3ZmE2MDRiOTZhNTdkYTRlYWI1NWFlZTdjNjM5MTEwYjRhN2VmYjhkYWNiZWNhYjM4NGRhNzYxNjQ5Zjk3MyIKICAgIH0sCiAgICAiQ0FQRSIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjM0MGMwZTAzZGQyNGExMWIxNWE4YjMzYzJhN2U5ZTMyYWJiMjA1MWIyNDgxZDBiYTdkZWZkNjM1Y2E3YTkzMyIKICAgIH0KICB9Cn0="
+										Signature: "gQfDFN+wl4ybccbCRsk2HW5gyj9iteoYn8JC/J6uHHdGeBhA4E17Zt70jGeHKFdwh2MdxSvvx44VNIpRsTAUTUIaN0pPC2RSw0R12TtitcOT60ehybt4LAxzmtK8ApsKmLr9Lo7PjRXW4OLLNs033Kmgav81Tiv8TQJZbSkblb1HtUasmoonEQL4zKpbBb9EB+WyTPMV64jbN83WzvYc5j2GOzJG8QbtmuosaNGJFJhZ9Vf7lZo36G5aFPG3dd6XtYXunh1I2e/3PiuRhC2KAebbn6p5PTKrzaN75laRTQkGt5y/rUld9KF9k6SlaT8rUlBUzzL+MeZw+aAIPqX75q1DEPQkEXZ9Wr6qfeXkMo2YoSl4CmEd18857HgrlI3HtNJyh+YTedfttuUURkcAUfeeo0YUTsHlVKoC6cYm2HcimCeZHzWivOGUAh0p+5CA751kwAcYSwO2Bcmg6n1INhFHKT8Zo8yoL1IyZv/AKXDzdAHd39JRydsYWEChxNO2hRH7SLl6eRmC5Nj+YYz2EbE2Fx+Voi0wIptksEo/fBElhGnycMJn7ig/PLfZX1ZhH02IZ3pR2ldc2/crMR9Z4xu8N2z7o9tJm1F5YQpP1S4Kw4LjGx9343hHXCAkU2Pjtw0XV5pCm8Gw8RePEmC8fyNbROfMg3hUNBKFduI/Lkk="
+									}]
+								}
+								Name: "Hamderber"
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 2.0d
+			subtitle: "The beginning."
+			dependencies: ["2BB4F850D7EFFC49"]
+			id: "7FA4EC75FE7DD18F"
+			tasks: [{
+				id: "53A3338DADA0B8E3"
+				type: "item"
+				item: "minecraft:crafting_table"
+			}]
+			rewards: [{
+				id: "25A5E6AD3821AF44"
+				type: "item"
+				item: "minecraft:oak_sapling"
+				count: 8
+			}]
+		}
+		{
+			x: 1.5d
+			y: -1.5d
+			subtitle: "The majority of resources here can be aquired by washing gravel/sand/leaves. You should start by making a fan and placing it in front of some water."
+			dependencies: ["2BB4F850D7EFFC49"]
+			dependency_requirement: "one_completed"
+			id: "23F50331D88C494E"
+			tasks: [{
+				id: "74FF114B6031A8F8"
+				type: "item"
+				item: "create:encased_fan"
+			}]
+			rewards: [
+				{
+					id: "638D745708FACA61"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "3C019B817F94F146"
+					type: "item"
+					item: "minecraft:sponge"
+				}
+			]
+		}
+		{
+			title: "How to get your second water bucket"
+			x: 3.0d
+			y: -1.5d
+			subtitle: "Use an empty bucket and an encased fan with water infront of it to fill the bucket with water. This is how you can get an infinite water source!"
+			dependencies: ["23F50331D88C494E"]
+			id: "6DEDB3EB51E3C2D0"
+			tasks: [{
+				id: "4475EB509237C8AA"
+				type: "item"
+				item: "minecraft:water_bucket"
+			}]
+			rewards: [{
+				id: "52C3460D5CADA647"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			x: -0.5d
+			y: -2.0d
+			subtitle: "Making a mechanical saw early on will let you make better use of your resources! More planks, sticks, but most importantly you can get more shafts from each andesite alloy!"
+			dependencies: ["2BB4F850D7EFFC49"]
+			id: "48365E4F3A62FF3F"
+			tasks: [{
+				id: "403EA79D95FC791E"
+				type: "item"
+				item: "create:mechanical_saw"
+			}]
+			rewards: [{
+				id: "7D08BA27ED085964"
+				type: "item"
+				item: "create:andesite_alloy"
+				count: 4
+			}]
+		}
+		{
+			title: "Early rotational force"
+			icon: "create:windmill_bearing"
+			x: 1.5d
+			y: 1.5d
+			subtitle: "A windmill made from the salvaged propellers of keksin's plane make a great source of early game rotation. Unless you're into water wheels or something..."
+			dependencies: ["2BB4F850D7EFFC49"]
+			id: "3918C6EFC7C66142"
+			tasks: [{
+				id: "09F93EAFBC6F8AFF"
+				type: "checkmark"
+				title: "Trust me, I made a windmill"
+			}]
+			rewards: [{
+				id: "493644AD83731229"
+				type: "item"
+				item: "create:white_sail"
+				count: 4
+			}]
+		}
+		{
+			title: "Salvage the plane"
+			icon: "createdeco:andesite_sheet_metal"
+			x: -1.5d
+			y: 1.5d
+			subtitle: "Salvage the crashed plane! You can use a mechanical press to turn vertical slabs into some nuggets of the associated metal."
+			dependencies: ["2BB4F850D7EFFC49"]
+			id: "491F00FDA280F77C"
+			tasks: [
+				{
+					id: "3B91E75672496B36"
+					type: "item"
+					item: "createdeco:andesite_sheet_slab_vert"
+				}
+				{
+					id: "2C2A76C61687DD9E"
+					type: "item"
+					item: "createdeco:copper_sheet_slab_vert"
+				}
+				{
+					id: "6E89FC4295C5B24F"
+					type: "item"
+					item: "createdeco:netherite_sheet_slab_vert"
+				}
+				{
+					id: "5F36E6C9864061BF"
+					type: "item"
+					item: "engineersdecor:dense_grit_dirt_block"
+				}
+				{
+					id: "75537BB082B0BCB6"
+					type: "item"
+					item: "minecraft:smooth_stone"
+				}
+				{
+					id: "395EF4921049825A"
+					type: "item"
+					item: "create:red_seat"
+				}
+				{
+					id: "5918A7A7ECE84876"
+					type: "item"
+					item: "create_stuff_additions:nixie_lamp"
+				}
+			]
+			rewards: [
+				{
+					id: "3584D332F6B82694"
+					type: "choice"
+					title: "Choice reward"
+					icon: "minecraft:oak_sapling"
+					table_id: 4196920583438088519L
+				}
+				{
+					id: "3EF648A4FA389F73"
+					type: "choice"
+					title: "Choice reward"
+					icon: "quark:blue_blossom_sapling"
+					table_id: 713591838171398092L
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -0.5d
+			subtitle: "With the mechanical press, you can use various items to get dirt. Then, you can press the dirt into cobblestone. Useful!"
+			dependencies: ["2BB4F850D7EFFC49"]
+			id: "348E2136C6E9BB27"
+			tasks: [
+				{
+					id: "7CE6F3208376A70C"
+					type: "item"
+					item: "create:mechanical_press"
+				}
+				{
+					id: "5DCC1E2CF7C6D455"
+					type: "item"
+					item: "create:basin"
+				}
+			]
+			rewards: [
+				{
+					id: "38FF370AD178CBA1"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7036799C4379D68A"
+					type: "item"
+					item: "minecraft:dirt"
+					count: 12
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: -0.5d
+			subtitle: "You probably broke the island for this, didn't you?"
+			dependencies: ["348E2136C6E9BB27"]
+			id: "5746F7CF48123C1A"
+			tasks: [{
+				id: "4792B97351CDEFE0"
+				type: "item"
+				item: "minecraft:dirt"
+				count: 64L
+			}]
+			rewards: [{
+				id: "787DA7D64B4820EC"
+				type: "item"
+				item: "minecraft:cobblestone"
+				count: 8
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.5d
+			subtitle: "The millstone is an early way to convert one material into another, such as cobblestone into gravel or gravel into sand."
+			dependencies: ["2BB4F850D7EFFC49"]
+			id: "18D107146D308581"
+			tasks: [{
+				id: "77905508A70B6726"
+				type: "item"
+				item: "create:millstone"
+			}]
+			rewards: [{
+				id: "7176E26AF7180C5E"
+				type: "item"
+				item: "minecraft:sand"
+				count: 8
+			}]
+		}
+		{
+			x: 3.5d
+			y: 0.5d
+			subtitle: "That took longer than expected..."
+			dependencies: ["18D107146D308581"]
+			id: "178500C6277FCBF9"
+			tasks: [{
+				id: "42D8BCB8995FF201"
+				type: "item"
+				item: "minecraft:gravel"
+				count: 17L
+			}]
+		}
+		{
+			x: 3.0d
+			y: 2.0d
+			subtitle: "Through the power of farming (I bet you just twerked on a 3x3 area of industrial hemp for a bit) you have gotten enough sails to make a full size windmill!"
+			dependencies: ["3918C6EFC7C66142"]
+			id: "22ED4C563D339673"
+			tasks: [{
+				id: "37720476A8FA0760"
+				type: "item"
+				item: "create:white_sail"
+				count: 128L
+			}]
+			rewards: [{
+				id: "7098906C84D7834E"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "Tinkers' workstation"
+			x: -0.5d
+			y: 2.0d
+			subtitle: "It is time to get some better tools."
+			dependencies: ["2BB4F850D7EFFC49"]
+			id: "56E97A975AA3DC42"
+			tasks: [
+				{
+					id: "0337819DD47552E6"
+					type: "item"
+					item: {
+						id: "tconstruct:crafting_station"
+						Count: 1b
+						tag: {
+							texture: "minecraft:oak_log"
+						}
+					}
+				}
+				{
+					id: "0082D90DB7C9C8F9"
+					type: "item"
+					item: {
+						id: "tconstruct:part_builder"
+						Count: 1b
+						tag: {
+							texture: "minecraft:oak_planks"
+						}
+					}
+				}
+				{
+					id: "29A13DEF2AB4FDC8"
+					type: "item"
+					item: {
+						id: "tconstruct:tinker_station"
+						Count: 1b
+						tag: {
+							texture: "minecraft:oak_planks"
+						}
+					}
+				}
+				{
+					id: "2DDA2A0E9117A525"
+					type: "item"
+					item: "farmersdelight:cutting_board"
+				}
+			]
+			rewards: [{
+				id: "6FB432D2F6A8E641"
+				type: "item"
+				item: "tconstruct:pattern"
+				count: 5
+			}]
+		}
+		{
+			title: "Better tools"
+			icon: {
+				id: "tconstruct:kama"
+				Count: 1b
+				tag: {
+					tic_multipliers: {
+						"tconstruct:attack_damage": 0.75f
+					}
+					tic_stats: {
+						"tconstruct:attack_speed": 1.8f
+						"tconstruct:mining_speed": 2.0f
+						"tconstruct:attack_damage": 0.75f
+						"tconstruct:harvest_level": 0.0f
+						"tconstruct:durability": 60.0f
+					}
+					tic_broken: 0b
+					tic_modifiers: [
+						{
+							name: "tconstruct:cultivated"
+							level: 3s
+						}
+						{
+							name: "tconstruct:shears"
+							level: 1s
+						}
+						{
+							name: "tconstruct:harvest"
+							level: 1s
+						}
+						{
+							name: "tconstruct:hoe_transform_hidden"
+							level: 1s
+						}
+					]
+					tic_materials: [
+						"tconstruct:wood"
+						"tconstruct:wood"
+						"tconstruct:wood"
+					]
+					Damage: 0
+					tic_persistent_data: {
+						abilities: 1
+						upgrades: 3
+					}
+				}
+			}
+			x: -0.5d
+			y: 3.5d
+			subtitle: "Hint: The Kama does the same thing as shears"
+			description: [""]
+			dependencies: ["56E97A975AA3DC42"]
+			id: "0278E32EB04CC5C6"
+			tasks: [
+				{
+					id: "5DEE30B0B169D30F"
+					type: "item"
+					item: {
+						id: "farmersdelight:flint_knife"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "16BF5950C2D5F944"
+					type: "item"
+					item: {
+						id: "tconstruct:pickaxe"
+						Count: 1b
+						tag: {
+							tic_multipliers: { }
+							tic_stats: {
+								"tconstruct:attack_speed": 1.2f
+								"tconstruct:mining_speed": 2.0f
+								"tconstruct:attack_damage": 0.0f
+								"tconstruct:harvest_level": 0.0f
+								"tconstruct:durability": 60.0f
+							}
+							tic_broken: 0b
+							tic_modifiers: [
+								{
+									name: "tconstruct:cultivated"
+									level: 3s
+								}
+								{
+									name: "tconstruct:piercing"
+									level: 1s
+								}
+							]
+							tic_materials: [
+								"tconstruct:wood"
+								"tconstruct:wood"
+								"tconstruct:wood"
+							]
+							Damage: 0
+							tic_persistent_data: {
+								abilities: 1
+								upgrades: 3
+							}
+						}
+					}
+				}
+				{
+					id: "37D658A69EBB4220"
+					type: "item"
+					item: {
+						id: "tconstruct:hand_axe"
+						Count: 1b
+						tag: {
+							tic_multipliers: { }
+							tic_stats: {
+								"tconstruct:attack_speed": 0.9f
+								"tconstruct:mining_speed": 2.0f
+								"tconstruct:attack_damage": 6.0f
+								"tconstruct:harvest_level": 0.0f
+								"tconstruct:durability": 60.0f
+							}
+							tic_broken: 0b
+							tic_modifiers: [
+								{
+									name: "tconstruct:cultivated"
+									level: 3s
+								}
+								{
+									name: "tconstruct:axe_transform_hidden"
+									level: 1s
+								}
+							]
+							tic_materials: [
+								"tconstruct:wood"
+								"tconstruct:wood"
+								"tconstruct:wood"
+							]
+							Damage: 0
+							tic_persistent_data: {
+								abilities: 1
+								upgrades: 3
+							}
+						}
+					}
+				}
+				{
+					id: "192AA2E219D5BF9B"
+					type: "item"
+					item: {
+						id: "tconstruct:mattock"
+						Count: 1b
+						tag: {
+							tic_multipliers: { }
+							tic_stats: {
+								"tconstruct:attack_speed": 1.0f
+								"tconstruct:mining_speed": 2.0f
+								"tconstruct:attack_damage": 1.5f
+								"tconstruct:harvest_level": 0.0f
+								"tconstruct:durability": 60.0f
+							}
+							tic_broken: 0b
+							tic_modifiers: [
+								{
+									name: "tconstruct:cultivated"
+									level: 3s
+								}
+								{
+									name: "tconstruct:knockback"
+									level: 1s
+								}
+								{
+									name: "tconstruct:shovel_transform_hidden"
+									level: 1s
+								}
+							]
+							tic_materials: [
+								"tconstruct:wood"
+								"tconstruct:wood"
+								"tconstruct:wood"
+							]
+							Damage: 0
+							tic_persistent_data: {
+								abilities: 1
+								upgrades: 3
+							}
+						}
+					}
+				}
+				{
+					id: "355176D4ED95E8AE"
+					type: "item"
+					item: {
+						id: "tconstruct:kama"
+						Count: 1b
+						tag: {
+							tic_multipliers: {
+								"tconstruct:attack_damage": 0.75f
+							}
+							tic_stats: {
+								"tconstruct:attack_speed": 1.8f
+								"tconstruct:mining_speed": 2.0f
+								"tconstruct:attack_damage": 0.75f
+								"tconstruct:harvest_level": 0.0f
+								"tconstruct:durability": 60.0f
+							}
+							tic_broken: 0b
+							tic_modifiers: [
+								{
+									name: "tconstruct:cultivated"
+									level: 3s
+								}
+								{
+									name: "tconstruct:shears"
+									level: 1s
+								}
+								{
+									name: "tconstruct:harvest"
+									level: 1s
+								}
+								{
+									name: "tconstruct:hoe_transform_hidden"
+									level: 1s
+								}
+							]
+							tic_materials: [
+								"tconstruct:wood"
+								"tconstruct:wood"
+								"tconstruct:wood"
+							]
+							Damage: 0
+							tic_persistent_data: {
+								abilities: 1
+								upgrades: 3
+							}
+						}
+					}
+				}
+				{
+					id: "1B711D08AB48E57F"
+					type: "item"
+					item: "portablecraftingtable:portable_crafting_table"
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 3.5d
+			subtitle: "I was wanting to make some charcoal for torches"
+			dependencies: ["7FA4EC75FE7DD18F"]
+			id: "2D3E3686AB6C189A"
+			tasks: [{
+				id: "5C3D60E4EA6919D0"
+				type: "item"
+				item: "minecraft:furnace"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 3.0d
+			subtitle: "Even this won't be enough..."
+			dependencies: ["3918C6EFC7C66142"]
+			id: "76D93B6224E95E5E"
+			tasks: [
+				{
+					id: "1F7635BABA17ABFB"
+					type: "item"
+					item: "creategears:gear"
+					count: 128L
+				}
+				{
+					id: "4B4DF76487F4294A"
+					type: "item"
+					item: "creategears:large_gear"
+					count: 64L
+				}
+			]
+			rewards: [{
+				id: "3C9D2F580F6A9DF0"
+				type: "item"
+				item: "create:shaft"
+				count: 16
+			}]
+		}
+		{
+			x: 5.0d
+			y: 0.5d
+			subtitle: "I don't like sand. It's coarse and rough and irritating and it gets everywhere."
+			dependencies: ["178500C6277FCBF9"]
+			id: "30440DDA441F97F1"
+			tasks: [{
+				id: "78FED05F6D0AC786"
+				type: "item"
+				item: "minecraft:sand"
+				count: 17L
+			}]
+		}
+		{
+			x: 6.5d
+			y: 0.5d
+			dependencies: ["30440DDA441F97F1"]
+			id: "26892EFF97231315"
+			tasks: [{
+				id: "44AE2986E69DBA0A"
+				type: "item"
+				item: "minecraft:clay_ball"
+				count: 17L
+			}]
+		}
+		{
+			x: 8.0d
+			y: 0.5d
+			subtitle: "I am Grout!"
+			dependencies: ["26892EFF97231315"]
+			id: "5E3B55BD36933424"
+			tasks: [{
+				id: "5E3C8D56CB8B618A"
+				type: "item"
+				item: "tconstruct:grout"
+				count: 34L
+			}]
+		}
+		{
+			icon: "tconstruct:seared_melter"
+			x: 9.5d
+			y: 0.5d
+			subtitle: "Baby smeltery"
+			dependencies: ["5E3B55BD36933424"]
+			id: "751D638D1156EDC3"
+			tasks: [
+				{
+					id: "71682614BC1590B7"
+					type: "item"
+					item: "tconstruct:seared_melter"
+				}
+				{
+					id: "3C49267FFDFC8500"
+					type: "item"
+					item: "tconstruct:seared_heater"
+				}
+				{
+					id: "0B8D8B6F1365E1B1"
+					type: "item"
+					item: "tconstruct:seared_basin"
+				}
+				{
+					id: "5CB424B241D47362"
+					type: "item"
+					item: "tconstruct:seared_table"
+				}
+				{
+					id: "57A700CF2A5AB169"
+					type: "item"
+					item: "tconstruct:seared_faucet"
+					count: 2L
+				}
+			]
+			rewards: [
+				{
+					id: "2FD557526C354047"
+					type: "item"
+					item: "tconstruct:cast_chest"
+				}
+				{
+					id: "61EAB521B83D76C3"
+					type: "item"
+					item: "tconstruct:nugget_cast"
+				}
+				{
+					id: "4902C61972DB353F"
+					type: "item"
+					item: "tconstruct:repair_kit_cast"
+				}
+			]
+		}
+		{
+			title: "Smeltery"
+			icon: "tconstruct:smeltery_controller"
+			x: 11.0d
+			y: 0.5d
+			subtitle: "This is all you need for the smallest smeltery possible"
+			dependencies: ["751D638D1156EDC3"]
+			id: "1EF5211D9E3FAB47"
+			tasks: [
+				{
+					id: "1801115A5D5DDF3A"
+					type: "item"
+					item: "tconstruct:smeltery_controller"
+				}
+				{
+					id: "7F81C4F8E32CACA3"
+					type: "item"
+					item: "tconstruct:seared_bricks"
+					count: 2L
+				}
+				{
+					id: "63E2B411E9F460F5"
+					type: "item"
+					item: "tconstruct:seared_drain"
+				}
+				{
+					id: "08925F4DCAB0DF9A"
+					type: "item"
+					item: "tconstruct:seared_fuel_tank"
+				}
+			]
+			rewards: [
+				{
+					id: "33387FE347C653F9"
+					type: "item"
+					item: {
+						id: "tconstruct:seared_fuel_tank"
+						Count: 1b
+						tag: {
+							tank: {
+								FluidName: "minecraft:lava"
+								Amount: 450
+							}
+						}
+					}
+				}
+				{
+					id: "4BD00B96E55756B8"
+					type: "item"
+					item: "minecraft:blaze_rod"
+					count: 4
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: -0.5d
+			subtitle: "Deforestation"
+			dependencies: ["5746F7CF48123C1A"]
+			id: "3D2FF815D5C77C83"
+			tasks: [{
+				id: "0E102507767D9DF9"
+				type: "item"
+				item: "minecraft:cobblestone"
+				count: 64L
+			}]
+		}
+		{
+			x: 0.5d
+			y: -2.0d
+			subtitle: "Wait, I have to make this one?"
+			dependencies: ["2BB4F850D7EFFC49"]
+			id: "63A8B30C725FB15D"
+			tasks: [{
+				id: "6E08C016D1366825"
+				type: "item"
+				item: "create:mechanical_mixer"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -2.5d
+			subtitle: "I'm going to need a lot of blaze powder..."
+			dependencies: ["63A8B30C725FB15D"]
+			id: "67CEF9ECCC1458D9"
+			tasks: [{
+				id: "6B5B494FEE23D2D0"
+				type: "item"
+				item: "create:empty_blaze_burner"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -2.5d
+			subtitle: "The journey for lava is almost complete!"
+			dependencies: ["67CEF9ECCC1458D9"]
+			id: "0939791FA48C9D81"
+			tasks: [{
+				id: "1E18EB6D9F83BCD2"
+				type: "item"
+				item: "create:blaze_burner"
+			}]
+			rewards: [{
+				id: "66E074E880AC852B"
+				type: "item"
+				item: "create:blaze_burner"
+				count: 3
+			}]
+		}
+		{
+			x: 5.0d
+			y: -2.5d
+			subtitle: "Hot stuff"
+			dependencies: ["0939791FA48C9D81"]
+			id: "29AE997C1108337A"
+			tasks: [{
+				id: "7E5A693521C0CD61"
+				type: "item"
+				item: "minecraft:lava_bucket"
+			}]
+		}
+		{
+			icon: {
+				id: "minecraft:fishing_rod"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 4.5d
+			y: -1.5d
+			subtitle: "Dedication"
+			dependencies: ["6DEDB3EB51E3C2D0"]
+			id: "0980FC6EFCDFFA5F"
+			tasks: [
+				{
+					id: "525C90C14BB00F64"
+					type: "item"
+					item: {
+						id: "minecraft:fishing_rod"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2CCDB384A33FB622"
+					type: "item"
+					item: "minecraft:cod"
+					count: 128L
+				}
+			]
+			rewards: [{
+				id: "5CF8D11B4C98E293"
+				type: "item"
+				item: "industrialforegoing:marine_fisher"
+			}]
+		}
+		{
+			x: 6.5d
+			y: -2.5d
+			subtitle: "This one's pretty self-explanatory."
+			dependencies: ["29AE997C1108337A"]
+			id: "65C330FA0320D864"
+			tasks: [
+				{
+					id: "7717D51763C70BBC"
+					type: "item"
+					item: "minecraft:obsidian"
+					count: 10L
+				}
+				{
+					id: "640DBEAC84FA7D60"
+					type: "item"
+					item: {
+						id: "minecraft:flint_and_steel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -1.5d
+			subtitle: "A great way to get cobblestone! Well, if you have lava, that is..."
+			dependencies: ["2BB4F850D7EFFC49"]
+			id: "5C0002EC6BAAB2E1"
+			tasks: [{
+				id: "10254C3A25E5FE8C"
+				type: "item"
+				item: "create:mechanical_drill"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -0.5d
+			subtitle: "Item locomotion"
+			dependencies: ["2BB4F850D7EFFC49"]
+			id: "74BAE854E92B611E"
+			tasks: [
+				{
+					id: "601234BC19E99D8F"
+					type: "item"
+					item: "create:belt_connector"
+				}
+				{
+					id: "6053F1D2C299B6A7"
+					type: "item"
+					item: "create:chute"
+				}
+			]
+			rewards: [
+				{
+					id: "660F2D70880D59E4"
+					type: "item"
+					item: "create:belt_connector"
+					count: 16
+				}
+				{
+					id: "0A5E7A684C9E9C16"
+					type: "item"
+					item: {
+						id: "create:filter"
+						Count: 1b
+						tag: {
+							Items: { }
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 0.5d
+			subtitle: "Tired of your magnet stealing items from your machines? Try this!"
+			dependencies: ["2BB4F850D7EFFC49"]
+			id: "091FB2650C03F778"
+			tasks: [{
+				id: "4184EAAB47781CEA"
+				type: "item"
+				item: "create:depot"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 1.5d
+			subtitle: "Polish some of that slag!"
+			dependencies: ["178500C6277FCBF9"]
+			id: "2CF2BF33F7FDE7FB"
+			tasks: [{
+				id: "0BC3F9D36A514465"
+				type: "item"
+				item: "create:crushed_iron_ore"
+				count: 64L
+			}]
+			rewards: [{
+				id: "58D4C46DFBBD2860"
+				type: "item"
+				item: {
+					id: "createaddition:diamond_grit_sandpaper"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+	]
+}

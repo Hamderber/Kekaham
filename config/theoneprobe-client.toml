@@ -51,13 +51,13 @@ showSilverfish = "NOT"
 boxLeftX = -1
 #The distance to the right side of the screen. Use -1 if you don't want to set this
 #Range: -1 ~ 10000
-boxRightX = 5
+boxRightX = -1
 #The distance to the top side of the screen. Use -1 if you don't want to set this
 #Range: -1 ~ 10000
-boxTopY = -1
+boxTopY = 5
 #The distance to the bottom side of the screen. Use -1 if you don't want to set this
 #Range: -1 ~ 10000
-boxBottomY = 5
+boxBottomY = -1
 #Color of the border of the box (0 to disable)
 boxBorderColor = "ff4503d0"
 #Color of the box (0 to disable)

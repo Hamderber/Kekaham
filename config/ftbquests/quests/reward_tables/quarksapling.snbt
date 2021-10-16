@@ -1,0 +1,14 @@
+{
+	id: "09E72FFEFCD2FFCC"
+	order_index: 1
+	title: "QuarkSapling"
+	loot_size: 1
+	rewards: [
+		{ item: "quark:blue_blossom_sapling" }
+		{ item: "quark:lavender_blossom_sapling" }
+		{ item: "quark:pink_blossom_sapling" }
+		{ item: "quark:orange_blossom_sapling" }
+		{ item: "quark:yellow_blossom_sapling" }
+		{ item: "quark:red_blossom_sapling" }
+	]
+}
