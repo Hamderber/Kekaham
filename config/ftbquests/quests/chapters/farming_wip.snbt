@@ -1,0 +1,251 @@
+{
+	id: "6912617D6CDCA52D"
+	group: "3D3B37914924472F"
+	order_index: 1
+	filename: "farming_wip"
+	title: "Farming (WIP)"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			id: "18DD5D04059F4B69"
+			tasks: [{
+				id: "78B6E0B768A4E816"
+				type: "item"
+				item: "minecraft:wheat"
+				count: 64L
+			}]
+			rewards: [{
+				id: "2DFEDF06589DE404"
+				type: "random"
+				table_id: 4333680637599190675L
+			}]
+		}
+		{
+			x: 1.0d
+			y: 0.0d
+			id: "06195E7F3E88E3E3"
+			tasks: [{
+				id: "22103FF0302BF80A"
+				type: "item"
+				item: "minecraft:carrot"
+				count: 64L
+			}]
+			rewards: [{
+				id: "6430D9A0C4D3B55C"
+				type: "random"
+				table_id: 4333680637599190675L
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			id: "3CAAE43C9BA36CD6"
+			tasks: [{
+				id: "7DC38EA2882DF277"
+				type: "item"
+				item: "minecraft:potato"
+				count: 64L
+			}]
+			rewards: [{
+				id: "6699B803E41A0487"
+				type: "random"
+				table_id: 4333680637599190675L
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			id: "16986827713B74B0"
+			tasks: [{
+				id: "7E2EAC52CA91662C"
+				type: "item"
+				item: "minecraft:beetroot"
+				count: 64L
+			}]
+			rewards: [{
+				id: "68EDFB134129B45C"
+				type: "random"
+				table_id: 4333680637599190675L
+			}]
+		}
+		{
+			x: 4.0d
+			y: 0.0d
+			id: "7AF437021F9FC0CA"
+			tasks: [{
+				id: "520B9A2C3EE1EFC3"
+				type: "item"
+				item: "minecraft:melon_slice"
+				count: 64L
+			}]
+			rewards: [{
+				id: "6A3FD102888FC1A6"
+				type: "random"
+				table_id: 4333680637599190675L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.0d
+			id: "49A4216B0C24D14E"
+			tasks: [{
+				id: "5B102ACA2AD44376"
+				type: "item"
+				item: "farmersdelight:rice"
+				count: 64L
+			}]
+			rewards: [{
+				id: "2AEB5C86931697BC"
+				type: "random"
+				table_id: 4333680637599190675L
+			}]
+		}
+		{
+			x: 1.0d
+			y: 1.0d
+			id: "6B683372D5E75C43"
+			tasks: [{
+				id: "7D239F05EE5E597B"
+				type: "item"
+				item: "farmersdelight:onion"
+				count: 64L
+			}]
+			rewards: [{
+				id: "49E51E7D4FC42DF0"
+				type: "random"
+				table_id: 4333680637599190675L
+			}]
+		}
+		{
+			x: 2.0d
+			y: 1.0d
+			id: "0586C41DFAD6DEA2"
+			tasks: [{
+				id: "792C35D704BF3499"
+				type: "item"
+				item: "farmersdelight:tomato"
+				count: 64L
+			}]
+			rewards: [{
+				id: "4D1E521532C61EE2"
+				type: "random"
+				table_id: 4333680637599190675L
+			}]
+		}
+		{
+			x: 4.0d
+			y: 2.0d
+			id: "20A7B6521B6D05B3"
+			tasks: [{
+				id: "11ABD47CDFF73047"
+				type: "item"
+				item: "minecraft:kelp"
+				count: 64L
+			}]
+			rewards: [{
+				id: "65E059A87A206D49"
+				type: "random"
+				table_id: 4333680637599190675L
+			}]
+		}
+		{
+			x: 3.0d
+			y: 1.0d
+			id: "320C782C11919BDA"
+			tasks: [{
+				id: "3370725CC7508BDA"
+				type: "item"
+				item: "farmersdelight:cabbage_leaf"
+				count: 64L
+			}]
+			rewards: [{
+				id: "103406D772F32643"
+				type: "random"
+				table_id: 4333680637599190675L
+			}]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			id: "141DD93D87232ADD"
+			tasks: [{
+				id: "1E1FB9EC39D71080"
+				type: "item"
+				item: "minecraft:bamboo"
+				count: 64L
+			}]
+			rewards: [{
+				id: "20FA26F604705FD6"
+				type: "random"
+				table_id: 4333680637599190675L
+			}]
+		}
+		{
+			x: 1.0d
+			y: 2.0d
+			id: "53CF5D293C59E64F"
+			tasks: [{
+				id: "05B3FB73CC918693"
+				type: "item"
+				item: "minecraft:cactus"
+				count: 64L
+			}]
+			rewards: [{
+				id: "3F8F2BA401A73B69"
+				type: "random"
+				table_id: 4333680637599190675L
+			}]
+		}
+		{
+			x: 2.0d
+			y: 2.0d
+			id: "702FE417D686B603"
+			tasks: [{
+				id: "0ECEA0C1E371FDA1"
+				type: "item"
+				item: "minecraft:sugar_cane"
+				count: 64L
+			}]
+			rewards: [{
+				id: "5A628E51C726D16B"
+				type: "random"
+				table_id: 4333680637599190675L
+			}]
+		}
+		{
+			x: 3.0d
+			y: 2.0d
+			id: "287ADD79807E36FA"
+			tasks: [{
+				id: "5661269593CDCE75"
+				type: "item"
+				item: "minecraft:nether_wart"
+				count: 64L
+			}]
+			rewards: [{
+				id: "3964EB967B4F7137"
+				type: "random"
+				table_id: 4333680637599190675L
+			}]
+		}
+		{
+			x: 4.0d
+			y: 1.0d
+			id: "1696FB3DF25718A4"
+			tasks: [{
+				id: "49DEE0D4489CB1BA"
+				type: "item"
+				item: "farmersdelight:pumpkin_slice"
+				count: 64L
+			}]
+			rewards: [{
+				id: "5643D48EAE2DCD16"
+				type: "random"
+				table_id: 4333680637599190675L
+			}]
+		}
+	]
+}

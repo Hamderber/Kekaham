@@ -206,9 +206,16 @@ onEvent('recipes', event => {
       //event.recipes.createautomated.extracting("minecraft:bedrock",(Item.of('minecraft:clay_ball'),Item.of('3x minecraft:blaze_powder'),Item.of('minecraft:bone_meal'),Item.of('createautomated:cinder_flour_ore_piece'),Item.of('minecraft:redstone'),Item.of('minecraft:gunpowder'),Item.of('minecraft:glowstone_dust'),Item.of('create:powdered_obsidian'))).drillDamage(10).ore(1).requiredProgressSeconds(1,128)
       //The line above doesnt work because the mod doesnt seem to support change of items dropping or multiple items
 
-      //random remove recipies
+      //Tinkers construct (test)
+      //event.recipes.tconstruct.melting.addMeltingRecipe("melting_test", <item:minecraft:black_dye>, <fluid:minecraft:water>, 0, 50)
+
+      //random remove recipies/changes
       event.remove({id:'quark:building/crafting/cobblestone_bricks'})
       event.remove({id:'create:crafting/kinetics/white_sail'})
+      event.remove({id:'minecraft:iron_trapdoor'})
+      event.remove({id:'createaddition:crushing/diamond_ore'})
+      event.shapeless('minecraft:iron_trapdoor', ['4x minecraft:iron_ingot', '#minecraft:wooden_trapdoors'])
+
 
 })
 

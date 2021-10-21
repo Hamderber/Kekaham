@@ -1,0 +1,438 @@
+{
+	id: "3C2453943E168E93"
+	order_index: 4
+	title: "Random Rewards"
+	loot_size: 1
+	rewards: [
+		{ item: "tconstruct:ender_slime_dirt", count: 9 }
+		{ item: "tconstruct:ender_slime_sapling" }
+		{ item: "tconstruct:sky_slime_dirt", count: 9 }
+		{ item: "tconstruct:sky_slime_sapling" }
+		{ item: "tconstruct:earth_slime_dirt", count: 9 }
+		{ item: "tconstruct:earth_slime_sapling" }
+		{
+			item: {
+				id: "minecraft:spawner"
+				Count: 1b
+				tag: {
+					BlockEntityTag: {
+						ignore_players: 0b
+						MaxNearbyEntities: 6s
+						RequiredPlayerRange: 16s
+						ignore_cap: 0b
+						ignore_conditions: 0b
+						SpawnCount: 4s
+						SpawnData: {
+							id: "minecraft:bee"
+						}
+						MaxSpawnDelay: 800s
+						Delay: 580s
+						redstone_control: 0b
+						id: "minecraft:mob_spawner"
+						SpawnRange: 4s
+						MinSpawnDelay: 200s
+						SpawnPotentials: [{
+							Entity: {
+								id: "minecraft:bee"
+							}
+							Weight: 1
+						}]
+					}
+				}
+			}
+		}
+		{ item: "minecraft:villager_spawn_egg" }
+		{ item: "minecraft:string", count: 5 }
+		{ item: "aquaculture:box", count: 3 }
+		{ item: "create:brass_ingot", count: 4 }
+		{ item: "create:zinc_ingot", count: 4 }
+		{ item: "create:copper_ingot", count: 4 }
+		{ item: "minecraft:gold_ingot", count: 4 }
+		{ item: "minecraft:iron_ingot", count: 4 }
+		{ item: "minecraft:grass_block", count: 12 }
+		{ item: "minecraft:dirt", count: 12 }
+		{ item: "minecraft:gravel", count: 12 }
+		{ item: "minecraft:sand", count: 12 }
+		{ item: "minecraft:red_sand", count: 12 }
+		{ item: "minecraft:soul_sand", count: 12 }
+		{ item: "minecraft:sponge" }
+		{ item: "minecraft:llama_spawn_egg", count: 2 }
+		{ item: "minecraft:pig_spawn_egg", count: 2 }
+		{ item: "minecraft:sheep_spawn_egg", count: 2 }
+		{ item: "minecraft:chicken_spawn_egg", count: 2 }
+		{ item: "minecraft:cow_spawn_egg", count: 2 }
+		{ item: "minecraft:horse_spawn_egg", count: 2 }
+		{ item: "minecraft:arrow", count: 32 }
+		{ item: "apotheosis:boss_summoner" }
+		{ item: "apotheosis:hellshelf", count: 2 }
+		{ item: "apotheosis:seashelf", count: 2 }
+		{ item: "apotheosis:heart_seashelf", count: 2 }
+		{ item: "apotheosis:endshelf", count: 2 }
+		{ item: "apotheosis:beeshelf" }
+		{ item: "apotheosis:melonshelf", count: 2 }
+		{
+			item: {
+				id: "quark:ancient_tome"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 5s
+						id: "minecraft:knockback"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "quark:ancient_tome"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 10s
+						id: "minecraft:bane_of_arthropods"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "quark:ancient_tome"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 10s
+						id: "minecraft:smite"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "quark:ancient_tome"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 9s
+						id: "minecraft:sharpness"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "quark:ancient_tome"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 8s
+						id: "minecraft:protection"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "quark:ancient_tome"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 9s
+						id: "minecraft:fire_protection"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "quark:ancient_tome"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 7s
+						id: "minecraft:depth_strider"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "quark:ancient_tome"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 5s
+						id: "minecraft:fire_aspect"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "quark:ancient_tome"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 7s
+						id: "minecraft:looting"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "quark:ancient_tome"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 8s
+						id: "minecraft:sweeping"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "quark:ancient_tome"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 9s
+						id: "minecraft:efficiency"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "quark:ancient_tome"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 8s
+						id: "minecraft:unbreaking"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "quark:ancient_tome"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 7s
+						id: "minecraft:fortune"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "quark:ancient_tome"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 7s
+						id: "minecraft:fortune"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "quark:ancient_tome"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 9s
+						id: "minecraft:power"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "quark:ancient_tome"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 10s
+						id: "minecraft:feather_falling"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "quark:ancient_tome"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 9s
+						id: "minecraft:blast_protection"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "quark:ancient_tome"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 10s
+						id: "minecraft:projectile_protection"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "quark:ancient_tome"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 7s
+						id: "minecraft:respiration"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "quark:ancient_tome"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 7s
+						id: "minecraft:lure"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "quark:ancient_tome"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 7s
+						id: "minecraft:luck_of_the_sea"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "quark:ancient_tome"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 5s
+						id: "minecraft:punch"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "quark:ancient_tome"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 5s
+						id: "minecraft:punch"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "quark:ancient_tome"
+				Count: 1b
+				tag: {
+					StoredEnchantments: [{
+						lvl: 5s
+						id: "minecraft:thorns"
+					}]
+				}
+			}
+		}
+		{ item: "minecraft:anvil" }
+		{ item: "minecraft:enchanting_table" }
+		{ item: "minecraft:bookshelf", count: 3 }
+		{ item: "artifacts:villager_hat" }
+		{ item: "artifacts:thorn_pendant" }
+		{ item: "artifacts:digging_claws" }
+		{ item: "artifacts:bunny_hoppers" }
+		{ item: "artifacts:kitty_slippers" }
+		{ item: "artifacts:feral_claws" }
+		{ item: "artifacts:charm_of_sinking" }
+		{ item: "artifacts:superstitious_hat" }
+		{ item: "artifacts:umbrella" }
+		{ item: "artifacts:everlasting_beef" }
+		{ item: "artifacts:lucky_scarf" }
+		{ item: "artifacts:cloud_in_a_bottle" }
+		{ item: "artifacts:power_glove" }
+		{ item: "artifacts:running_shoes" }
+		{ item: "artifacts:steadfast_spikes" }
+		{ item: "artifacts:fire_gauntlet" }
+		{ item: "artifacts:obsidian_skull" }
+		{ item: "artifacts:scarf_of_invisibility" }
+		{ item: "artifacts:plastic_drinking_hat" }
+		{ item: "artifacts:cross_necklace" }
+		{ item: "artifacts:antidote_vessel" }
+		{ item: "artifacts:flippers" }
+		{ item: "artifacts:whoopee_cushion" }
+		{ item: "artifacts:vampiric_glove" }
+		{ item: "artifacts:panic_necklace" }
+		{ item: "artifacts:novelty_drinking_hat" }
+		{ item: "artifacts:snorkel" }
+		{ item: "artifacts:crystal_heart" }
+		{ item: "artifacts:golden_hook" }
+		{ item: "artifacts:aqua_dashers" }
+		{ item: "artifacts:flame_pendant" }
+		{ item: "artifacts:night_vision_goggles" }
+		{
+			item: {
+				id: "create_stuff_additions:rose_quartz_pickaxe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "create_stuff_additions:rose_quartz_shovel"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "create_stuff_additions:rose_quartz_axe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "create_stuff_additions:rose_quartz_sword"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "minecraft:cod" }
+		{ item: "losttrinkets:treasure_bag", weight: 2 }
+		{ item: "aquaculture:treasure_chest" }
+		{ item: "aquaculture:box", weight: 10 }
+		{ item: "aquaculture:lockbox", weight: 7 }
+	]
+}

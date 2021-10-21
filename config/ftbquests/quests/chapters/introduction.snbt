@@ -4,7 +4,7 @@
 	order_index: 0
 	filename: "introduction"
 	title: "Introduction"
-	icon: "minecraft:book"
+	icon: "minecraft:oak_sapling"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
@@ -73,6 +73,11 @@
 						}
 					}
 				}
+				{
+					id: "27063698689D151A"
+					type: "random"
+					table_id: 4333680637599190675L
+				}
 			]
 		}
 		{
@@ -86,16 +91,24 @@
 				type: "item"
 				item: "minecraft:crafting_table"
 			}]
-			rewards: [{
-				id: "25A5E6AD3821AF44"
-				type: "item"
-				item: "minecraft:oak_sapling"
-				count: 8
-			}]
+			rewards: [
+				{
+					id: "25A5E6AD3821AF44"
+					type: "item"
+					item: "minecraft:oak_sapling"
+					count: 8
+				}
+				{
+					id: "3387457B57FF7FC2"
+					type: "random"
+					table_id: 4333680637599190675L
+				}
+			]
 		}
 		{
 			x: 1.5d
 			y: -1.5d
+			shape: "gear"
 			subtitle: "The majority of resources here can be aquired by washing gravel/sand/leaves. You should start by making a fan and placing it in front of some water."
 			dependencies: ["2BB4F850D7EFFC49"]
 			dependency_requirement: "one_completed"
@@ -116,12 +129,18 @@
 					type: "item"
 					item: "minecraft:sponge"
 				}
+				{
+					id: "2CF0896BB35FA434"
+					type: "random"
+					table_id: 4333680637599190675L
+				}
 			]
 		}
 		{
 			title: "How to get your second water bucket"
 			x: 3.0d
 			y: -1.5d
+			shape: "gear"
 			subtitle: "Use an empty bucket and an encased fan with water infront of it to fill the bucket with water. This is how you can get an infinite water source!"
 			dependencies: ["23F50331D88C494E"]
 			id: "6DEDB3EB51E3C2D0"
@@ -129,12 +148,25 @@
 				id: "4475EB509237C8AA"
 				type: "item"
 				item: "minecraft:water_bucket"
+				count: 2L
 			}]
-			rewards: [{
-				id: "52C3460D5CADA647"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "52C3460D5CADA647"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "740CFBB26038F1C1"
+					type: "item"
+					item: "minecraft:kelp"
+				}
+				{
+					id: "561F7C841A4D0AE8"
+					type: "random"
+					table_id: 4333680637599190675L
+				}
+			]
 		}
 		{
 			x: -0.5d
@@ -147,12 +179,19 @@
 				type: "item"
 				item: "create:mechanical_saw"
 			}]
-			rewards: [{
-				id: "7D08BA27ED085964"
-				type: "item"
-				item: "create:andesite_alloy"
-				count: 4
-			}]
+			rewards: [
+				{
+					id: "7D08BA27ED085964"
+					type: "item"
+					item: "create:andesite_alloy"
+					count: 4
+				}
+				{
+					id: "69AC0E1B4FD3C8F9"
+					type: "random"
+					table_id: 4333680637599190675L
+				}
+			]
 		}
 		{
 			title: "Early rotational force"
@@ -167,12 +206,19 @@
 				type: "checkmark"
 				title: "Trust me, I made a windmill"
 			}]
-			rewards: [{
-				id: "493644AD83731229"
-				type: "item"
-				item: "create:white_sail"
-				count: 4
-			}]
+			rewards: [
+				{
+					id: "493644AD83731229"
+					type: "item"
+					item: "create:white_sail"
+					count: 4
+				}
+				{
+					id: "382F0A637880AF5C"
+					type: "random"
+					table_id: 4333680637599190675L
+				}
+			]
 		}
 		{
 			title: "Salvage the plane"
@@ -201,7 +247,7 @@
 				{
 					id: "5F36E6C9864061BF"
 					type: "item"
-					item: "engineersdecor:dense_grit_dirt_block"
+					item: "createdeco:iron_sheet_slab_vert"
 				}
 				{
 					id: "75537BB082B0BCB6"
@@ -211,12 +257,17 @@
 				{
 					id: "395EF4921049825A"
 					type: "item"
-					item: "create:red_seat"
+					item: "engineersdecor:dense_grit_dirt_block"
 				}
 				{
 					id: "5918A7A7ECE84876"
 					type: "item"
 					item: "create_stuff_additions:nixie_lamp"
+				}
+				{
+					id: "0E61E2F75C0AB9AE"
+					type: "item"
+					item: "create:red_seat"
 				}
 			]
 			rewards: [
@@ -233,6 +284,11 @@
 					title: "Choice reward"
 					icon: "quark:blue_blossom_sapling"
 					table_id: 713591838171398092L
+				}
+				{
+					id: "7E97B45FB8D5CCFE"
+					type: "random"
+					table_id: 4333680637599190675L
 				}
 			]
 		}
@@ -266,6 +322,11 @@
 					item: "minecraft:dirt"
 					count: 12
 				}
+				{
+					id: "2B4E88FE633E9CBC"
+					type: "random"
+					table_id: 4333680637599190675L
+				}
 			]
 		}
 		{
@@ -298,12 +359,19 @@
 				type: "item"
 				item: "create:millstone"
 			}]
-			rewards: [{
-				id: "7176E26AF7180C5E"
-				type: "item"
-				item: "minecraft:sand"
-				count: 8
-			}]
+			rewards: [
+				{
+					id: "7176E26AF7180C5E"
+					type: "item"
+					item: "minecraft:sand"
+					count: 8
+				}
+				{
+					id: "5CA90750FE120C62"
+					type: "random"
+					table_id: 4333680637599190675L
+				}
+			]
 		}
 		{
 			x: 3.5d
@@ -316,6 +384,11 @@
 				type: "item"
 				item: "minecraft:gravel"
 				count: 17L
+			}]
+			rewards: [{
+				id: "1DAA3B6C47A3F218"
+				type: "random"
+				table_id: 4333680637599190675L
 			}]
 		}
 		{
@@ -330,11 +403,18 @@
 				item: "create:white_sail"
 				count: 128L
 			}]
-			rewards: [{
-				id: "7098906C84D7834E"
-				type: "xp"
-				xp: 100
-			}]
+			rewards: [
+				{
+					id: "7098906C84D7834E"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "53B29F31A1C5C2EF"
+					type: "random"
+					table_id: 4333680637599190675L
+				}
+			]
 		}
 		{
 			title: "Tinkers' workstation"
@@ -383,12 +463,19 @@
 					item: "farmersdelight:cutting_board"
 				}
 			]
-			rewards: [{
-				id: "6FB432D2F6A8E641"
-				type: "item"
-				item: "tconstruct:pattern"
-				count: 5
-			}]
+			rewards: [
+				{
+					id: "6FB432D2F6A8E641"
+					type: "item"
+					item: "tconstruct:pattern"
+					count: 5
+				}
+				{
+					id: "145CB1663031C1DA"
+					type: "random"
+					table_id: 4333680637599190675L
+				}
+			]
 		}
 		{
 			title: "Better tools"
@@ -631,6 +718,11 @@
 					item: "portablecraftingtable:portable_crafting_table"
 				}
 			]
+			rewards: [{
+				id: "58B471119713EFE1"
+				type: "random"
+				table_id: 4333680637599190675L
+			}]
 		}
 		{
 			x: 0.5d
@@ -642,6 +734,11 @@
 				id: "5C3D60E4EA6919D0"
 				type: "item"
 				item: "minecraft:furnace"
+			}]
+			rewards: [{
+				id: "183DB0D7541BE9B5"
+				type: "random"
+				table_id: 4333680637599190675L
 			}]
 		}
 		{
@@ -664,12 +761,19 @@
 					count: 64L
 				}
 			]
-			rewards: [{
-				id: "3C9D2F580F6A9DF0"
-				type: "item"
-				item: "create:shaft"
-				count: 16
-			}]
+			rewards: [
+				{
+					id: "3C9D2F580F6A9DF0"
+					type: "item"
+					item: "create:shaft"
+					count: 16
+				}
+				{
+					id: "1D69C757648836AA"
+					type: "random"
+					table_id: 4333680637599190675L
+				}
+			]
 		}
 		{
 			x: 5.0d
@@ -683,6 +787,11 @@
 				item: "minecraft:sand"
 				count: 17L
 			}]
+			rewards: [{
+				id: "5059B07F8729CE44"
+				type: "random"
+				table_id: 4333680637599190675L
+			}]
 		}
 		{
 			x: 6.5d
@@ -694,6 +803,11 @@
 				type: "item"
 				item: "minecraft:clay_ball"
 				count: 17L
+			}]
+			rewards: [{
+				id: "34C65D4C66A7AF40"
+				type: "random"
+				table_id: 4333680637599190675L
 			}]
 		}
 		{
@@ -707,6 +821,11 @@
 				type: "item"
 				item: "tconstruct:grout"
 				count: 34L
+			}]
+			rewards: [{
+				id: "5EE62D68B3492B81"
+				type: "random"
+				table_id: 4333680637599190675L
 			}]
 		}
 		{
@@ -759,6 +878,11 @@
 					id: "4902C61972DB353F"
 					type: "item"
 					item: "tconstruct:repair_kit_cast"
+				}
+				{
+					id: "354471F073F10C72"
+					type: "random"
+					table_id: 4333680637599190675L
 				}
 			]
 		}
@@ -814,6 +938,11 @@
 					item: "minecraft:blaze_rod"
 					count: 4
 				}
+				{
+					id: "39009A9FF6694C81"
+					type: "random"
+					table_id: 4333680637599190675L
+				}
 			]
 		}
 		{
@@ -828,6 +957,11 @@
 				item: "minecraft:cobblestone"
 				count: 64L
 			}]
+			rewards: [{
+				id: "51E16E182CDB65B0"
+				type: "random"
+				table_id: 4333680637599190675L
+			}]
 		}
 		{
 			x: 0.5d
@@ -839,6 +973,11 @@
 				id: "6E08C016D1366825"
 				type: "item"
 				item: "create:mechanical_mixer"
+			}]
+			rewards: [{
+				id: "39F0F20709C8A6F6"
+				type: "random"
+				table_id: 4333680637599190675L
 			}]
 		}
 		{
@@ -852,6 +991,11 @@
 				type: "item"
 				item: "create:empty_blaze_burner"
 			}]
+			rewards: [{
+				id: "190F03DC59BE75CC"
+				type: "random"
+				table_id: 4333680637599190675L
+			}]
 		}
 		{
 			x: 3.5d
@@ -864,12 +1008,19 @@
 				type: "item"
 				item: "create:blaze_burner"
 			}]
-			rewards: [{
-				id: "66E074E880AC852B"
-				type: "item"
-				item: "create:blaze_burner"
-				count: 3
-			}]
+			rewards: [
+				{
+					id: "66E074E880AC852B"
+					type: "item"
+					item: "create:blaze_burner"
+					count: 3
+				}
+				{
+					id: "640E84BF6B35E98C"
+					type: "random"
+					table_id: 4333680637599190675L
+				}
+			]
 		}
 		{
 			x: 5.0d
@@ -881,6 +1032,11 @@
 				id: "7E5A693521C0CD61"
 				type: "item"
 				item: "minecraft:lava_bucket"
+			}]
+			rewards: [{
+				id: "3C86417EEA8DA61C"
+				type: "random"
+				table_id: 4333680637599190675L
 			}]
 		}
 		{
@@ -911,15 +1067,30 @@
 				{
 					id: "2CCDB384A33FB622"
 					type: "item"
-					item: "minecraft:cod"
-					count: 128L
+					title: "32x Fish"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "minecraft:fishes"
+						}
+					}
+					count: 32L
+					consume_items: true
 				}
 			]
-			rewards: [{
-				id: "5CF8D11B4C98E293"
-				type: "item"
-				item: "industrialforegoing:marine_fisher"
-			}]
+			rewards: [
+				{
+					id: "5CF8D11B4C98E293"
+					type: "item"
+					item: "industrialforegoing:marine_fisher"
+				}
+				{
+					id: "15CB46AB816EE75F"
+					type: "random"
+					table_id: 4333680637599190675L
+				}
+			]
 		}
 		{
 			x: 6.5d
@@ -946,6 +1117,11 @@
 					}
 				}
 			]
+			rewards: [{
+				id: "55CAEC12614E610A"
+				type: "random"
+				table_id: 4333680637599190675L
+			}]
 		}
 		{
 			x: -1.5d
@@ -957,6 +1133,11 @@
 				id: "10254C3A25E5FE8C"
 				type: "item"
 				item: "create:mechanical_drill"
+			}]
+			rewards: [{
+				id: "2276476191CFCF10"
+				type: "random"
+				table_id: 4333680637599190675L
 			}]
 		}
 		{
@@ -995,6 +1176,11 @@
 						}
 					}
 				}
+				{
+					id: "10D9540A0A292CD4"
+					type: "random"
+					table_id: 4333680637599190675L
+				}
 			]
 		}
 		{
@@ -1007,6 +1193,11 @@
 				id: "4184EAAB47781CEA"
 				type: "item"
 				item: "create:depot"
+			}]
+			rewards: [{
+				id: "651DC52C0D4B0C28"
+				type: "random"
+				table_id: 4333680637599190675L
 			}]
 		}
 		{
@@ -1021,17 +1212,24 @@
 				item: "create:crushed_iron_ore"
 				count: 64L
 			}]
-			rewards: [{
-				id: "58D4C46DFBBD2860"
-				type: "item"
-				item: {
-					id: "createaddition:diamond_grit_sandpaper"
-					Count: 1b
-					tag: {
-						Damage: 0
+			rewards: [
+				{
+					id: "58D4C46DFBBD2860"
+					type: "item"
+					item: {
+						id: "createaddition:diamond_grit_sandpaper"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
 					}
 				}
-			}]
+				{
+					id: "6A445B70ED3CDF89"
+					type: "random"
+					table_id: 4333680637599190675L
+				}
+			]
 		}
 	]
 }

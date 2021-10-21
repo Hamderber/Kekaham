@@ -4,7 +4,7 @@
 	order_index: 0
 	filename: "start"
 	title: "Modpack information"
-	icon: "minecraft:grass_block"
+	icon: "minecraft:writable_book"
 	default_quest_shape: ""
 	default_hide_dependency_lines: false
 	quests: [
@@ -67,12 +67,19 @@
 				type: "checkmark"
 				title: "Create"
 			}]
-			rewards: [{
-				id: "212B4FEA91DD9226"
-				type: "item"
-				item: "create:iron_sheet"
-				count: 3
-			}]
+			rewards: [
+				{
+					id: "212B4FEA91DD9226"
+					type: "item"
+					item: "create:iron_sheet"
+					count: 3
+				}
+				{
+					id: "1A3B6C61BB672779"
+					type: "item"
+					item: "create:encased_fan"
+				}
+			]
 		}
 		{
 			title: "TwerkItMeal"
@@ -139,6 +146,30 @@
 				id: "22EE8B4B8A6A9183"
 				type: "checkmark"
 				title: "Gravestone Mod"
+			}]
+		}
+		{
+			icon: "quark:berry_sack"
+			x: 1.5d
+			y: 0.0d
+			subtitle: "Sometimes, you may get the wrong items. (Such as pressing too many berries at once and not getting dirt). The sime solution is to use a filter! Place it on the basin and tell Create what you're wanting."
+			dependencies: ["05D6857F88A215EB"]
+			id: "3ADE93BDC75A7959"
+			tasks: [{
+				id: "25CEAB3ABA4238EA"
+				type: "checkmark"
+				title: "Not getting the right items?"
+			}]
+			rewards: [{
+				id: "0581784A7F565866"
+				type: "item"
+				item: {
+					id: "create:filter"
+					Count: 1b
+					tag: {
+						Items: { }
+					}
+				}
 			}]
 		}
 	]

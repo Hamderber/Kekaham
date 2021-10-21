@@ -2,6 +2,6 @@
 onEvent('jei.hide.items', jei => {
 
     jei.hide([
-        'tconstruct:copper_ore'
+        'losttrinkets:warm_void'
     ])
 })

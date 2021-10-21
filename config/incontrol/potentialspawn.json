@@ -1,0 +1,13 @@
+[
+    {
+      "dimension": 0,
+      "mobs": [
+        {
+          "mob": "Pig",
+          "weight": 1000,
+          "groupcountmin": 2,
+          "groupcountmax": 6
+        }
+      ]
+    }
+  ]
