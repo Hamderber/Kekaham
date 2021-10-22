@@ -10,7 +10,7 @@
 	#Generation Settings for copper ore.
 	[world_generation.copper]
 		#Determines if copper ore should be added to world generation.
-		shouldGenerate = true
+		shouldGenerate = false
 		#Chance that copper generates in a chunk.
 		#Range: 1 ~ 128
 		perChunk = 16

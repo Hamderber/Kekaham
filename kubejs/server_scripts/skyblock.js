@@ -215,7 +215,21 @@ onEvent('recipes', event => {
       event.remove({id:'minecraft:iron_trapdoor'})
       event.remove({id:'createaddition:crushing/diamond_ore'})
       event.shapeless('minecraft:iron_trapdoor', ['4x minecraft:iron_ingot', '#minecraft:wooden_trapdoors'])
+     /* event.remove({id:'mekanism:ingot_copper'})
+      event.remove({id:'mekanism:nugget_copper'})
+      event.remove({id:'tconstruct:copper_ingot'})
+      event.remove({id:'tconstruct:copper_block'})
+      event.remove({id:'tconstruct:copper_nugget'})
+      event.remove({id:'mekanism:block_copper'})*/
 
+      //unification
+     /* event.remove({output: 'immersiveengineering:nugget_copper'})
+      event.remove({output: 'immersiveengineering:ingot_copper'})
+      event.remove({output: 'immersiveengineering:storage_copper'})
+      event.remove({output: 'immersiveengineering:slab_storage_copper'})
+      event.remove({output: 'immersiveengineering:plate_copper'})
+      event.remove({output: 'immersiveengineering:stick_copper'})
+      event.remove({output: 'immersiveengineering:dust_copper'})*/
 
 })
 

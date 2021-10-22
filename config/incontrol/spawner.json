@@ -1,1 +1,87 @@
-[]
+[ 
+    {
+    "mob": "minecraft:pig",
+    "persecond": 0.0525,
+    "attempts": 5,
+    "amount": {
+      "minimum": 2,
+      "maximum": 5
+    },
+    "conditions": {
+        "dimension": "minecraft:overworld",
+        "mindist": 5,
+                        "maxdist": 50,
+                        "minheight": 1,
+                        "maxheight": 255,
+                        "maxnear": 15
+    }
+    },
+    {
+        "mob": "minecraft:cow",
+        "persecond": 0.0525,
+        "attempts": 5,
+        "amount": {
+          "minimum": 2,
+          "maximum": 5
+        },
+        "conditions": {
+            "dimension": "minecraft:overworld",
+            "mindist": 5,
+                        "maxdist": 50,
+                        "minheight": 1,
+                        "maxheight": 255,
+                        "maxnear": 15
+        }
+        },
+        {
+            "mob": "minecraft:chicken",
+            "persecond": 0.0525,
+            "attempts": 5,
+            "amount": {
+              "minimum": 2,
+              "maximum": 5
+            },
+            "conditions": {
+                "dimension": "minecraft:overworld",
+                "mindist": 5,
+                        "maxdist": 50,
+                        "minheight": 1,
+                        "maxheight": 255,
+                        "maxnear": 15
+            }
+            },
+            {
+                "mob": "minecraft:sheep",
+                "persecond": 0.0525,
+                "attempts": 5,
+                "amount": {
+                  "minimum": 2,
+                  "maximum": 5
+                },
+                "conditions": {
+                    "dimension": "minecraft:overworld",
+                    "mindist": 5,
+                        "maxdist": 50,
+                        "minheight": 1,
+                        "maxheight": 255,
+                        "maxnear": 15
+                }
+                },
+                {
+                    "mob": "minecraft:rabbit",
+                    "persecond": 0.05,
+                    "attempts": 5,
+                    "amount": {
+                      "minimum": 2,
+                      "maximum": 5
+                    },
+                    "conditions": {
+                        "dimension": "minecraft:overworld",
+                        "mindist": 5,
+                        "maxdist": 50,
+                        "minheight": 1,
+                        "maxheight": 255,
+                        "maxnear": 15
+                    }
+                    }
+]
