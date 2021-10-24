@@ -1,1 +1,12 @@
-[]
+[
+    {
+      "mob": ["minecraft:pig", "minecraft:cow", "minecraft:chicken", "minecraft:sheep", "minecraft:rabbit"],
+      "block": ["minecraft:grass_block", "minecraft:podzol", "minecraft:dirt"],
+      "result": "allow"
+    },
+    {
+      "result": "deny"
+    }
+  ]
+
+    

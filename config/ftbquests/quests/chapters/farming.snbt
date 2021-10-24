@@ -1,6 +1,6 @@
 {
 	id: "73FF54D9B892F300"
-	group: ""
+	group: "3D3B37914924472F"
 	order_index: 1
 	filename: "farming"
 	title: "Basic Agriculture"
@@ -22,50 +22,14 @@
 				item: "minecraft:oak_sapling"
 				count: 16L
 			}]
-			rewards: [{
-				id: "504D41EA5BBDEDA4"
-				type: "item"
-				item: "quark:berry_sack"
-			}]
-		}
-		{
-			title: "Un-berry-ble"
-			x: 1.0d
-			y: -0.5d
-			shape: "hexagon"
-			subtitle: "Make a mountain on the hopes and dreams of sweet berries. Sweet no longer :)"
-			dependencies: ["5237D351831EB3B1"]
-			hide: true
-			id: "64FC6EAA6FCCDD17"
-			tasks: [
-				{
-					id: "169905713D9AF658"
-					type: "item"
-					item: "minecraft:sweet_berries"
-					count: 64L
-				}
-				{
-					id: "1196F6163E2B14A4"
-					type: "item"
-					item: "minecraft:sweet_berries"
-					count: 64L
-				}
-				{
-					id: "4CF18679514F68C5"
-					type: "item"
-					item: "minecraft:sweet_berries"
-					count: 64L
-				}
-			]
 			rewards: [
 				{
-					id: "5AE9817FEC345A8D"
+					id: "504D41EA5BBDEDA4"
 					type: "item"
-					item: "minecraft:wheat_seeds"
-					count: 9
+					item: "quark:berry_sack"
 				}
 				{
-					id: "6AC9B1D3F9CCEBAA"
+					id: "051170A1589804A2"
 					type: "item"
 					item: {
 						id: "minecraft:chest"
@@ -80,6 +44,36 @@
 							}
 						}
 					}
+					count: 2
+				}
+			]
+		}
+		{
+			title: "Un-berry-ble"
+			x: 1.0d
+			y: -0.5d
+			shape: "hexagon"
+			subtitle: "Make a mountain on the crushed hopes and dreams of sweet berries. Sweet no longer. :)"
+			dependencies: ["5237D351831EB3B1"]
+			hide: true
+			id: "64FC6EAA6FCCDD17"
+			tasks: [{
+				id: "169905713D9AF658"
+				type: "item"
+				item: "quark:berry_sack"
+				count: 16L
+			}]
+			rewards: [
+				{
+					id: "5AE9817FEC345A8D"
+					type: "item"
+					item: "minecraft:wheat_seeds"
+					count: 9
+				}
+				{
+					id: "2F833F1C8E697393"
+					type: "loot"
+					table_id: 4333680637599190675L
 				}
 			]
 		}
@@ -88,7 +82,7 @@
 			x: 3.5d
 			y: -0.5d
 			shape: "hexagon"
-			subtitle: "Does the breadwinner want a cookie? :V"
+			subtitle: "Does the breadwinner want a cookie? :V (Hint: Plant a wheat field and run in circles!)"
 			dependencies: ["64FC6EAA6FCCDD17"]
 			hide: true
 			id: "329EBFA423663C25"
@@ -96,7 +90,7 @@
 				id: "20EFCBC656BFE656"
 				type: "item"
 				item: "minecraft:hay_block"
-				count: 9L
+				count: 16L
 			}]
 			rewards: [
 				{
@@ -126,102 +120,33 @@
 			dependencies: ["3D44035BDB71744C"]
 			hide: true
 			id: "5F4616283E7D701B"
-			tasks: [{
-				id: "42C20F166798E6AA"
-				type: "item"
-				item: "farmersdelight:honey_cookie"
-				count: 64L
-			}]
+			tasks: [
+				{
+					id: "116E770285B6EBCC"
+					type: "kill"
+					title: "Zombie Hunter"
+					entity: "minecraft:zombie"
+					value: 9L
+				}
+				{
+					id: "4A995C7A331398EC"
+					type: "advancement"
+					advancement: "minecraft:adventure/sleep_in_bed"
+					criterion: ""
+				}
+			]
 			rewards: [
 				{
-					id: "153425DDA7056284"
+					id: "37F2CD01DD3EF8B7"
 					type: "item"
-					title: "Zombie Spawner"
-					item: {
-						id: "mekanism:cardboard_box"
-						Count: 1b
-						tag: {
-							mekData: {
-								data: {
-									tileTag: {
-										MaxNearbyEntities: 6s
-										RequiredPlayerRange: 16s
-										SpawnCount: 4s
-										SpawnData: {
-											id: "minecraft:zombie"
-										}
-										MaxSpawnDelay: 800s
-										Delay: 0s
-										x: 8
-										y: 67
-										z: 14
-										id: "minecraft:mob_spawner"
-										SpawnRange: 4s
-										MinSpawnDelay: 200s
-										SpawnPotentials: [{
-											Entity: {
-												id: "minecraft:zombie"
-											}
-											Weight: 1
-										}]
-									}
-									blockState: {
-										Name: "minecraft:spawner"
-									}
-								}
-							}
-						}
-					}
+					item: "farmersdelight:honey_cookie"
+					count: 16
 				}
 				{
-					id: "4B8980AE724FF1A3"
+					id: "2BA65F47AF014639"
 					type: "item"
-					item: "minecraft:red_bed"
-				}
-				{
-					id: "2CA74E71DEA6611A"
-					type: "random"
-					table_id: 7819856420847337548L
-				}
-				{
-					id: "2DF8910E1BD887DD"
-					type: "item"
-					title: "Sheep Spawner"
-					item: {
-						id: "mekanism:cardboard_box"
-						Count: 1b
-						tag: {
-							mekData: {
-								data: {
-									tileTag: {
-										MaxNearbyEntities: 6s
-										RequiredPlayerRange: 16s
-										SpawnCount: 4s
-										SpawnData: {
-											id: "minecraft:sheep"
-										}
-										MaxSpawnDelay: 800s
-										Delay: 0s
-										x: 2
-										y: 69
-										z: 13
-										id: "minecraft:mob_spawner"
-										SpawnRange: 4s
-										MinSpawnDelay: 200s
-										SpawnPotentials: [{
-											Entity: {
-												id: "minecraft:sheep"
-											}
-											Weight: 1
-										}]
-									}
-									blockState: {
-										Name: "minecraft:spawner"
-									}
-								}
-							}
-						}
-					}
+					item: "minecraft:milk_bucket"
+					count: 2
 				}
 			]
 		}
@@ -238,7 +163,7 @@
 				id: "4268CD904423BB57"
 				type: "item"
 				item: "farmersdelight:wheat_dough"
-				count: 9L
+				count: 64L
 			}]
 			rewards: [
 				{
@@ -247,14 +172,9 @@
 					item: "farmersdelight:honey_cookie"
 				}
 				{
-					id: "26716DC9D48BF526"
-					type: "item"
-					item: "minecraft:grass_block"
-				}
-				{
-					id: "1099A49C85097719"
-					type: "random"
-					table_id: 7819856420847337548L
+					id: "65DC6BA2B2478C1E"
+					type: "loot"
+					table_id: 4333680637599190675L
 				}
 			]
 		}
@@ -273,9 +193,13 @@
 			}]
 			rewards: [
 				{
-					id: "27DBBAB201E5CE3C"
+					id: "1FE501233FFF90DF"
 					type: "item"
-					title: "Bees!"
+					item: "minecraft:campfire"
+				}
+				{
+					id: "255ADB1F3A59F3E5"
+					type: "item"
 					item: {
 						id: "mekanism:cardboard_box"
 						Count: 1b
@@ -284,13 +208,13 @@
 								data: {
 									tileTag: {
 										FlowerPos: {
-											X: 6
-											Y: 71
-											Z: 1
+											X: 3
+											Y: 69
+											Z: 23
 										}
-										x: 7
-										y: 70
-										z: 0
+										x: 2
+										y: 69
+										z: 24
 										id: "minecraft:beehive"
 										Bees: [
 											{
@@ -302,9 +226,9 @@
 													HurtByTimestamp: 0
 													ForgeData: { }
 													FlowerPos: {
-														X: 8
-														Y: 71
-														Z: 1
+														X: 3
+														Y: 69
+														Z: 23
 													}
 													HasStung: 0b
 													Attributes: [
@@ -321,12 +245,12 @@
 															Modifiers: [{
 																Operation: 1
 																UUID: [I;
-																	-1795903370
-																	1230196114
-																	-1939392598
-																	1700891018
+																	-1123892945
+																	-1332130412
+																	-1951094740
+																	294346050
 																]
-																Amount: -0.03299250652000514d
+																Amount: 0.051336389974624336d
 																Name: "Random spawn bonus"
 															}]
 															Name: "minecraft:generic.follow_range"
@@ -342,14 +266,30 @@
 													CanUpdate: 1b
 													DeathTime: 0s
 													BoundingBox: [
-														8.300000011920927d
-														71.608374517922d
-														1.300000011920929d
-														9.0d
-														72.20837454176386d
-														2.0d
+														3.3000000119209307d
+														69.48504147401658d
+														23.0d
+														4.0d
+														70.08504149785844d
+														23.69999998807907d
 													]
 													ForgeCaps: {
+														"hats:capability_hat": {
+															hsbH: 0.0f
+															partCount: 0
+															clrR: 0.0f
+															count: 0
+															isNew: 0b
+															hsbS: 0.0f
+															clrG: 0.0f
+															isShowing: 0b
+															enchanted: 0b
+															clrA: 0.0f
+															clrB: 0.0f
+															name: ""
+															hsbB: 0.0f
+															isFavourite: 0b
+														}
 														"mekanism:radiation": {
 															radiation: "1.0E-7d"
 														}
@@ -366,16 +306,16 @@
 													AngerTime: 0
 													Motion: [
 														0.0d
-														0.015657101349614552d
+														0.0d
 														0.0d
 													]
 													Health: 10.0f
 													HasNectar: 1b
-													LeftHanded: 1b
+													LeftHanded: 0b
 													Air: 300s
 													OnGround: 0b
 													Rotation: [
-														322.8673f
+														156.08456f
 														0.0f
 													]
 													HandItems: [
@@ -389,9 +329,9 @@
 														0.085f
 													]
 													Pos: [
-														8.650000005960464d
-														71.608374517922d
-														1.6500000059604645d
+														3.6500000059604654d
+														69.48504147401658d
+														23.349999994039536d
 													]
 													Fire: -1s
 													ArmorItems: [
@@ -403,14 +343,20 @@
 													CropsGrownSincePollination: 0
 													CanPickUpLoot: 0b
 													HurtTime: 0s
+													LoveCause: [I;
+														-598230479
+														-86094139
+														-1534282147
+														-880597495
+													]
 													HivePos: {
-														X: 7
-														Y: 70
-														Z: 0
+														X: 2
+														Y: 69
+														Z: 24
 													}
 												}
 												MinOccupationTicks: 2400
-												TicksInHive: 1051
+												TicksInHive: 2146
 											}
 											{
 												EntityData: {
@@ -421,9 +367,9 @@
 													HurtByTimestamp: 0
 													ForgeData: { }
 													FlowerPos: {
-														X: 6
-														Y: 71
-														Z: 1
+														X: 3
+														Y: 69
+														Z: 25
 													}
 													HasStung: 0b
 													Attributes: [
@@ -440,12 +386,12 @@
 															Modifiers: [{
 																Operation: 1
 																UUID: [I;
-																	1443326794
-																	-638825574
-																	-1361274143
-																	1472298206
+																	-1288459548
+																	1072909120
+																	-1768307715
+																	-1814174930
 																]
-																Amount: -0.011572012109058276d
+																Amount: -0.004062525322079755d
 																Name: "Random spawn bonus"
 															}]
 															Name: "minecraft:generic.follow_range"
@@ -461,14 +407,165 @@
 													CanUpdate: 1b
 													DeathTime: 0s
 													BoundingBox: [
-														6.34051949256912d
-														71.58400798405304d
-														1.3000000119209296d
-														7.040519480648191d
-														72.1840080078949d
-														2.0d
+														3.3000000119209263d
+														69.6300800032511d
+														25.0074162596821d
+														4.0d
+														70.23008002709295d
+														25.70741624776117d
 													]
 													ForgeCaps: {
+														"hats:capability_hat": {
+															hsbH: 0.0f
+															partCount: 0
+															clrR: 0.0f
+															count: 0
+															isNew: 0b
+															hsbS: 0.0f
+															clrG: 0.0f
+															isShowing: 0b
+															enchanted: 0b
+															clrA: 0.0f
+															clrB: 0.0f
+															name: ""
+															hsbB: 0.0f
+															isFavourite: 0b
+														}
+														"mekanism:radiation": {
+															radiation: "1.0E-7d"
+														}
+													}
+													HandDropChances: [
+														0.085f
+														0.085f
+													]
+													CannotEnterHiveTicks: 0
+													PersistenceRequired: 0b
+													id: "minecraft:bee"
+													Age: 0
+													TicksSincePollination: 0
+													AngerTime: 0
+													Motion: [
+														0.0d
+														0.0d
+														0.0d
+													]
+													Health: 10.0f
+													HasNectar: 1b
+													LeftHanded: 0b
+													Air: 300s
+													OnGround: 0b
+													Rotation: [
+														270.00073f
+														0.0f
+													]
+													HandItems: [
+														{ }
+														{ }
+													]
+													ArmorDropChances: [
+														0.085f
+														0.085f
+														0.085f
+														0.085f
+													]
+													Pos: [
+														3.650000005960463d
+														69.6300800032511d
+														25.357416253721635d
+													]
+													Fire: -1s
+													ArmorItems: [
+														{ }
+														{ }
+														{ }
+														{ }
+													]
+													CropsGrownSincePollination: 0
+													CanPickUpLoot: 0b
+													HurtTime: 0s
+													HivePos: {
+														X: 2
+														Y: 69
+														Z: 24
+													}
+												}
+												MinOccupationTicks: 2400
+												TicksInHive: 2116
+											}
+											{
+												EntityData: {
+													NoGravity: 1b
+													Brain: {
+														memories: { }
+													}
+													HurtByTimestamp: 0
+													ForgeData: { }
+													FlowerPos: {
+														X: 3
+														Y: 69
+														Z: 23
+													}
+													HasStung: 0b
+													Attributes: [
+														{
+															Base: 0.30000001192092896d
+															Name: "minecraft:generic.movement_speed"
+														}
+														{
+															Base: 0.08d
+															Name: "forge:entity_gravity"
+														}
+														{
+															Base: 48.0d
+															Modifiers: [{
+																Operation: 1
+																UUID: [I;
+																	-1597094497
+																	-1016051274
+																	-1487410501
+																	-1342024762
+																]
+																Amount: -0.002430313919620117d
+																Name: "Random spawn bonus"
+															}]
+															Name: "minecraft:generic.follow_range"
+														}
+													]
+													Invulnerable: 0b
+													FallFlying: 0b
+													ForcedAge: 0
+													PortalCooldown: 0
+													AbsorptionAmount: 0.0f
+													FallDistance: 0.0f
+													InLove: 0
+													CanUpdate: 1b
+													DeathTime: 0s
+													BoundingBox: [
+														3.300000011920929d
+														69.61519055100896d
+														23.0d
+														4.0d
+														70.21519057485082d
+														23.69999998807907d
+													]
+													ForgeCaps: {
+														"hats:capability_hat": {
+															hsbH: 0.0f
+															partCount: 0
+															clrR: 0.0f
+															count: 0
+															isNew: 0b
+															hsbS: 0.0f
+															clrG: 0.0f
+															isShowing: 0b
+															enchanted: 0b
+															clrA: 0.0f
+															clrB: 0.0f
+															name: ""
+															hsbB: 0.0f
+															isFavourite: 0b
+														}
 														"mekanism:radiation": {
 															radiation: 0.0d
 														}
@@ -485,7 +582,7 @@
 													AngerTime: 0
 													Motion: [
 														0.0d
-														-0.007986686926668016d
+														0.019377639848394978d
 														0.0d
 													]
 													Health: 10.0f
@@ -494,7 +591,7 @@
 													Air: 300s
 													OnGround: 0b
 													Rotation: [
-														0.08547211f
+														224.31577f
 														0.0f
 													]
 													HandItems: [
@@ -508,9 +605,9 @@
 														0.085f
 													]
 													Pos: [
-														6.690519486608656d
-														71.58400798405304d
-														1.650000005960465d
+														3.6500000059604645d
+														69.61519055100896d
+														23.349999994039536d
 													]
 													Fire: -1s
 													ArmorItems: [
@@ -523,37 +620,31 @@
 													CanPickUpLoot: 0b
 													HurtTime: 0s
 													HivePos: {
-														X: 7
-														Y: 70
-														Z: 0
+														X: 2
+														Y: 69
+														Z: 24
 													}
 												}
 												MinOccupationTicks: 2400
-												TicksInHive: 1038
+												TicksInHive: 1884
 											}
 										]
 									}
 									blockState: {
 										Properties: {
-											facing: "east"
+											facing: "north"
 											honey_level: "0"
 										}
 										Name: "minecraft:bee_nest"
 									}
 								}
 							}
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Bees\"}"
+							}
 						}
 					}
-				}
-				{
-					id: "1FE501233FFF90DF"
-					type: "item"
-					item: "minecraft:campfire"
-				}
-				{
-					id: "66681ED38EE046BE"
-					type: "random"
-					table_id: 7819856420847337548L
 				}
 			]
 		}
@@ -569,13 +660,25 @@
 			tasks: [{
 				id: "273750A32F982955"
 				type: "checkmark"
-				title: "Are the bees safe?"
+				title: "...well?"
 			}]
-			rewards: [{
-				id: "23ED7945049093D4"
-				type: "random"
-				table_id: 7819856420847337548L
-			}]
+			rewards: [
+				{
+					id: "23ED7945049093D4"
+					type: "random"
+					table_id: 7819856420847337548L
+				}
+				{
+					id: "2CBF69D1A3DF46D3"
+					type: "loot"
+					table_id: 7819856420847337548L
+				}
+				{
+					id: "1D4A8948D64E21DF"
+					type: "loot"
+					table_id: 7819856420847337548L
+				}
+			]
 		}
 		{
 			title: "Are the bees safe?"
@@ -589,13 +692,25 @@
 			tasks: [{
 				id: "219A019915F4ACAC"
 				type: "checkmark"
-				title: "Forevermore"
+				title: "pls don't hurt them ;("
 			}]
-			rewards: [{
-				id: "3C3CE101068CC9FE"
-				type: "random"
-				table_id: 7819856420847337548L
-			}]
+			rewards: [
+				{
+					id: "3C3CE101068CC9FE"
+					type: "random"
+					table_id: 7819856420847337548L
+				}
+				{
+					id: "3F88721497E31315"
+					type: "loot"
+					table_id: 7819856420847337548L
+				}
+				{
+					id: "382CF1CE81A5FAEB"
+					type: "loot"
+					table_id: 7819856420847337548L
+				}
+			]
 		}
 		{
 			title: "You've lost them, haven't you??"
@@ -609,13 +724,25 @@
 			tasks: [{
 				id: "7A974C04DDE89E76"
 				type: "checkmark"
-				title: "You made them safe, right??"
+				title: "i cri"
 			}]
-			rewards: [{
-				id: "1F0F003430C20AC3"
-				type: "random"
-				table_id: 7819856420847337548L
-			}]
+			rewards: [
+				{
+					id: "1F0F003430C20AC3"
+					type: "random"
+					table_id: 7819856420847337548L
+				}
+				{
+					id: "7BF548AFC73A05AF"
+					type: "loot"
+					table_id: 7819856420847337548L
+				}
+				{
+					id: "60A18BC57DF1E651"
+					type: "loot"
+					table_id: 7819856420847337548L
+				}
+			]
 		}
 		{
 			title: "You MONSTER!!!"
@@ -629,13 +756,17 @@
 			tasks: [{
 				id: "1CB1CC72C143970B"
 				type: "checkmark"
-				title: "You've lost them, haven't you??"
+				title: "big sad ;((("
 			}]
 			rewards: [
 				{
-					id: "7EA2EE740076D147"
+					id: "4E277CEA6C4DD9EB"
 					type: "item"
-					title: "Bees! (NEW)"
+					item: "minecraft:campfire"
+				}
+				{
+					id: "1177D792FF83A825"
+					type: "item"
 					item: {
 						id: "mekanism:cardboard_box"
 						Count: 1b
@@ -644,13 +775,13 @@
 								data: {
 									tileTag: {
 										FlowerPos: {
-											X: 6
-											Y: 71
-											Z: 1
+											X: 3
+											Y: 69
+											Z: 23
 										}
-										x: 7
-										y: 70
-										z: 0
+										x: 2
+										y: 69
+										z: 24
 										id: "minecraft:beehive"
 										Bees: [
 											{
@@ -662,9 +793,9 @@
 													HurtByTimestamp: 0
 													ForgeData: { }
 													FlowerPos: {
-														X: 8
-														Y: 71
-														Z: 1
+														X: 3
+														Y: 69
+														Z: 23
 													}
 													HasStung: 0b
 													Attributes: [
@@ -681,12 +812,12 @@
 															Modifiers: [{
 																Operation: 1
 																UUID: [I;
-																	-1795903370
-																	1230196114
-																	-1939392598
-																	1700891018
+																	-1123892945
+																	-1332130412
+																	-1951094740
+																	294346050
 																]
-																Amount: -0.03299250652000514d
+																Amount: 0.051336389974624336d
 																Name: "Random spawn bonus"
 															}]
 															Name: "minecraft:generic.follow_range"
@@ -702,14 +833,30 @@
 													CanUpdate: 1b
 													DeathTime: 0s
 													BoundingBox: [
-														8.300000011920927d
-														71.608374517922d
-														1.300000011920929d
-														9.0d
-														72.20837454176386d
-														2.0d
+														3.3000000119209307d
+														69.48504147401658d
+														23.0d
+														4.0d
+														70.08504149785844d
+														23.69999998807907d
 													]
 													ForgeCaps: {
+														"hats:capability_hat": {
+															hsbH: 0.0f
+															partCount: 0
+															clrR: 0.0f
+															count: 0
+															isNew: 0b
+															hsbS: 0.0f
+															clrG: 0.0f
+															isShowing: 0b
+															enchanted: 0b
+															clrA: 0.0f
+															clrB: 0.0f
+															name: ""
+															hsbB: 0.0f
+															isFavourite: 0b
+														}
 														"mekanism:radiation": {
 															radiation: "1.0E-7d"
 														}
@@ -726,16 +873,16 @@
 													AngerTime: 0
 													Motion: [
 														0.0d
-														0.015657101349614552d
+														0.0d
 														0.0d
 													]
 													Health: 10.0f
 													HasNectar: 1b
-													LeftHanded: 1b
+													LeftHanded: 0b
 													Air: 300s
 													OnGround: 0b
 													Rotation: [
-														322.8673f
+														156.08456f
 														0.0f
 													]
 													HandItems: [
@@ -749,9 +896,9 @@
 														0.085f
 													]
 													Pos: [
-														8.650000005960464d
-														71.608374517922d
-														1.6500000059604645d
+														3.6500000059604654d
+														69.48504147401658d
+														23.349999994039536d
 													]
 													Fire: -1s
 													ArmorItems: [
@@ -763,14 +910,20 @@
 													CropsGrownSincePollination: 0
 													CanPickUpLoot: 0b
 													HurtTime: 0s
+													LoveCause: [I;
+														-598230479
+														-86094139
+														-1534282147
+														-880597495
+													]
 													HivePos: {
-														X: 7
-														Y: 70
-														Z: 0
+														X: 2
+														Y: 69
+														Z: 24
 													}
 												}
 												MinOccupationTicks: 2400
-												TicksInHive: 1051
+												TicksInHive: 2146
 											}
 											{
 												EntityData: {
@@ -781,9 +934,9 @@
 													HurtByTimestamp: 0
 													ForgeData: { }
 													FlowerPos: {
-														X: 6
-														Y: 71
-														Z: 1
+														X: 3
+														Y: 69
+														Z: 25
 													}
 													HasStung: 0b
 													Attributes: [
@@ -800,12 +953,12 @@
 															Modifiers: [{
 																Operation: 1
 																UUID: [I;
-																	1443326794
-																	-638825574
-																	-1361274143
-																	1472298206
+																	-1288459548
+																	1072909120
+																	-1768307715
+																	-1814174930
 																]
-																Amount: -0.011572012109058276d
+																Amount: -0.004062525322079755d
 																Name: "Random spawn bonus"
 															}]
 															Name: "minecraft:generic.follow_range"
@@ -821,14 +974,165 @@
 													CanUpdate: 1b
 													DeathTime: 0s
 													BoundingBox: [
-														6.34051949256912d
-														71.58400798405304d
-														1.3000000119209296d
-														7.040519480648191d
-														72.1840080078949d
-														2.0d
+														3.3000000119209263d
+														69.6300800032511d
+														25.0074162596821d
+														4.0d
+														70.23008002709295d
+														25.70741624776117d
 													]
 													ForgeCaps: {
+														"hats:capability_hat": {
+															hsbH: 0.0f
+															partCount: 0
+															clrR: 0.0f
+															count: 0
+															isNew: 0b
+															hsbS: 0.0f
+															clrG: 0.0f
+															isShowing: 0b
+															enchanted: 0b
+															clrA: 0.0f
+															clrB: 0.0f
+															name: ""
+															hsbB: 0.0f
+															isFavourite: 0b
+														}
+														"mekanism:radiation": {
+															radiation: "1.0E-7d"
+														}
+													}
+													HandDropChances: [
+														0.085f
+														0.085f
+													]
+													CannotEnterHiveTicks: 0
+													PersistenceRequired: 0b
+													id: "minecraft:bee"
+													Age: 0
+													TicksSincePollination: 0
+													AngerTime: 0
+													Motion: [
+														0.0d
+														0.0d
+														0.0d
+													]
+													Health: 10.0f
+													HasNectar: 1b
+													LeftHanded: 0b
+													Air: 300s
+													OnGround: 0b
+													Rotation: [
+														270.00073f
+														0.0f
+													]
+													HandItems: [
+														{ }
+														{ }
+													]
+													ArmorDropChances: [
+														0.085f
+														0.085f
+														0.085f
+														0.085f
+													]
+													Pos: [
+														3.650000005960463d
+														69.6300800032511d
+														25.357416253721635d
+													]
+													Fire: -1s
+													ArmorItems: [
+														{ }
+														{ }
+														{ }
+														{ }
+													]
+													CropsGrownSincePollination: 0
+													CanPickUpLoot: 0b
+													HurtTime: 0s
+													HivePos: {
+														X: 2
+														Y: 69
+														Z: 24
+													}
+												}
+												MinOccupationTicks: 2400
+												TicksInHive: 2116
+											}
+											{
+												EntityData: {
+													NoGravity: 1b
+													Brain: {
+														memories: { }
+													}
+													HurtByTimestamp: 0
+													ForgeData: { }
+													FlowerPos: {
+														X: 3
+														Y: 69
+														Z: 23
+													}
+													HasStung: 0b
+													Attributes: [
+														{
+															Base: 0.30000001192092896d
+															Name: "minecraft:generic.movement_speed"
+														}
+														{
+															Base: 0.08d
+															Name: "forge:entity_gravity"
+														}
+														{
+															Base: 48.0d
+															Modifiers: [{
+																Operation: 1
+																UUID: [I;
+																	-1597094497
+																	-1016051274
+																	-1487410501
+																	-1342024762
+																]
+																Amount: -0.002430313919620117d
+																Name: "Random spawn bonus"
+															}]
+															Name: "minecraft:generic.follow_range"
+														}
+													]
+													Invulnerable: 0b
+													FallFlying: 0b
+													ForcedAge: 0
+													PortalCooldown: 0
+													AbsorptionAmount: 0.0f
+													FallDistance: 0.0f
+													InLove: 0
+													CanUpdate: 1b
+													DeathTime: 0s
+													BoundingBox: [
+														3.300000011920929d
+														69.61519055100896d
+														23.0d
+														4.0d
+														70.21519057485082d
+														23.69999998807907d
+													]
+													ForgeCaps: {
+														"hats:capability_hat": {
+															hsbH: 0.0f
+															partCount: 0
+															clrR: 0.0f
+															count: 0
+															isNew: 0b
+															hsbS: 0.0f
+															clrG: 0.0f
+															isShowing: 0b
+															enchanted: 0b
+															clrA: 0.0f
+															clrB: 0.0f
+															name: ""
+															hsbB: 0.0f
+															isFavourite: 0b
+														}
 														"mekanism:radiation": {
 															radiation: 0.0d
 														}
@@ -845,7 +1149,7 @@
 													AngerTime: 0
 													Motion: [
 														0.0d
-														-0.007986686926668016d
+														0.019377639848394978d
 														0.0d
 													]
 													Health: 10.0f
@@ -854,7 +1158,7 @@
 													Air: 300s
 													OnGround: 0b
 													Rotation: [
-														0.08547211f
+														224.31577f
 														0.0f
 													]
 													HandItems: [
@@ -868,9 +1172,9 @@
 														0.085f
 													]
 													Pos: [
-														6.690519486608656d
-														71.58400798405304d
-														1.650000005960465d
+														3.6500000059604645d
+														69.61519055100896d
+														23.349999994039536d
 													]
 													Fire: -1s
 													ArmorItems: [
@@ -883,37 +1187,31 @@
 													CanPickUpLoot: 0b
 													HurtTime: 0s
 													HivePos: {
-														X: 7
-														Y: 70
-														Z: 0
+														X: 2
+														Y: 69
+														Z: 24
 													}
 												}
 												MinOccupationTicks: 2400
-												TicksInHive: 1038
+												TicksInHive: 1884
 											}
 										]
 									}
 									blockState: {
 										Properties: {
-											facing: "east"
+											facing: "north"
 											honey_level: "0"
 										}
 										Name: "minecraft:bee_nest"
 									}
 								}
 							}
+							RepairCost: 0
+							display: {
+								Name: "{\"text\":\"Bees\"}"
+							}
 						}
 					}
-				}
-				{
-					id: "4E277CEA6C4DD9EB"
-					type: "item"
-					item: "minecraft:campfire"
-				}
-				{
-					id: "79F3405EBE4A0793"
-					type: "random"
-					table_id: 7819856420847337548L
 				}
 			]
 		}
@@ -948,9 +1246,9 @@
 					count: 32
 				}
 				{
-					id: "1C38A2C8270CD7E7"
-					type: "random"
-					table_id: 7819856420847337548L
+					id: "503C6FCE05B7E517"
+					type: "loot"
+					table_id: 4333680637599190675L
 				}
 			]
 		}
@@ -958,14 +1256,16 @@
 			title: "Eye of the Snekk"
 			x: 6.0d
 			y: 4.5d
-			shape: "gear"
+			shape: "pentagon"
 			subtitle: "haha i made Snake haha"
+			hide_dependency_lines: true
+			dependencies: ["5F4616283E7D701B"]
+			hide: true
 			id: "16EB7ECBFADAEE9F"
 			tasks: [{
-				id: "31849BB737BBB609"
-				type: "xp"
-				value: 9L
-				points: false
+				id: "442DAF5D7B47AE59"
+				type: "item"
+				item: "quark:apple_crate"
 			}]
 			rewards: [
 				{
@@ -994,650 +1294,619 @@
 					}
 				}
 				{
-					id: "44881E044CC90BDC"
-					type: "random"
-					table_id: 7819856420847337548L
+					id: "4BDE0081FB592CCA"
+					type: "choice"
+					table_id: 1084914187181638421L
 				}
 			]
 		}
 		{
-			title: "Bork, woof!"
-			x: -1.5d
-			y: -5.5d
-			subtitle: "Borkington the 17th sends his regards."
-			dependencies: ["230A0DA0FA8D9508"]
+			title: "Steak or Potatoes?"
+			x: -4.5d
+			y: -6.5d
+			shape: "square"
+			subtitle: "Make your choice."
+			hide_dependency_lines: true
+			dependencies: [
+				"230A0DA0FA8D9508"
+				"35231467DB7272EE"
+			]
 			id: "6008BEE946579C51"
 			tasks: [
 				{
-					id: "66F99076EEF5D45F"
-					type: "item"
-					item: "minecraft:kelp"
-					count: 64L
+					id: "428FEADC81D158BF"
+					type: "checkmark"
+					title: "git beff"
 				}
 				{
-					id: "61E012108D47AE1E"
-					type: "item"
-					item: "minecraft:sugar_cane"
-					count: 32L
+					id: "6F155D4D60A7E18F"
+					type: "checkmark"
+					title: "git ppotatts"
 				}
 			]
 			rewards: [
 				{
-					id: "6D23C5B034D44DF4"
+					id: "05DB0347FB0D2917"
 					type: "item"
-					item: "minecraft:wolf_spawn_egg"
-					count: 3
+					title: "Why not both? <3"
+					item: "aquaculture:frog"
 				}
 				{
-					id: "7D5463E028801583"
-					type: "item"
-					item: "minecraft:bone"
-					count: 16
+					id: "67279A8FC75E7F60"
+					type: "choice"
+					table_id: 2408831488503054140L
+				}
+				{
+					id: "357AB77C76B24421"
+					type: "choice"
+					table_id: 1084914187181638421L
 				}
 			]
 		}
 		{
-			title: "[Insert seed joke here]"
+			title: "Carrots"
 			x: -6.5d
 			y: -0.5d
-			subtitle: "[Humorous commentary, please smile]"
-			dependencies: ["700F63FC2FCB2018"]
+			shape: "square"
 			id: "5114C8698A2E30FD"
-			tasks: [
-				{
-					id: "5FBF1D8EA153CF5A"
-					type: "item"
-					item: "minecraft:carrot"
-					count: 32L
-				}
-				{
-					id: "0B717156162AA9E2"
-					type: "item"
-					item: "minecraft:potato"
-					count: 32L
-				}
-			]
-			rewards: [
-				{
-					id: "446CB0B8886317F4"
-					type: "item"
-					item: "farmersdelight:rice"
-					count: 9
-				}
-				{
-					id: "79E5137803242B59"
-					type: "item"
-					item: "farmersdelight:tomato_seeds"
-					count: 9
-				}
-				{
-					id: "6C1B92DD1312FA7B"
-					type: "item"
-					item: "farmersdelight:cabbage_seeds"
-					count: 9
-				}
-			]
+			tasks: [{
+				id: "567257A6C04F1C1A"
+				type: "item"
+				item: "minecraft:carrot"
+				count: 64L
+			}]
+			rewards: [{
+				id: "49100968596A20CC"
+				type: "loot"
+				table_id: 4333680637599190675L
+			}]
 		}
 		{
-			title: "Gweens!"
+			title: "~Smokin these meats-~"
 			x: -6.5d
 			y: -5.5d
-			subtitle: "01000101 01100001 01110100 00100000 01111001 01101111 01110101 01110010 00100000 01100111 01110010 01100101 01100101 01101110 01110011 00100001 00100000 01010111 01101000 01100001 01110100 00101100 00100000 01100100 01101001 01100100 00100000 01111001 01101111 01110101 00100000 01110100 01101000 01101001 01101110 01101011 00100000 01001001 00100111 01100100 00100000 01110011 01100001 01111001 00100000 01110011 01101111 01101101 01100101 01110100 01101000 01101001 01101110 01100111 00100000 01100101 01101100 01110011 01100101 00111111"
-			dependencies: ["5114C8698A2E30FD"]
+			shape: "square"
+			subtitle: "~Meat like a brisket-~"
 			id: "230A0DA0FA8D9508"
-			tasks: [
-				{
-					id: "4ECE18D838FF9576"
-					type: "item"
-					item: "farmersdelight:rice"
-					count: 16L
-				}
-				{
-					id: "27F9D3E72D7C5857"
-					type: "item"
-					item: "farmersdelight:tomato"
-					count: 16L
-				}
-				{
-					id: "3BD65886FD905369"
-					type: "item"
-					item: "farmersdelight:cabbage_seeds"
-					count: 16L
-				}
-			]
-			rewards: [
-				{
-					id: "3662DDB1D92B2D3C"
-					type: "item"
-					item: "minecraft:kelp"
-					count: 16
-				}
-				{
-					id: "49D10EDD7B61A0D7"
-					type: "item"
-					item: "quark:sugar_cane_block"
-					count: 2
-				}
-				{
-					id: "24060D319BB050E0"
-					type: "item"
-					title: "Green eggs-"
-					item: {
-						id: "mekanism:cardboard_box"
-						Count: 1b
-						tag: {
-							mekData: {
-								data: {
-									tileTag: {
-										MaxNearbyEntities: 6s
-										RequiredPlayerRange: 16s
-										SpawnCount: 4s
-										SpawnData: {
-											id: "minecraft:chicken"
-										}
-										MaxSpawnDelay: 800s
-										Delay: 2s
-										x: 4
-										y: 69
-										z: 13
-										id: "minecraft:mob_spawner"
-										SpawnRange: 4s
-										MinSpawnDelay: 200s
-										SpawnPotentials: [{
-											Entity: {
-												id: "minecraft:chicken"
-											}
-											Weight: 1
-										}]
-									}
-									blockState: {
-										Name: "minecraft:spawner"
-									}
-								}
-							}
-						}
-					}
-				}
-				{
-					id: "1D3F8E9EA8D69E0A"
-					type: "item"
-					title: "-and ham."
-					item: {
-						id: "mekanism:cardboard_box"
-						Count: 1b
-						tag: {
-							mekData: {
-								data: {
-									tileTag: {
-										MaxNearbyEntities: 6s
-										RequiredPlayerRange: 16s
-										SpawnCount: 4s
-										SpawnData: {
-											id: "minecraft:pig"
-										}
-										MaxSpawnDelay: 800s
-										Delay: 0s
-										x: 2
-										y: 69
-										z: 13
-										id: "minecraft:mob_spawner"
-										SpawnRange: 4s
-										MinSpawnDelay: 200s
-										SpawnPotentials: [{
-											Entity: {
-												id: "minecraft:pig"
-											}
-											Weight: 1
-										}]
-									}
-									blockState: {
-										Name: "minecraft:spawner"
-									}
-								}
-							}
-						}
-					}
-				}
-			]
+			tasks: [{
+				id: "7E9C8097CECCD416"
+				type: "item"
+				item: "minecraft:cooked_beef"
+				count: 16L
+			}]
+			rewards: [{
+				id: "34C16FDC09FEC3A2"
+				type: "loot"
+				table_id: 4333680637599190675L
+			}]
 		}
 		{
-			title: "Carre Potatice"
+			title: "Beat the root!"
 			x: -6.5d
 			y: 4.5d
-			subtitle: "Not Latin, I assure you, but we're just missing the steak... Wait, nevermind."
-			dependencies: ["1B6F1223097755B5"]
+			shape: "square"
+			subtitle: "the most unfavoritable of crops, yuppity yup"
 			id: "700F63FC2FCB2018"
 			tasks: [{
-				id: "25EE92D63FA5F8B9"
+				id: "4447098632B432C2"
+				type: "item"
+				item: "minecraft:beetroot"
+				count: 64L
+			}]
+			rewards: [{
+				id: "2C645332E1AD7DF1"
+				type: "loot"
+				table_id: 4333680637599190675L
+			}]
+		}
+		{
+			title: "Hemp O.O"
+			x: 3.5d
+			y: -5.5d
+			shape: "square"
+			subtitle: "No, not that kind."
+			id: "1B6F1223097755B5"
+			tasks: [{
+				id: "24A9E0C447AD5345"
 				type: "item"
 				item: "immersiveengineering:hemp_fiber"
 				count: 64L
 			}]
-			rewards: [
-				{
-					id: "708A9D3723AB8997"
-					type: "item"
-					item: "minecraft:potato"
-					count: 9
-				}
-				{
-					id: "3F3D25CA31610FD9"
-					type: "item"
-					item: "minecraft:carrot"
-					count: 9
-				}
-				{
-					id: "7FAC53AC2B56E2F5"
-					type: "item"
-					item: {
-						id: "mekanism:cardboard_box"
-						Count: 1b
-						tag: {
-							mekData: {
-								data: {
-									tileTag: {
-										MaxNearbyEntities: 6s
-										RequiredPlayerRange: 16s
-										SpawnCount: 4s
-										SpawnData: {
-											id: "minecraft:cow"
-										}
-										MaxSpawnDelay: 800s
-										Delay: 4s
-										x: 1
-										y: 69
-										z: 13
-										id: "minecraft:mob_spawner"
-										SpawnRange: 4s
-										MinSpawnDelay: 200s
-										SpawnPotentials: [{
-											Entity: {
-												id: "minecraft:cow"
-											}
-											Weight: 1
-										}]
-									}
-									blockState: {
-										Name: "minecraft:spawner"
-									}
-								}
-							}
-						}
-					}
-				}
-			]
+			rewards: [{
+				id: "65E0609E50ED9395"
+				type: "loot"
+				table_id: 4333680637599190675L
+			}]
 		}
 		{
-			title: "Hemp O.O"
-			x: -6.5d
-			y: 9.5d
-			subtitle: "No, not that kind."
-			dependencies: ["5B1F562D9518771E"]
-			id: "1B6F1223097755B5"
+			title: "Kjelp"
+			x: -7.5d
+			y: 10.5d
+			shape: "square"
+			subtitle: "hjelp meh"
+			id: "5B1F562D9518771E"
 			tasks: [{
-				id: "164295A222AEB68E"
+				id: "17A491DDE9B7CBBE"
 				type: "item"
-				item: "minecraft:slime_ball"
-				count: 32L
+				item: "minecraft:kelp"
+				count: 64L
 			}]
 			rewards: [{
-				id: "7D4DF5EC5464030D"
-				type: "item"
-				item: "immersiveengineering:seed"
-				count: 9
+				id: "7A22A769274A3E1C"
+				type: "loot"
+				table_id: 4333680637599190675L
 			}]
 		}
 		{
-			title: "Bounca~ Bounca~"
-			x: -1.5d
-			y: 9.5d
-			subtitle: "Boing!~"
-			dependencies: ["5CB2AE41F006C01A"]
-			id: "5B1F562D9518771E"
-			tasks: [
-				{
-					id: "14B6B1845CBD7BA1"
-					type: "item"
-					icon: "minecraft:bamboo"
-					item: "minecraft:stone"
-					count: 64L
-				}
-				{
-					id: "66B3579B4A07570C"
-					type: "item"
-					item: "minecraft:bamboo"
-					count: 64L
-				}
-				{
-					id: "1D968269A38298EB"
-					type: "item"
-					item: "minecraft:bamboo"
-					count: 64L
-				}
-			]
-			rewards: [
-				{
-					id: "3E1C6BAABD8FD82E"
-					type: "item"
-					item: "tconstruct:earth_slime_grass_seeds"
-					count: 9
-				}
-				{
-					id: "2A34C6CEBFACAC27"
-					type: "item"
-					item: "tconstruct:earth_slime_sapling"
-					count: 9
-				}
-			]
-		}
-		{
-			title: "Twig Forest"
+			title: "Onions"
 			x: 3.5d
 			y: 9.5d
-			subtitle: "Bamb-BOO! :D"
-			dependencies: ["1DE0B555C71F5D0C"]
+			shape: "square"
+			subtitle: "I'm not crying, it's the onions. ;("
 			id: "5CB2AE41F006C01A"
 			tasks: [{
-				id: "3817774176C73E3A"
+				id: "679225FD326E7F60"
 				type: "item"
-				item: "minecraft:pumpkin"
-				count: 9L
+				item: "farmersdelight:onion"
+				count: 64L
 			}]
-			rewards: [
-				{
-					id: "6E62DB1DE5541062"
-					type: "item"
-					item: "minecraft:bamboo"
-					count: 64
-				}
-				{
-					id: "46BD44F8E26E8C2E"
-					type: "item"
-					item: "minecraft:carved_pumpkin"
-				}
-				{
-					id: "6B56C5801FBE6C98"
-					type: "item"
-					title: "Skeleton Spawner"
-					item: {
-						id: "mekanism:cardboard_box"
-						Count: 1b
-						tag: {
-							mekData: {
-								data: {
-									tileTag: {
-										MaxNearbyEntities: 6s
-										RequiredPlayerRange: 16s
-										SpawnCount: 4s
-										SpawnData: {
-											id: "minecraft:skeleton"
-										}
-										MaxSpawnDelay: 800s
-										Delay: 2s
-										x: 4
-										y: 69
-										z: 11
-										id: "minecraft:mob_spawner"
-										SpawnRange: 4s
-										MinSpawnDelay: 200s
-										SpawnPotentials: [{
-											Entity: {
-												id: "minecraft:skeleton"
-											}
-											Weight: 1
-										}]
-									}
-									blockState: {
-										Name: "minecraft:spawner"
-									}
-								}
-							}
-						}
-					}
-				}
-			]
+			rewards: [{
+				id: "79714F307B28E796"
+				type: "loot"
+				table_id: 4333680637599190675L
+			}]
 		}
 		{
-			title: "Pumpkin."
+			title: "Cacti"
 			x: 8.5d
 			y: 9.5d
-			subtitle: "Not a bumpkin!"
-			dependencies: ["076AEF8A34CE0415"]
+			shape: "square"
 			id: "1DE0B555C71F5D0C"
 			tasks: [{
-				id: "2A27866168129207"
+				id: "22780135ADF2DFE2"
 				type: "item"
-				item: "minecraft:melon_slice"
+				item: "minecraft:cactus"
+				count: 64L
+			}]
+			rewards: [{
+				id: "3A7B10F96E2B9E6D"
+				type: "loot"
+				table_id: 4333680637599190675L
+			}]
+		}
+		{
+			title: "Hayyy!~"
+			x: 8.5d
+			y: 4.5d
+			shape: "square"
+			subtitle: "We meet again, comrade."
+			dependency_requirement: "one_completed"
+			id: "076AEF8A34CE0415"
+			tasks: [{
+				id: "5C4AFC5DBB62F6D9"
+				type: "item"
+				item: "minecraft:hay_block"
 				count: 64L
 			}]
 			rewards: [
 				{
-					id: "4E75F4989697AA7A"
-					type: "item"
-					item: "minecraft:pumpkin"
-					count: 2
+					id: "5864234EE3C1CE39"
+					type: "loot"
+					table_id: 4333680637599190675L
 				}
 				{
-					id: "4510D692F32463D4"
-					type: "item"
-					item: "minecraft:pumpkin_seeds"
-					count: 9
-				}
-				{
-					id: "62E441566C480E94"
-					type: "item"
-					item: "farmersdelight:stuffed_pumpkin_block"
+					id: "6245A984DE782EA9"
+					type: "loot"
+					table_id: 4333680637599190675L
 				}
 			]
 		}
 		{
-			title: "Melons"
-			x: 8.5d
-			y: 4.5d
-			subtitle: "How voluptious~"
-			hide_dependency_lines: true
-			dependencies: ["64FC6EAA6FCCDD17"]
-			dependency_requirement: "one_completed"
-			id: "076AEF8A34CE0415"
-			tasks: [{
-				id: "2AC10F2007893F54"
-				type: "checkmark"
-				title: "Melon time!"
-			}]
-			rewards: [
-				{
-					id: "3D1CAD4A1CCB3AC2"
-					type: "item"
-					item: "minecraft:melon"
-					count: 2
-				}
-				{
-					id: "147F5F3699CF170A"
-					type: "item"
-					item: "minecraft:melon_seeds"
-					count: 9
-				}
-			]
-		}
-		{
-			title: "What a slimey finale..."
-			x: 8.5d
-			y: -0.5d
-			subtitle: "Giggity?"
-			dependencies: [
-				"076AEF8A34CE0415"
-				"429093C5C5C48C0B"
-			]
+			title: "You ok there buddy chum pal"
+			x: 9.5d
+			y: -6.5d
+			shape: "square"
+			subtitle: "friend buddy pal chum bud friend fella bruther amigo pal buddy friend chummy chum chum pal?"
 			id: "5726C29BE859FF81"
 			tasks: [{
-				id: "6EA14FDA0C0680D4"
+				id: "0A29D6833D28F5D2"
 				type: "item"
-				item: "minecraft:mushroom_stew"
-				count: 9L
+				title: "gosh diddly darn"
+				item: "minecraft:nether_wart"
+				count: 64L
 			}]
 			rewards: [
 				{
-					id: "00F976F9DB03D30F"
-					type: "item"
-					item: "tconstruct:sky_slime_grass_seeds"
-					count: 9
+					id: "08F5EC520BB6373C"
+					type: "loot"
+					table_id: 4333680637599190675L
 				}
 				{
-					id: "570A3BAE013A6E73"
-					type: "item"
-					item: "tconstruct:sky_slime_sapling"
-					count: 9
-				}
-				{
-					id: "4FA2457E3EE587F2"
-					type: "item"
-					item: "tconstruct:ender_slime_grass_seeds"
-					count: 9
-				}
-				{
-					id: "7ECBBCA16E299884"
-					type: "item"
-					item: "tconstruct:ender_slime_sapling"
-					count: 9
-				}
-				{
-					id: "12E4426A84EBD07B"
-					type: "item"
-					item: "tconstruct:blood_slime_grass_seeds"
-					count: 9
+					id: "0DEE7C454C999B94"
+					type: "loot"
+					table_id: 4333680637599190675L
 				}
 			]
 		}
 		{
-			title: "PUPPIES!"
-			x: 3.5d
-			y: -5.5d
-			subtitle: "Embrace the forgotten."
-			dependencies: ["6008BEE946579C51"]
+			title: "Cabbage"
+			x: -6.5d
+			y: 9.5d
+			shape: "square"
 			id: "36FE1F2457CEDAB4"
+			tasks: [{
+				id: "5F4D016B6C0F8074"
+				type: "item"
+				item: "farmersdelight:cabbage_leaf"
+				count: 64L
+			}]
+			rewards: [{
+				id: "7A9D1C47A71BD6FE"
+				type: "loot"
+				table_id: 4333680637599190675L
+			}]
+		}
+		{
+			title: "Shrooms!!!"
+			x: 8.5d
+			y: -5.5d
+			shape: "square"
+			id: "429093C5C5C48C0B"
 			tasks: [
 				{
-					id: "3938BCF26606326D"
-					type: "advancement"
-					advancement: "minecraft:husbandry/tame_an_animal"
-					criterion: ""
+					id: "032D59CCF6EF85D9"
+					type: "checkmark"
+					title: "Hey pal, you got some shrooms?"
 				}
 				{
-					id: "711C4D23BA0EB2EB"
-					type: "advancement"
-					advancement: "minecraft:husbandry/breed_an_animal"
-					criterion: ""
+					id: "18A93873086A8EEF"
+					type: "item"
+					item: "minecraft:brown_mushroom"
+					count: 5L
+				}
+				{
+					id: "1671C968F0A0F28A"
+					type: "item"
+					item: "minecraft:red_mushroom"
+					count: 5L
 				}
 			]
-			rewards: [
-				{
-					id: "72D19C15ACACF210"
-					type: "item"
-					title: "Rabbit Spawner"
-					item: {
-						id: "mekanism:cardboard_box"
-						Count: 1b
-						tag: {
-							mekData: {
-								data: {
-									tileTag: {
-										MaxNearbyEntities: 6s
-										RequiredPlayerRange: 16s
-										SpawnCount: 4s
-										SpawnData: {
-											id: "minecraft:rabbit"
-										}
-										MaxSpawnDelay: 800s
-										Delay: 9s
-										x: 1
-										y: 69
-										z: 14
-										id: "minecraft:mob_spawner"
-										SpawnRange: 4s
-										MinSpawnDelay: 200s
-										SpawnPotentials: [{
-											Entity: {
-												id: "minecraft:rabbit"
-											}
-											Weight: 1
-										}]
-									}
-									blockState: {
-										Name: "minecraft:spawner"
-									}
-								}
-							}
+			rewards: [{
+				id: "3F200B2FE8F0F46A"
+				type: "loot"
+				table_id: 4333680637599190675L
+			}]
+		}
+		{
+			title: "~I'm makin meats now-~"
+			x: -7.5d
+			y: -6.5d
+			shape: "heart"
+			subtitle: "~Someone asked me, do I smoke meats?~"
+			dependencies: ["230A0DA0FA8D9508"]
+			hide_text_until_complete: true
+			id: "3D172054663A75D4"
+			tasks: [{
+				id: "6CBE615500C5A7FE"
+				type: "checkmark"
+				title: "Context?"
+			}]
+			rewards: [{
+				id: "5EF8542AC5DAE4C2"
+				type: "item"
+				title: "https://www.youtube.com/watch?v=YeemJlrNx2Q"
+				item: {
+					id: "minecraft:paper"
+					Count: 1b
+					tag: {
+						RepairCost: 0
+						display: {
+							Name: "{\"text\":\"I promise it's not a rickroll <3\"}"
 						}
 					}
 				}
-				{
-					id: "13C0794792FCA05A"
-					type: "item"
-					title: "Los gatos"
-					item: "minecraft:cat_spawn_egg"
-					count: 3
-				}
-			]
+			}]
 		}
 		{
-			title: "SHROOMS"
-			x: 8.5d
-			y: -5.5d
-			subtitle: "No! Not that kind either! ,_,"
-			dependencies: ["36FE1F2457CEDAB4"]
-			id: "429093C5C5C48C0B"
+			x: -3.0d
+			y: -6.5d
+			shape: "heart"
+			subtitle: "Have some cake!"
+			dependencies: ["6008BEE946579C51"]
+			id: "20BC906571BB6EB1"
 			tasks: [{
-				id: "032D59CCF6EF85D9"
+				id: "497136930716B0C0"
 				type: "checkmark"
-				title: "Hey pal, you want some shrooms?"
+				title: "Refuse."
 			}]
 			rewards: [
 				{
-					id: "423915091D6952E1"
+					id: "4F353D2670431959"
 					type: "item"
-					item: "minecraft:red_mushroom"
-					count: 9
+					title: "Or neither! <3"
+					item: "minecraft:cake"
 				}
 				{
-					id: "799BB274F7B80680"
-					type: "item"
-					item: "minecraft:brown_mushroom"
-					count: 9
+					id: "2321FFEBBADF16FA"
+					type: "choice"
+					table_id: 6349730371879160012L
 				}
 				{
-					id: "677D75F9019A32CC"
+					id: "4909A11493397011"
 					type: "item"
-					item: "minecraft:warped_fungus"
-					count: 9
-				}
-				{
-					id: "72568B0A1B98EE77"
-					type: "item"
-					item: "minecraft:crimson_fungus"
-					count: 9
+					title: "Dragons!"
+					item: "minecraft:dragon_head"
 				}
 			]
 		}
 		{
-			title: "..."
-			x: 11.0d
-			y: -0.5d
-			subtitle: "..."
-			hide_dependency_lines: true
-			dependencies: ["5726C29BE859FF81"]
-			hide: true
-			id: "4CA0EFD21EE40C23"
+			title: "Potatoes"
+			x: -1.5d
+			y: -5.5d
+			shape: "square"
+			id: "35231467DB7272EE"
 			tasks: [{
-				id: "7FD249DF58F86F90"
-				type: "checkmark"
-				title: "Go touch some grass."
+				id: "6E7032861EF438F2"
+				type: "item"
+				item: "minecraft:potato"
+				count: 64L
 			}]
 			rewards: [{
-				id: "205C0402809EB024"
-				type: "item"
-				item: "minecraft:grass_block"
-				count: 64
+				id: "6CDB4F112C030158"
+				type: "loot"
+				table_id: 4333680637599190675L
 			}]
+		}
+		{
+			title: "SPEEDDD"
+			x: 8.5d
+			y: -0.5d
+			shape: "square"
+			subtitle: "mmm yes white powder how delectible"
+			id: "7A4B43ECB7ACBA67"
+			tasks: [
+				{
+					id: "59634D596D2F262F"
+					type: "item"
+					item: "minecraft:sugar_cane"
+					count: 64L
+				}
+				{
+					id: "7FAF98DE60A9AF8A"
+					type: "item"
+					item: "minecraft:sugar"
+					count: 64L
+				}
+			]
+			rewards: [
+				{
+					id: "572771AC0B1CDC09"
+					type: "loot"
+					table_id: 4333680637599190675L
+				}
+				{
+					id: "2DBF9859AD628970"
+					type: "item"
+					item: {
+						id: "apotheosis:potion_charm"
+						Count: 1b
+						tag: {
+							Damage: 0
+							Potion: "minecraft:strong_swiftness"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Bamboo"
+			x: 9.5d
+			y: -1.0d
+			shape: "square"
+			id: "3C2D1BD06096E754"
+			tasks: [{
+				id: "31AB861640AD07D9"
+				type: "item"
+				item: "minecraft:bamboo"
+				count: 64L
+			}]
+			rewards: [{
+				id: "1A85BE0C9A2E79E9"
+				type: "loot"
+				table_id: 4333680637599190675L
+			}]
+		}
+		{
+			title: "Pumpkin."
+			x: 9.5d
+			y: 0.0d
+			shape: "square"
+			id: "788EC767B01BC79C"
+			tasks: [{
+				id: "0DB12FA62C85C2B6"
+				type: "item"
+				item: "farmersdelight:pumpkin_slice"
+				count: 64L
+			}]
+			rewards: [{
+				id: "40BD23F7FC510AC1"
+				type: "loot"
+				table_id: 4333680637599190675L
+			}]
+		}
+		{
+			title: "Bam-BOO!"
+			x: 10.5d
+			y: -0.5d
+			subtitle: "spoopy~"
+			dependencies: [
+				"3C2D1BD06096E754"
+				"788EC767B01BC79C"
+			]
+			id: "092774FB790F4884"
+			tasks: [
+				{
+					id: "6076069A81B83402"
+					type: "item"
+					item: "minecraft:bamboo"
+					consume_items: true
+				}
+				{
+					id: "68DE642A84E1F3E6"
+					type: "item"
+					item: "minecraft:carved_pumpkin"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "796ABD8007F23F69"
+				type: "choice"
+				table_id: 1084914187181638421L
+			}]
+		}
+		{
+			title: "Rice"
+			x: 8.5d
+			y: -1.5d
+			id: "70FC721BF5EE06C0"
+			tasks: [{
+				id: "156FCBF22BF12EE1"
+				type: "item"
+				item: "farmersdelight:rice"
+				count: 64L
+			}]
+			rewards: [{
+				id: "6CD74DA68A515D8F"
+				type: "loot"
+				table_id: 4333680637599190675L
+			}]
+		}
+		{
+			title: "Water? Melon?"
+			x: 8.5d
+			y: 0.5d
+			subtitle: "Yes."
+			id: "77F456F9ABFA9049"
+			tasks: [
+				{
+					id: "4CD6693CFE33474F"
+					type: "item"
+					item: "minecraft:melon_slice"
+					count: 64L
+				}
+				{
+					id: "0395EB43CF0D4358"
+					type: "item"
+					item: "minecraft:water_bucket"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "210944D724BFBFC2"
+				type: "loot"
+				table_id: 4333680637599190675L
+			}]
+		}
+		{
+			title: "Agricultural Finale!"
+			x: -10.0d
+			y: 2.0d
+			subtitle: "Good job!! c:"
+			hide_dependency_lines: true
+			dependencies: [
+				"5F4616283E7D701B"
+				"3D172054663A75D4"
+				"20BC906571BB6EB1"
+				"35231467DB7272EE"
+				"1B6F1223097755B5"
+				"429093C5C5C48C0B"
+				"5726C29BE859FF81"
+				"70FC721BF5EE06C0"
+				"7A4B43ECB7ACBA67"
+				"77F456F9ABFA9049"
+				"788EC767B01BC79C"
+				"092774FB790F4884"
+				"3C2D1BD06096E754"
+				"700F63FC2FCB2018"
+				"076AEF8A34CE0415"
+				"36FE1F2457CEDAB4"
+				"0050D347FE389595"
+				"5B1F562D9518771E"
+				"5CB2AE41F006C01A"
+				"030AFEE01F83BC2B"
+			]
+			hide: true
+			id: "4D59DBB56883BB78"
+			tasks: [{
+				id: "169004896DEB03FC"
+				type: "checkmark"
+				title: "Go touch some grass. <3"
+				icon: "minecraft:grass"
+			}]
+			rewards: [
+				{
+					id: "11D64C65156E02F6"
+					type: "item"
+					item: "create:creative_blaze_cake"
+				}
+				{
+					id: "31EABEAC4643B449"
+					type: "item"
+					item: "minecraft:villager_spawn_egg"
+					count: 4
+				}
+				{
+					id: "22B3849314088C60"
+					type: "choice"
+					table_id: 138466229988158380L
+				}
+			]
+		}
+		{
+			title: "Tomato...?"
+			x: -1.5d
+			y: 9.5d
+			shape: "square"
+			subtitle: "Is it toe-mae-toe or toe-mah-toe?"
+			id: "0050D347FE389595"
+			tasks: [{
+				id: "356F4F3EDA61A906"
+				type: "item"
+				item: "farmersdelight:tomato"
+				count: 64L
+			}]
+			rewards: [{
+				id: "155733BD0D2D68BE"
+				type: "loot"
+				table_id: 4333680637599190675L
+			}]
+		}
+		{
+			title: "Therefore, furni"
+			x: 9.5d
+			y: 10.5d
+			shape: "gear"
+			dependencies: ["1DE0B555C71F5D0C"]
+			id: "030AFEE01F83BC2B"
+			tasks: [{
+				id: "5E580AD2FA67F565"
+				type: "item"
+				item: "minecraft:furnace"
+				count: 8L
+				consume_items: true
+			}]
+			rewards: [
+				{
+					id: "471EFAFF49A8BC16"
+					type: "loot"
+					table_id: 4333680637599190675L
+				}
+				{
+					id: "1EDBBD263FD70927"
+					type: "loot"
+					table_id: 4333680637599190675L
+				}
+			]
 		}
 	]
 }

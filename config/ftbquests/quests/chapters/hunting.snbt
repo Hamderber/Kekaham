@@ -1,0 +1,218 @@
+{
+	id: "1BE1787E6F968256"
+	group: "3D3B37914924472F"
+	order_index: 2
+	filename: "hunting"
+	title: "Hunting"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: -1.0d
+			shape: "diamond"
+			id: "5A9E7D965F033B3A"
+			tasks: [{
+				id: "030592A69D2B900F"
+				type: "kill"
+				title: "Zombie Hunter"
+				entity: "minecraft:zombie"
+				value: 8L
+			}]
+			rewards: [{
+				id: "19EB66385DCFF0CC"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+		}
+		{
+			x: 0.0d
+			y: -4.0d
+			shape: "rsquare"
+			dependencies: ["4CA1658644A9FE10"]
+			id: "2E1C9DE8D50EB765"
+			tasks: [{
+				id: "7268BCF790C475A7"
+				type: "kill"
+				title: "Skeleton Slayer"
+				entity: "minecraft:skeleton"
+				value: 32L
+			}]
+			rewards: [{
+				id: "7ECED815148AB500"
+				type: "xp_levels"
+				xp_levels: 30
+			}]
+		}
+		{
+			x: 0.0d
+			y: -3.0d
+			shape: "diamond"
+			id: "4CA1658644A9FE10"
+			tasks: [{
+				id: "3897AC870EC88B56"
+				type: "kill"
+				title: "Skeleton Hunter"
+				entity: "minecraft:skeleton"
+				value: 8L
+			}]
+			rewards: [{
+				id: "44FB590C74942206"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+		}
+		{
+			x: 0.0d
+			y: 0.0d
+			shape: "rsquare"
+			dependencies: ["5A9E7D965F033B3A"]
+			id: "317D060393697AF5"
+			tasks: [{
+				id: "2F681781831092A7"
+				type: "kill"
+				title: "Zombie Slayer"
+				entity: "minecraft:zombie"
+				value: 32L
+			}]
+			rewards: [{
+				id: "27253D00EBDC1C24"
+				type: "xp_levels"
+				xp_levels: 30
+			}]
+		}
+		{
+			x: -1.0d
+			y: -2.0d
+			shape: "diamond"
+			id: "1A4E028CDE657773"
+			tasks: [{
+				id: "2D643C95A907AE3A"
+				type: "kill"
+				title: "Spider Hunter"
+				entity: "minecraft:spider"
+				value: 8L
+			}]
+			rewards: [{
+				id: "4BE8979E2F79AE51"
+				type: "xp_levels"
+				xp_levels: 15
+			}]
+		}
+		{
+			x: -2.0d
+			y: -2.0d
+			shape: "rsquare"
+			dependencies: ["1A4E028CDE657773"]
+			id: "530AAF89DCFCE835"
+			tasks: [{
+				id: "2E82416E799F76B6"
+				type: "kill"
+				title: "Spider Slayer"
+				entity: "minecraft:spider"
+				value: 32L
+			}]
+			rewards: [{
+				id: "34AE02C5BBBCE9D9"
+				type: "xp_levels"
+				xp_levels: 30
+			}]
+		}
+		{
+			x: 1.0d
+			y: -2.0d
+			shape: "diamond"
+			id: "7D84A417E7AE8F0E"
+			tasks: [{
+				id: "2B7BE748921D766A"
+				type: "kill"
+				title: "Creeper Hunter"
+				entity: "minecraft:creeper"
+				value: 8L
+			}]
+			rewards: [{
+				id: "03108C11D15E0ADF"
+				type: "xp_levels"
+				xp_levels: 30
+			}]
+		}
+		{
+			x: 2.0d
+			y: -2.0d
+			shape: "rsquare"
+			dependencies: ["7D84A417E7AE8F0E"]
+			id: "2976B3265A4FAADA"
+			tasks: [{
+				id: "79186A29D3B914BF"
+				type: "kill"
+				title: "Creeper Slayer"
+				entity: "minecraft:creeper"
+				value: 32L
+			}]
+			rewards: [{
+				id: "1CCE48B698463639"
+				type: "xp_levels"
+				xp_levels: 60
+			}]
+		}
+		{
+			x: 0.0d
+			y: -2.0d
+			shape: "rsquare"
+			subtitle: "The most annoying flying mobs."
+			id: "3AC2A560BBD3D6AE"
+			tasks: [{
+				id: "244451B08D71384D"
+				type: "kill"
+				title: "PHANTOM MENACE"
+				entity: "minecraft:phantom"
+				value: 64L
+			}]
+			rewards: [{
+				id: "76A6F514FC92E4C8"
+				type: "xp_levels"
+				xp_levels: 100
+			}]
+		}
+		{
+			title: "Vwoop!"
+			x: -1.0d
+			y: -3.0d
+			shape: "rsquare"
+			subtitle: "No where to run- err... teleport."
+			id: "35E645645AD99DDA"
+			tasks: [{
+				id: "3B1AFB119A6EC3C3"
+				type: "kill"
+				title: "Vwoop."
+				entity: "minecraft:enderman"
+				value: 8L
+			}]
+			rewards: [{
+				id: "31F1AC6AE33A5B64"
+				type: "xp_levels"
+				xp_levels: 20
+			}]
+		}
+		{
+			title: "Drowned, No More"
+			x: 1.0d
+			y: -1.0d
+			shape: "rsquare"
+			subtitle: "Now how did you find these? Clever."
+			id: "2DF1E0D5277EA502"
+			tasks: [{
+				id: "60E07BBB70BC80FE"
+				type: "kill"
+				title: "Drowned No More"
+				entity: "minecraft:drowned"
+				value: 64L
+			}]
+			rewards: [{
+				id: "5FB10FA57AAC1CB2"
+				type: "xp_levels"
+				xp_levels: 200
+			}]
+		}
+	]
+}

@@ -1,3 +1,4 @@
+utility = {}
 
 [structures]
 	#All the structures that should be generated.
@@ -71,25 +72,4 @@
 	clear = false
 	#Should players' items be dropped when leaving a team? [default: true]
 	drop = true
-
-[utility]
-	#Should players be able to leave their team or invite others? [default: true]
-	self-manage = true
-	#Should players be able to create their own team? [default: false]
-	create-own-team = false
-
-	[utility.spawns]
-		#Should players be able to modify their spawn positions? [default: false]
-		modify-spawns = false
-		#The range from island center for possible spawns to add. [default: 50]
-		#Range: > 0
-		range = 50
-
-	[utility.teleports]
-		#Should players be able to teleport to their home island? [default: true]
-		home = true
-		#Should players be able to visit other island? [default: true]
-		allow-visits = true
-		#Should players be able to teleport to spawn? [default: true]
-		spawn = true
 

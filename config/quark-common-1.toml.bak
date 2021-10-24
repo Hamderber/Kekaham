@@ -33,7 +33,7 @@
 	World = true
 	Mobs = true
 	Client = true
-	Oddities = true
+	Oddities = false
 	Experimental = true
 
 [automation]
@@ -151,27 +151,24 @@
 		"Stick Block Fuel Time" = 900
 		#Allowed values: [0,)
 		"Bamboo Bundle Fuel Time" = 500
-		"Enable Charcoal Block" = false
-		"Enable Sugar Cane Block" = false
-		"Enable Bamboo Block" = false
-		"Enable Cactus Block" = false
+		"Enable Charcoal Block" = true
+		"Enable Sugar Cane Block" = true
+		"Enable Bamboo Block" = true
+		"Enable Cactus Block" = true
 		"Enable Chorus Fruit Block" = true
 		"Enable Stick Block" = true
-		"Enable Apple Crate" = false
+		"Enable Apple Crate" = true
 		"Enable Golden Apple Crate" = true
 		"Enable Potato Crate" = false
 		"Enable Carrot Crate" = false
 		"Enable Beetroot Crate" = false
-		"Enable Cocoa Bean Sack" = false
-		"Enable Nether Wart Sack" = false
+		"Enable Cocoa Bean Sack" = true
+		"Enable Nether Wart Sack" = true
 		"Enable Gunpowder Sack" = true
-		"Enable Berry Sack" = false
+		"Enable Berry Sack" = true
 		"Enable Blaze Lantern" = true
 		"Enable Bonded Leather" = true
 		"Enable Bonded Rabbit Hide" = true
-
-	[building.gold_bars]
-		"Generate In Nether Fortress" = true
 
 	[building.item_frames]
 		"Glass Item Frames Update Maps" = true
@@ -227,6 +224,9 @@
 		"Change Names" = true
 		"Enable Iron Ladder" = true
 
+	[building.gold_bars]
+		"Generate In Nether Fortress" = true
+
 [management]
 	"Chests In Boats" = true
 	"Easy Transfering" = true
@@ -250,7 +250,6 @@
 		"Render Items In Chat" = true
 
 [tools]
-	"Endermosh Music Disc" = true
 	Abacus = true
 	"Ambient Discs" = true
 	"Ancient Tomes" = true
@@ -262,12 +261,7 @@
 	"Seed Pouch" = true
 	"Slime In A Bucket" = true
 	Trowel = true
-
-	[tools.endermosh_music_disc]
-		"Play Endermosh During Enderdragon Fight" = false
-		"Add To End City Loot" = true
-		"Loot Weight" = 5
-		"Loot Quality" = 1
+	"Endermosh Music Disc" = true
 
 	[tools.ambient_discs]
 		"Drop On Spider Kill" = true
@@ -353,6 +347,12 @@
 		#Set to 0 to make the Trowel unbreakable
 		#Allowed values: [0,)
 		"Trowel Max Durability" = 0
+
+	[tools.endermosh_music_disc]
+		"Play Endermosh During Enderdragon Fight" = false
+		"Add To End City Loot" = true
+		"Loot Weight" = 5
+		"Loot Quality" = 1
 
 [tweaks]
 	"Skull Pikes" = true
@@ -1885,7 +1885,7 @@
 	"Auto Walk Keybind" = true
 	"Back Button Keybind" = true
 	"Chest Searching" = true
-	"Greener Grass" = true
+	"Greener Grass" = false
 	"Improved Mount Hud" = true
 	"Improved Tooltips" = true
 	"Usage Ticker" = true
@@ -1937,11 +1937,11 @@
 		"Enable Chicken" = true
 		"Enable Shiny Rabbit" = true
 		"Enable Shiny Llama" = true
-		"Enable Shiny Dolphin" = true
 		"Enable L G B T Bees" = true
 		"Every Bee Is L G B T" = false
 		#The chance for an animal to have a special "Shiny" skin, like a shiny pokemon. This is 1 in X. Set to 0 to disable.
 		"Shiny Animal Chance" = 2048
+		"Enable Shiny Dolphin" = true
 
 [oddities]
 	Backpack = true
@@ -1979,11 +1979,11 @@
 		#How many pieces you can generate without any bookshelves (for Books)
 		"Base Max Piece Count Book" = 1
 		#At which piece count the calculation for the min level should default to increasing one per piece rather than using the scale factor
-		"Min Level Cutoff" = 8
+		"Min Level Cutoff" = 10
 		#How many pieces a single Lapis can generate
 		"Charge Per Lapis" = 4
 		#How much the min level requirement for adding a new piece should increase for each piece added (up until the value of Min Level Cutoff)
-		"Min Level Scale Factor" = 1.2
+		"Min Level Scale Factor" = 1.5
 		#How much the min level requirement for adding a new piece to a book should increase per each bookshelf being used
 		"Min Level Scale Factor Book" = 2.0
 		#How much to multiply the frequency of pieces where at least one of the same type has been generated
@@ -2037,8 +2037,8 @@
 	"Game Nerfs" = false
 	"Narrator Readout" = false
 	"Overlay Shader" = false
-	Pallet = false
 	Shiba = false
+	Pallet = false
 
 	[experimental.adjustable_chat]
 		"Horizontal Shift" = 0

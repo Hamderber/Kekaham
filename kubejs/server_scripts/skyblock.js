@@ -55,11 +55,14 @@ onEvent('recipes', event => {
     event.recipes.create.splashing([
         Item.of('immersiveengineering:slag'),
         Item.of('create:crushed_iron_ore').withChance(0.625),
+        Item.of('minecraft:coal').withChance(0.225),
         Item.of('create:crushed_copper_ore').withChance(0.4125),
         Item.of('create:crushed_zinc_ore').withChance(0.225),
         Item.of('create:crushed_aluminum_ore').withChance(0.25),
         Item.of('create:crushed_nickel_ore').withChance(0.2475),
         Item.of('create:crushed_lead_ore').withChance(0.175),
+        Item.of('create:crushed_osmium_ore').withChance(0.175),
+        Item.of('create:crushed_tin_ore').withChance(0.175),
         Item.of('createautomated:crushed_prismarine').withChance(0.1),
         Item.of('create:crushed_silver_ore').withChance(0.075),
         Item.of('create:crushed_gold_ore').withChance(0.0625),
@@ -140,7 +143,7 @@ onEvent('recipes', event => {
      event.shapeless('create:large_cogwheel',['creategears:large_gear','create:shaft'])
      event.shapeless('create:cogwheel',['creategears:gear','create:shaft'])
 
-     event.recipes.create.filling('steampowered:steel_cogwheel', [
+     /*event.recipes.create.filling('steampowered:steel_cogwheel', [
         'create:cogwheel',
         Fluid.of('tconstruct:molten_steel', 144)
       ])
@@ -189,7 +192,7 @@ onEvent('recipes', event => {
       event.recipes.create.filling('steampowered:bronze_flywheel', [
         'create:flywheel',
         Fluid.of('tconstruct:molten_tinkers_bronze', 1152)
-      ])
+      ])*/
 
       //mixing
       event.recipes.create.mixing([Item.of('minecraft:chest','{BlockEntityTag:{LootTable:"minecraft:chests/village/village_weaponsmith",id:"minecraft:chest"},display:{Lore:[\'"(village)"\']}}').withChance(0.1625),Item.of('minecraft:chest','{BlockEntityTag:{LootTable:"minecraft:chests/village/village_toolsmith",id:"minecraft:chest"},display:{Lore:[\'"(village)"\']}}').withChance(0.1625),Item.of('minecraft:chest','{BlockEntityTag:{LootTable:"minecraft:chests/village/village_temple",id:"minecraft:chest"},display:{Lore:[\'"(village)"\']}}').withChance(0.1625),Item.of('minecraft:chest','{BlockEntityTag:{LootTable:"minecraft:chests/village/village_tannery",id:"minecraft:chest"},display:{Lore:[\'"(village)"\']}}').withChance(0.1625),Item.of('minecraft:chest','{BlockEntityTag:{LootTable:"minecraft:chests/village/village_taiga_house",id:"minecraft:chest"},display:{Lore:[\'"(village)"\']}}').withChance(0.0625),Item.of('minecraft:chest','{BlockEntityTag:{LootTable:"minecraft:chests/village/village_snowy_house",id:"minecraft:chest"},display:{Lore:[\'"(village)"\']}}').withChance(0.1625),Item.of('minecraft:chest','{BlockEntityTag:{LootTable:"minecraft:chests/village/village_shepherd",id:"minecraft:chest"},display:{Lore:[\'"(village)"\']}}').withChance(0.1625),Item.of('minecraft:chest','{BlockEntityTag:{LootTable:"minecraft:chests/village/village_savanna_house",id:"minecraft:chest"},display:{Lore:[\'"(village)"\']}}').withChance(0.1625),Item.of('minecraft:chest','{BlockEntityTag:{LootTable:"minecraft:chests/village/village_plains_house",id:"minecraft:chest"},display:{Lore:[\'"(village)"\']}}').withChance(0.1625),Item.of('minecraft:chest','{BlockEntityTag:{LootTable:"minecraft:chests/village/village_armorer",id:"minecraft:chest"},display:{Lore:[\'"(village)"\']}}').withChance(0.1625),Item.of('minecraft:chest','{BlockEntityTag:{LootTable:"minecraft:chests/village/village_mason",id:"minecraft:chest"},display:{Lore:[\'"(village)"\']}}').withChance(0.1625),Item.of('minecraft:chest','{BlockEntityTag:{LootTable:"minecraft:chests/village/village_fletcher",id:"minecraft:chest"},display:{Lore:[\'"(village)"\']}}').withChance(0.1625),Item.of('minecraft:chest','{BlockEntityTag:{LootTable:"minecraft:chests/village/village_fisher",id:"minecraft:chest"},display:{Lore:[\'"(village)"\']}}').withChance(0.1625),Item.of('minecraft:chest','{BlockEntityTag:{LootTable:"minecraft:chests/village/village_desert_house",id:"minecraft:chest"},display:{Lore:[\'"(village)"\']}}').withChance(0.1625),Item.of('minecraft:chest','{BlockEntityTag:{LootTable:"minecraft:chests/village/village_armorer",id:"minecraft:chest"},display:{Lore:[\'"(village)"\']}}').withChance(0.1625),Item.of('minecraft:chest','{BlockEntityTag:{LootTable:"minecraft:chests/village/village_cartographer",id:"minecraft:chest"},display:{Lore:[\'"(village)"\']}}').withChance(0.1625)],[Fluid.of('kubejs:liquid_fortune',250),'#forge:storage_blocks/emerald','minecraft:golden_carrot','#forge:bookshelves','#forge:storage_blocks/iron','8x #minecraft:saplings','minecraft:glistering_melon_slice']).superheated()
@@ -212,9 +215,381 @@ onEvent('recipes', event => {
       //random remove recipies/changes
       event.remove({id:'quark:building/crafting/cobblestone_bricks'})
       event.remove({id:'create:crafting/kinetics/white_sail'})
+      event.remove({id:'createaddition:compacting/seed_oil'})
       event.remove({id:'minecraft:iron_trapdoor'})
       event.remove({id:'createaddition:crushing/diamond_ore'})
       event.shapeless('minecraft:iron_trapdoor', ['4x minecraft:iron_ingot', '#minecraft:wooden_trapdoors'])
+      event.remove({id:'quark:building/crafting/chests/oak_chest'})
+      event.remove({id:'quark:building/crafting/chests/spruce_chest'})
+      event.remove({id:'quark:building/crafting/chests/birch_chest'})
+      event.remove({id:'quark:building/crafting/chests/jungle_chest'})
+      event.remove({id:'quark:building/crafting/chests/acacia_chest'})
+      event.remove({id:'quark:building/crafting/chests/dark_oak_chest'})
+
+      //Chests
+      event.remove({id:'compactstorage:compact_chest_yellow'})
+      event.shaped('compactstorage:compact_chest_yellow', [
+        'WWW',
+        'W W',
+        'WWW'
+      ], {
+        W: 'quark:yellow_stained_planks'
+      })
+      event.remove({id:'compactstorage:compact_barrel_yellow'})
+      event.shaped('compactstorage:compact_barrel_yellow', [
+        'WSW',
+        'W W',
+        'WSW'
+      ], {
+        W: 'quark:yellow_stained_planks',
+        S: 'quark:yellow_stained_planks_slab'
+      })
+
+      event.remove({id:'compactstorage:compact_chest_lime'})
+      event.shaped('compactstorage:compact_chest_lime', [
+        'WWW',
+        'W W',
+        'WWW'
+      ], {
+        W: 'quark:lime_stained_planks'
+      })
+      event.remove({id:'compactstorage:compact_barrel_lime'})
+      event.shaped('compactstorage:compact_barrel_lime', [
+        'WSW',
+        'W W',
+        'WSW'
+      ], {
+        W: 'quark:lime_stained_planks',
+        S: 'quark:lime_stained_planks_slab'
+      })
+
+      event.remove({id:'compactstorage:compact_chest_pink'})
+      event.shaped('compactstorage:compact_chest_pink', [
+        'WWW',
+        'W W',
+        'WWW'
+      ], {
+        W: 'quark:pink_stained_planks'
+      })
+      event.remove({id:'compactstorage:compact_barrel_pink'})
+      event.shaped('compactstorage:compact_barrel_pink', [
+        'WSW',
+        'W W',
+        'WSW'
+      ], {
+        W: 'quark:pink_stained_planks',
+        S: 'quark:pink_stained_planks_slab'
+      })
+      event.remove({id:'compactstorage:compact_chest_gray'})
+      event.shaped('compactstorage:compact_chest_gray', [
+        'WWW',
+        'W W',
+        'WWW'
+      ], {
+        W: 'quark:gray_stained_planks'
+      })
+      event.remove({id:'compactstorage:compact_barrel_gray'})
+      event.shaped('compactstorage:compact_barrel_gray', [
+        'WSW',
+        'W W',
+        'WSW'
+      ], {
+        W: 'quark:gray_stained_planks',
+        S: 'quark:gray_stained_planks_slab'
+      })
+      
+      event.remove({id:'compactstorage:compact_chest_light_gray'})
+      event.shaped('compactstorage:compact_chest_light_gray', [
+        'WWW',
+        'W W',
+        'WWW'
+      ], {
+        W: 'quark:light_gray_stained_planks'
+      })
+      event.remove({id:'compactstorage:compact_barrel_light_gray'})
+      event.shaped('compactstorage:compact_barrel_light_gray', [
+        'WSW',
+        'W W',
+        'WSW'
+      ], {
+        W: 'quark:light_gray_stained_planks',
+        S: 'quark:light_gray_stained_planks_slab'
+      })
+      
+      event.remove({id:'compactstorage:compact_chest_brown'})
+      event.shaped('compactstorage:compact_chest_brown', [
+        'WWW',
+        'W W',
+        'WWW'
+      ], {
+        W: 'quark:brown_stained_planks'
+      })
+      event.remove({id:'compactstorage:compact_barrel_brown'})
+      event.shaped('compactstorage:compact_barrel_brown', [
+        'WSW',
+        'W W',
+        'WSW'
+      ], {
+        W: 'quark:brown_stained_planks',
+        S: 'quark:brown_stained_planks_slab'
+      })
+      
+      event.remove({id:'compactstorage:compact_chest_blue'})
+      event.shaped('compactstorage:compact_chest_blue', [
+        'WWW',
+        'W W',
+        'WWW'
+      ], {
+        W: 'quark:blue_stained_planks'
+      })
+      event.remove({id:'compactstorage:compact_barrel_blue'})
+      event.shaped('compactstorage:compact_barrel_blue', [
+        'WSW',
+        'W W',
+        'WSW'
+      ], {
+        W: 'quark:blue_stained_planks',
+        S: 'quark:blue_stained_planks_slab'
+      })
+
+      event.remove({id:'compactstorage:compact_chest_purple'})
+      event.shaped('compactstorage:compact_chest_purple', [
+        'WWW',
+        'W W',
+        'WWW'
+      ], {
+        W: 'quark:purple_stained_planks'
+      })
+      event.remove({id:'compactstorage:compact_barrel_purple'})
+      event.shaped('compactstorage:compact_barrel_purple', [
+        'WSW',
+        'W W',
+        'WSW'
+      ], {
+        W: 'quark:purple_stained_planks',
+        S: 'quark:purple_stained_planks_slab'
+      })
+      
+      event.remove({id:'compactstorage:compact_chest_cyan'})
+      event.shaped('compactstorage:compact_chest_cyan', [
+        'WWW',
+        'W W',
+        'WWW'
+      ], {
+        W: 'quark:cyan_stained_planks'
+      })
+      event.remove({id:'compactstorage:compact_barrel_cyan'})
+      event.shaped('compactstorage:compact_barrel_cyan', [
+        'WSW',
+        'W W',
+        'WSW'
+      ], {
+        W: 'quark:cyan_stained_planks',
+        S: 'quark:cyan_stained_planks_slab'
+      })
+      
+      event.remove({id:'compactstorage:compact_chest_red'})
+      event.shaped('compactstorage:compact_chest_red', [
+        'WWW',
+        'W W',
+        'WWW'
+      ], {
+        W: 'quark:red_stained_planks'
+      })
+      event.remove({id:'compactstorage:compact_barrel_red'})
+      event.shaped('compactstorage:compact_barrel_red', [
+        'WSW',
+        'W W',
+        'WSW'
+      ], {
+        W: 'quark:red_stained_planks',
+        S: 'quark:red_stained_planks_slab'
+      })
+      
+      event.remove({id:'compactstorage:compact_chest_black'})
+      event.shaped('compactstorage:compact_chest_black', [
+        'WWW',
+        'W W',
+        'WWW'
+      ], {
+        W: 'quark:black_stained_planks'
+      })
+      event.remove({id:'compactstorage:compact_barrel_black'})
+      event.shaped('compactstorage:compact_barrel_black', [
+        'WSW',
+        'W W',
+        'WSW'
+      ], {
+        W: 'quark:black_stained_planks',
+        S: 'quark:black_stained_planks_slab'
+      })
+
+      
+      event.remove({id:'compactstorage:compact_chest_green'})
+      event.shaped('compactstorage:compact_chest_green', [
+        'WWW',
+        'W W',
+        'WWW'
+      ], {
+        W: 'quark:green_stained_planks'
+      })
+      event.remove({id:'compactstorage:compact_barrel_green'})
+      event.shaped('compactstorage:compact_barrel_green', [
+        'WSW',
+        'W W',
+        'WSW'
+      ], {
+        W: 'quark:green_stained_planks',
+        S: 'quark:green_stained_planks_slab'
+      })
+
+      
+      event.remove({id:'compactstorage:compact_chest_white'})
+      event.shaped('compactstorage:compact_chest_white', [
+        'WWW',
+        'W W',
+        'WWW'
+      ], {
+        W: 'quark:white_stained_planks'
+      })
+      event.remove({id:'compactstorage:compact_barrel_white'})
+      event.shaped('compactstorage:compact_barrel_white', [
+        'WSW',
+        'W W',
+        'WSW'
+      ], {
+        W: 'quark:white_stained_planks',
+        S: 'quark:white_stained_planks_slab'
+      })
+
+      event.remove({id:'compactstorage:compact_chest_orange'})
+      event.shaped('compactstorage:compact_chest_orange', [
+        'WWW',
+        'W W',
+        'WWW'
+      ], {
+        W: 'quark:orange_stained_planks'
+      })
+      event.remove({id:'compactstorage:compact_barrel_orange'})
+      event.shaped('compactstorage:compact_barrel_orange', [
+        'WSW',
+        'W W',
+        'WSW'
+      ], {
+        W: 'quark:orange_stained_planks',
+        S: 'quark:orange_stained_planks_slab'
+      })
+
+      
+      event.remove({id:'compactstorage:compact_chest_magenta'})
+      event.shaped('compactstorage:compact_chest_magenta', [
+        'WWW',
+        'W W',
+        'WWW'
+      ], {
+        W: 'quark:magenta_stained_planks'
+      })
+      event.remove({id:'compactstorage:compact_barrel_magenta'})
+      event.shaped('compactstorage:compact_barrel_magenta', [
+        'WSW',
+        'W W',
+        'WSW'
+      ], {
+        W: 'quark:magenta_stained_planks',
+        S: 'quark:magenta_stained_planks_slab'
+      })
+      event.remove({id:'compactstorage:compact_chest_light_blue'})
+      event.shaped('compactstorage:compact_chest_light_blue', [
+        'WWW',
+        'W W',
+        'WWW'
+      ], {
+        W: 'quark:light_blue_stained_planks'
+      })
+      event.remove({id:'compactstorage:compact_barrel_light_blue'})
+      event.shaped('compactstorage:compact_barrel_light_blue', [
+        'WSW',
+        'W W',
+        'WSW'
+      ], {
+        W: 'quark:light_blue_stained_planks',
+        S: 'quark:light_blue_stained_planks_slab'
+      })
+
+      
+      event.remove({id:'compactstorage:compact_chest_light_blue'})
+      event.shaped('compactstorage:compact_chest_light_blue', [
+        'WWW',
+        'W W',
+        'WWW'
+      ], {
+        W: 'tconstruct:skyroot_planks'
+      })
+      event.remove({id:'compactstorage:compact_barrel_light_blue'})
+      event.shaped('compactstorage:compact_barrel_light_blue', [
+        'WSW',
+        'W W',
+        'WSW'
+      ], {
+        W: 'tconstruct:skyroot_planks',
+        S: 'tconstruct:skyroot_planks_slab'
+      })
+
+      event.remove({id:'compactstorage:compact_chest_lime'})
+      event.shaped('compactstorage:compact_chest_lime', [
+        'WWW',
+        'W W',
+        'WWW'
+      ], {
+        W: 'tconstruct:greenheart_planks'
+      })
+      event.remove({id:'compactstorage:compact_barrel_lime'})
+      event.shaped('compactstorage:compact_barrel_lime', [
+        'WSW',
+        'W W',
+        'WSW'
+      ], {
+        W: 'tconstruct:greenheart_planks',
+        S: 'tconstruct:greenheart_planks_slab'
+      })
+
+      event.remove({id:'compactstorage:compact_chest_red'})
+      event.shaped('compactstorage:compact_chest_red', [
+        'WWW',
+        'W W',
+        'WWW'
+      ], {
+        W: 'tconstruct:bloodshroom_planks'
+      })
+      event.remove({id:'compactstorage:compact_barrel_red'})
+      event.shaped('compactstorage:compact_barrel_red', [
+        'WSW',
+        'W W',
+        'WSW'
+      ], {
+        W: 'tconstruct:bloodshroom_planks',
+        S: 'tconstruct:bloodshroom_planks_slab'
+      })
+
+
+      event.shaped('minecraft:chest', [
+        'WWW',
+        'W W',
+        'WWW'
+      ], {
+        W: '#minecraft:planks'
+      })
+
+
+      event.shaped('4x minecraft:sponge', [
+        'WBW',
+        'WPW',
+        'WBW'
+      ], {
+        W: 'minecraft:yellow_wool',
+        B: "minecraft:bucket",
+        P: "create:mechanical_pump"
+      })
      /* event.remove({id:'mekanism:ingot_copper'})
       event.remove({id:'mekanism:nugget_copper'})
       event.remove({id:'tconstruct:copper_ingot'})

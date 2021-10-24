@@ -1,0 +1,12 @@
+{
+	id: "216DE379EBFFFF3C"
+	order_index: 5
+	title: "Flower1"
+	icon: "curios:amulet"
+	loot_size: 1
+	rewards: [
+		{ item: "minecraft:red_tulip" }
+		{ item: "minecraft:allium" }
+		{ item: "minecraft:cornflower" }
+	]
+}

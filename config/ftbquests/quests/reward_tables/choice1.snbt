@@ -1,0 +1,36 @@
+{
+	id: "01EBEE4D73D4EBAC"
+	order_index: 7
+	title: "Choice1"
+	icon: "minecraft:emerald"
+	loot_size: 1
+	rewards: [
+		{ item: "artifacts:villager_hat" }
+		{
+			title: "Tank of Four Emerald Blocks"
+			item: {
+				id: "mekanism:basic_fluid_tank"
+				Count: 1b
+				tag: {
+					mekData: {
+						owner: [I;
+							-598230479
+							-86094139
+							-1534282147
+							-880597495
+						]
+						FluidTanks: [{
+							Tank: 0b
+							stored: {
+								FluidName: "tconstruct:molten_emerald"
+								Amount: 4000
+							}
+						}]
+						securityMode: 0
+						Items: [ ]
+					}
+				}
+			}
+		}
+	]
+}

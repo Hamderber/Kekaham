@@ -1,7 +1,7 @@
 {
 	id: "3A3E7508CE5A3947"
 	order_index: 0
-	title: "Minecraft saplings"
+	title: "MinecraftSapling"
 	icon: "minecraft:oak_sapling"
 	loot_size: 1
 	use_title: true

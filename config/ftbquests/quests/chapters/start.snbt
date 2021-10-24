@@ -12,7 +12,7 @@
 			icon: "minecraft:grass_block"
 			x: 0.0d
 			y: 0.0d
-			description: ["This is obviously a WIP: Destroy your island to get the materials you need to progress into create. Using the mixer, press, fan, as well as some water and cobble/gravel/sand and some trees you should be able to get everything in a normal skyblock. Just use JEI to check the recipes!"]
+			subtitle: "This is obviously a WIP: Destroy your island to get the materials you need to progress into create. Using the mixer, press, fan, as well as some water and cobble/gravel/sand and some trees you should be able to get everything in a normal skyblock. Just use JEI to check the recipes!"
 			id: "05D6857F88A215EB"
 			tasks: [{
 				id: "12FD32781CBEE9B4"
@@ -41,7 +41,7 @@
 			icon: "losttrinkets:warm_void"
 			x: 1.0d
 			y: -1.0d
-			description: ["Forgiving Void is a mod that teleports the player into the sky once they fall into the void. Making a landing pad of water on your island is quite useful!"]
+			subtitle: "Forgiving Void is a mod that teleports the player into the sky once they fall into the void. Making a landing pad of water on your island is quite useful!"
 			dependencies: ["05D6857F88A215EB"]
 			id: "33FDF7BBCF5AD8CC"
 			tasks: [{
@@ -59,7 +59,7 @@
 			icon: "create:wrench"
 			x: -1.0d
 			y: -1.0d
-			description: ["The entire progression sequence of this skyblock is focused around Create. There are many good tutorials on how this mod works online, but do please keep in mind that some item recipes have changed to more fit the skyblock enviroment."]
+			subtitle: "The entire progression sequence of this skyblock is focused around Create. There are many good tutorials on how this mod works online, but do please keep in mind that some item recipes have changed to more fit the skyblock enviroment."
 			dependencies: ["05D6857F88A215EB"]
 			id: "66FE2AD0FA0E40B9"
 			tasks: [{
@@ -102,10 +102,8 @@
 					item: "minecraft:jukebox"
 				}
 				{
-					id: "29323CDE3843210E"
+					id: "24F93010BDBEA259"
 					type: "choice"
-					title: "Music disc"
-					icon: "minecraft:music_disc_13"
 					table_id: 1084914187181638421L
 				}
 			]
@@ -120,7 +118,7 @@
 			}
 			x: -1.5d
 			y: 0.0d
-			description: ["(Default key `) FTB Ultimine is a staple of modded minecraft. Hold down the key and see what stuff you can break at the same time! The maximum blocks to be broken here is 256. (It's mainly this high for leaves, honestly!)"]
+			subtitle: "(Default key `) FTB Ultimine is a staple of modded minecraft. Hold down the key and see what stuff you can break at the same time! The maximum blocks to be broken here is 256. (It's mainly this high for leaves, honestly!)"
 			dependencies: ["05D6857F88A215EB"]
 			id: "0EB2CE8DC245C50C"
 			tasks: [{
@@ -147,12 +145,17 @@
 				type: "checkmark"
 				title: "Gravestone Mod"
 			}]
+			rewards: [{
+				id: "55867DE53E5C6C46"
+				type: "random"
+				table_id: 4333680637599190675L
+			}]
 		}
 		{
 			icon: "quark:berry_sack"
 			x: 1.5d
 			y: 0.0d
-			subtitle: "Sometimes, you may get the wrong items. (Such as pressing too many berries at once and not getting dirt). The sime solution is to use a filter! Place it on the basin and tell Create what you're wanting."
+			subtitle: "Sometimes, you may get the wrong items. (Such as pressing too many berries at once and not getting dirt). The simple solution is to use a filter! Place it on the basin and tell Create what you're wanting."
 			dependencies: ["05D6857F88A215EB"]
 			id: "3ADE93BDC75A7959"
 			tasks: [{
@@ -170,6 +173,56 @@
 						Items: { }
 					}
 				}
+			}]
+		}
+		{
+			icon: {
+				id: "constructionwand:iron_wand"
+				Count: 1b
+				tag: {
+					wand_options: { }
+					Damage: 0
+				}
+			}
+			x: 1.0d
+			y: 1.0d
+			subtitle: "Build your island faster with the construction wand!"
+			dependencies: ["05D6857F88A215EB"]
+			id: "50938F3270BDA877"
+			tasks: [{
+				id: "57E1C012A202A699"
+				type: "checkmark"
+				title: "Construction Wand"
+			}]
+			rewards: [{
+				id: "06A3CC78371B043E"
+				type: "item"
+				item: {
+					id: "constructionwand:iron_wand"
+					Count: 1b
+					tag: {
+						wand_options: { }
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Seed/Sapling Acquisition"
+			x: 0.0d
+			y: 1.5d
+			subtitle: "Grass blocks can be crafted by using a spout, water, and dirt. Grass blocks are essential to collect all kinds of seeds and saplings by bulk washing them!"
+			dependencies: ["05D6857F88A215EB"]
+			id: "12F1F607D8D077B4"
+			tasks: [{
+				id: "472FAE71890143AD"
+				type: "checkmark"
+				title: "Get your plants!"
+			}]
+			rewards: [{
+				id: "5B85DF9D7443AD63"
+				type: "xp"
+				xp: 100
 			}]
 		}
 	]
